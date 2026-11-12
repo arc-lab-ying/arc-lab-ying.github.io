@@ -1,0 +1,49 @@
+{
+  "baseline": "dbec650b4d420954d4a48aa2a1b68aa82f890713",
+  "source_files": [
+    "prototypes/boostlab/site.css",
+    "prototypes/boostlab/site.js"
+  ],
+  "protected_tracked_files_unchanged": 320,
+  "existing_typography_css_preserved": true,
+  "inner_banner_and_gallery_script_preserved": true,
+  "normal": {
+    "distinct_intensities": 77,
+    "peak": 0.9096,
+    "decay": [
+      {
+        "elapsed_ms": 0,
+        "max_intensity": 0.7637
+      },
+      {
+        "elapsed_ms": 926,
+        "max_intensity": 0.1701
+      },
+      {
+        "elapsed_ms": 3155,
+        "max_intensity": 0.0049
+      }
+    ],
+    "settled_max": 0
+  },
+  "reduced": {
+    "distinct_intensities": 65,
+    "peak": 0.888,
+    "pointerleave_max": 0,
+    "temporal_trail": false
+  },
+  "metadata": {
+    "top_font_px": 14,
+    "bottom_action_font_px": 16,
+    "backplate": "opaque #f1f3f6"
+  },
+  "native_research_links": 4,
+  "keyboard_enter": "passed",
+  "phone320_touch": "passed",
+  "phone320_overflow": false,
+  "desktop_overflow": false,
+  "temporary_motion_emulation_restored": true,
+  "temporary_viewport_restored": true,
+  "timing_note": "Foreground-tab sample. An initial background-tab timing sample was throttled and excluded.",
+  "review_url": "http://127.0.0.1:8771/prototype-concepts.html?variant=boostlab"
+}
