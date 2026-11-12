@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "branch": "codex/website-redesign",
+  "baseline_commit": "da0095a",
+  "main_ref_before_commit": "87792aae11e2b4e47346428cd59f047925462634",
+  "protected_tracked_files_unchanged": 134,
+  "intentional_tracked_changes": [
+    "html-docs/concepts/README.md",
+    "prototype-concepts.html"
+  ],
+  "new_prototype_html_pages": 64,
+  "new_review_screenshots": 55,
+  "unrelated_changes": []
+}

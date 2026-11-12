@@ -1,0 +1,830 @@
+{
+  "status": "pass",
+  "date": "2026-11-12",
+  "concept_sites": 4,
+  "html_routes": 64,
+  "browser_page_views": 56,
+  "screenshots": 55,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "phone": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "browser": "Microsoft Edge (Chromium), dedicated QA tab; temporary viewport override reset at completion",
+  "records": [
+    {
+      "concept": "minimal",
+      "route": "index.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/index-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "index.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/index-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "people.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/people-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "people.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/people-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "publications.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": null,
+      "note": "Initial desktop layout checked; final inactive-label contrast rechecked in the phone screenshot."
+    },
+    {
+      "concept": "minimal",
+      "route": "publications.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/publications-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "research.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/research-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "research.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/research-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/research-interaction-centered-bim-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/research-interaction-centered-bim-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/news-ic-bim-research-direction-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/news-ic-bim-research-direction-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "join-us.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/join-us-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "minimal",
+      "route": "join-us.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "minimal/join-us-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "index.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/index-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "index.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/index-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "people.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/people-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "people.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/people-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "publications.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/publications-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "publications.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/publications-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "research.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/research-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "research.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/research-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/research-interaction-centered-bim-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/research-interaction-centered-bim-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/news-ic-bim-research-direction-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/news-ic-bim-research-direction-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "join-us.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/join-us-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "parentsquare",
+      "route": "join-us.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "parentsquare/join-us-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "index.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/index-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "index.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/index-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "people.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/people-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "people.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/people-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "publications.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": null,
+      "note": "Initial desktop layout checked; final inactive-label contrast rechecked in the phone screenshot."
+    },
+    {
+      "concept": "growthbook",
+      "route": "publications.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/publications-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "research.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/research-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "research.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/research-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/research-interaction-centered-bim-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/research-interaction-centered-bim-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/news-ic-bim-research-direction-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/news-ic-bim-research-direction-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "join-us.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/join-us-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "growthbook",
+      "route": "join-us.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "growthbook/join-us-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "index.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/index-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "index.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/index-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "people.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/people-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "people.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/people-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "publications.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": null,
+      "note": "Initial desktop layout checked; final inactive-label contrast rechecked in the phone screenshot."
+    },
+    {
+      "concept": "boostlab",
+      "route": "publications.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/publications-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "research.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/research-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "research.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/research-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/research-interaction-centered-bim-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "research/interaction-centered-bim.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/research-interaction-centered-bim-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/news-ic-bim-research-direction-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "news/ic-bim-research-direction.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/news-ic-bim-research-direction-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "join-us.html",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/join-us-desktop.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    },
+    {
+      "concept": "boostlab",
+      "route": "join-us.html",
+      "viewport": "phone",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": "pass",
+      "horizontal_overflow": false,
+      "broken_images": [],
+      "screenshot": "boostlab/join-us-phone.jpg",
+      "note": "Observed rendered page and DOM layout metrics."
+    }
+  ],
+  "interactions": {
+    "native_internal_navigation": "pass",
+    "page_preserving_switcher": "pass",
+    "iframe_focused_left_arrow": "pass",
+    "boostlab_hover": {
+      "generated_cells": 160,
+      "hot_cells_after_pointer_move": 1,
+      "neighbor_cells": 4
+    },
+    "boostlab_keyboard": "Tab focused the IC-BIM research link; Enter opened its local detail page",
+    "minimal_a2": {
+      "canvas_count": 1,
+      "initial": "playing",
+      "after_pause": "paused",
+      "pause_aria_pressed": "true",
+      "after_play": "playing"
+    },
+    "inactive_labels": "Plain spans, no href, #596c7b at opacity 1",
+    "runtime_warnings_and_errors_reported": []
+  },
+  "limits": [
+    "Responsive emulation in one Chromium browser; no physical-device or cross-browser testing.",
+    "All 64 routes received source/HTTP validation. Browser visual review sampled seven representative page types in each set at both widths.",
+    "External scholarly/profile links were preserved and audited as destinations, not revalidated remotely."
+  ]
+}

@@ -1,10 +1,10 @@
 <!doctype html>
-<!-- Local-only review wrapper. The four landing-page concepts remain separate from the current site. -->
+<!-- Local-only review wrapper. Four complete prototype sites remain separate from the current site. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ARC Lab — Compare landing-page concepts</title>
+  <title>ARC Lab — Compare complete site concepts</title>
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; height: 100%; background: #f7f9fb; color: #0c2947; font: 14px Arial, sans-serif; }
@@ -17,37 +17,59 @@
     .review-label { text-align: center; line-height: 1.35; }
     .review-label strong { display: block; font-size: 13px; }
     .review-label span { display: block; margin-top: 3px; font-size: 11px; color: #597084; }
+    .review-label small { display: block; margin-top: 3px; color: #597084; font-size: 10px; }
     @media print { .review-switcher { display: none; } }
   </style>
 </head>
 <body>
-  <iframe id="concept-frame" src="prototype-parentsquare.html" title="ARC Lab — ParentSquare-inspired concept"></iframe>
+  <iframe id="concept-frame" src="prototypes/parentsquare/index.html" title="ARC Lab — ParentSquare-inspired concept"></iframe>
   <nav class="review-switcher" id="review-switcher" aria-label="Compare design concepts" hidden>
     <button id="previous-concept" type="button" aria-label="Previous concept">←</button>
-    <div class="review-label" aria-live="polite"><strong id="concept-label">02 · ParentSquare-inspired</strong><span id="concept-description">Institutional · restrained</span></div>
+    <div class="review-label" aria-live="polite"><strong id="concept-label">02 · ParentSquare-inspired</strong><span id="concept-description">Institutional · restrained</span><small id="concept-page">Home</small></div>
     <button id="next-concept" type="button" aria-label="Next concept">→</button>
   </nav>
   <script>
     const concepts = [
-      { key: 'minimal', file: 'prototype-minimal.html', name: '01 · Minimal / Motion', description: 'Oversized type · stationary A2' },
-      { key: 'parentsquare', file: 'prototype-parentsquare.html', name: '02 · ParentSquare-inspired', description: 'Institutional · restrained' },
-      { key: 'growthbook', file: 'prototype-growthbook.html', name: '03 · GrowthBook-inspired', description: 'Clear overview · restrained' },
-      { key: 'boostlab', file: 'prototype-boostlab.html', name: '04 · Boostlab-inspired', description: 'Interactive grid · expressive' }
+      { key: 'minimal', name: '01 · Minimal / Motion', description: 'Oversized type · stationary A2' },
+      { key: 'parentsquare', name: '02 · ParentSquare-inspired', description: 'Institutional · restrained' },
+      { key: 'growthbook', name: '03 · GrowthBook-inspired', description: 'Clear overview · restrained' },
+      { key: 'boostlab', name: '04 · Boostlab-inspired', description: 'Interactive grid · expressive' }
     ];
+    const pages = new Map([
+      ['index.html', 'Home'], ['people.html', 'Team'], ['publications.html', 'Publications'],
+      ['research.html', 'Research'], ['join-us.html', 'Join us'], ['news/index.html', 'News'],
+      ['research/interaction-centered-bim.html', 'Research · IC-BIM'],
+      ['research/agent-oriented-design-construction.html', 'Research · Agent-oriented design'],
+      ['research/representation-learning.html', 'Research · Representation learning'],
+      ['research/robot-centric-construction.html', 'Research · Robot-centric construction'],
+      ['news/arc-lab-website-launch.html', 'News · Website launch'],
+      ['news/welcome-new-researchers.html', 'News · New researchers'],
+      ['news/ai-built-environment-paper.html', 'News · AI for the built environment'],
+      ['news/construction-robotics-digital-twins.html', 'News · Robotics and digital twins'],
+      ['news/ic-bim-research-direction.html', 'News · IC-BIM'],
+      ['news/robot-centric-construction-seminar.html', 'News · Robot-centric construction seminar']
+    ]);
     const frame = document.querySelector('#concept-frame');
     const params = new URLSearchParams(location.search);
     let current = Math.max(0, concepts.findIndex(concept => concept.key === (params.get('variant') || 'parentsquare')));
-    function show(index) {
-      current = (index + concepts.length) % concepts.length;
+    let currentPage = pages.has(params.get('page')) ? params.get('page') : 'index.html';
+    function updateReview() {
       const concept = concepts[current];
-      frame.src = concept.file;
-      frame.title = 'ARC Lab — ' + concept.name;
+      frame.title = 'ARC Lab — ' + concept.name + ' — ' + pages.get(currentPage);
       document.querySelector('#concept-label').textContent = concept.name;
       document.querySelector('#concept-description').textContent = concept.description;
+      document.querySelector('#concept-page').textContent = pages.get(currentPage);
       const url = new URL(location.href);
       url.searchParams.set('variant', concept.key);
+      if (currentPage === 'index.html') url.searchParams.delete('page');
+      else url.searchParams.set('page', currentPage);
       history.replaceState(null, '', url);
-      document.title = 'ARC Lab concepts — ' + concept.name;
+      document.title = 'ARC Lab concepts — ' + concept.name + ' — ' + pages.get(currentPage);
+    }
+    function show(index) {
+      current = (index + concepts.length) % concepts.length;
+      frame.src = 'prototypes/' + concepts[current].key + '/' + currentPage;
+      updateReview();
     }
     function handleKey(event) {
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
@@ -62,8 +84,17 @@
       document.querySelector('#previous-concept').addEventListener('click', () => show(current - 1));
       document.querySelector('#next-concept').addEventListener('click', () => show(current + 1));
       document.addEventListener('keydown', handleKey);
-      frame.addEventListener('load', () => frame.contentDocument?.addEventListener('keydown', handleKey));
     }
+    frame.addEventListener('load', () => {
+      const base = new URL('prototypes/' + concepts[current].key + '/', location.href);
+      const inner = new URL(frame.contentWindow.location.href);
+      const page = inner.pathname.slice(base.pathname.length);
+      if (inner.origin === base.origin && inner.pathname.startsWith(base.pathname) && pages.has(page)) {
+        currentPage = page;
+        updateReview();
+        if (localReview) frame.contentDocument.addEventListener('keydown', handleKey);
+      }
+    });
     show(current);
   </script>
 </body>

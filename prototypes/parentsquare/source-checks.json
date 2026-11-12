@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "pages": 16,
+  "publications": 27,
+  "news_articles": 6,
+  "checks": {
+    "local_references": 267,
+    "fragments": 17,
+    "preserved_source_text_nodes": 363,
+    "preserved_external_content_links": 33,
+    "preserved_dates": 23
+  },
+  "all_html_navigation_stays_within_concept": true,
+  "runtime_javascript": false,
+  "decorative_animation": false,
+  "browser_qa": "Delegated separately; not performed by this source check.",
+  "routes": [
+    "index.html",
+    "join-us.html",
+    "news/ai-built-environment-paper.html",
+    "news/arc-lab-website-launch.html",
+    "news/construction-robotics-digital-twins.html",
+    "news/ic-bim-research-direction.html",
+    "news/index.html",
+    "news/robot-centric-construction-seminar.html",
+    "news/welcome-new-researchers.html",
+    "people.html",
+    "publications.html",
+    "research/agent-oriented-design-construction.html",
+    "research/interaction-centered-bim.html",
+    "research/representation-learning.html",
+    "research/robot-centric-construction.html",
+    "research.html"
+  ],
+  "errors": []
+}

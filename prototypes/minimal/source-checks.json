@@ -1,0 +1,77 @@
+{
+  "concept": "minimal",
+  "html_pages": 16,
+  "local_references": 282,
+  "fragments": 33,
+  "inner_page_content_parity": {
+    "join-us.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/ai-built-environment-paper.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/arc-lab-website-launch.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/construction-robotics-digital-twins.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/ic-bim-research-direction.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/index.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/robot-centric-construction-seminar.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "news/welcome-new-researchers.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "people.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "publications.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "research/agent-oriented-design-construction.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "research/interaction-centered-bim.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "research/representation-learning.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "research/robot-centric-construction.html": {
+      "exact_text": true,
+      "external_links": true
+    },
+    "research.html": {
+      "exact_text": true,
+      "external_links": true
+    }
+  },
+  "problems": [],
+  "publication_records": 27,
+  "publication_year_groups": 10,
+  "inactive_code_labels": 27,
+  "pending_scholar_labels": 3,
+  "home_news_entries": 5,
+  "home_gallery_images": 3,
+  "robot_script_reused_unchanged": true,
+  "browser_qa": "Delegated to the full-site integrator; not performed by this implementation agent."
+}

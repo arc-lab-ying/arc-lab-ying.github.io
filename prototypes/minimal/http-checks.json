@@ -1,0 +1,66 @@
+[
+  {
+    "route": "index.html",
+    "status": 200
+  },
+  {
+    "route": "join-us.html",
+    "status": 200
+  },
+  {
+    "route": "people.html",
+    "status": 200
+  },
+  {
+    "route": "publications.html",
+    "status": 200
+  },
+  {
+    "route": "research.html",
+    "status": 200
+  },
+  {
+    "route": "news/ai-built-environment-paper.html",
+    "status": 200
+  },
+  {
+    "route": "news/arc-lab-website-launch.html",
+    "status": 200
+  },
+  {
+    "route": "news/construction-robotics-digital-twins.html",
+    "status": 200
+  },
+  {
+    "route": "news/ic-bim-research-direction.html",
+    "status": 200
+  },
+  {
+    "route": "news/index.html",
+    "status": 200
+  },
+  {
+    "route": "news/robot-centric-construction-seminar.html",
+    "status": 200
+  },
+  {
+    "route": "news/welcome-new-researchers.html",
+    "status": 200
+  },
+  {
+    "route": "research/agent-oriented-design-construction.html",
+    "status": 200
+  },
+  {
+    "route": "research/interaction-centered-bim.html",
+    "status": 200
+  },
+  {
+    "route": "research/representation-learning.html",
+    "status": 200
+  },
+  {
+    "route": "research/robot-centric-construction.html",
+    "status": 200
+  }
+]
