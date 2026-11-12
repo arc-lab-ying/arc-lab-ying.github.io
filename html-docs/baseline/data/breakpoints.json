@@ -1,0 +1,28 @@
+[
+  {
+    "contentColumns": "855.5px 380px",
+    "height": 1909,
+    "menuDisplay": "block",
+    "navDisplay": "none",
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "width": 1425,
+    "screenshot": "screenshots/states/home-1440.jpg",
+    "captureExtent": "viewport"
+  },
+  {
+    "contentColumns": "677.688px",
+    "height": 2243,
+    "menuDisplay": "block",
+    "navDisplay": "none",
+    "viewport": {
+      "height": 1024,
+      "width": 768
+    },
+    "width": 753,
+    "screenshot": "screenshots/states/home-768.jpg",
+    "captureExtent": "viewport"
+  }
+]

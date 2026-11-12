@@ -1,0 +1,55 @@
+[
+  {
+    "check": "Mobile navigation opens",
+    "pass": true,
+    "screenshot": "screenshots/states/home-mobile-menu-open.jpg",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "check": "Escape closes mobile navigation",
+    "pass": true
+  },
+  {
+    "check": "Mobile Team link navigates and next page starts with menu closed",
+    "pass": true
+  },
+  {
+    "check": "Gallery image 1 selection updates image, caption and active dot",
+    "pass": true,
+    "alt": "AI-assisted construction visualization",
+    "caption": "Research Pictures Example 1",
+    "dot": "Show image 1",
+    "screenshot": "screenshots/states/home-desktop-gallery-1.jpg",
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    }
+  },
+  {
+    "check": "Gallery image 2 selection updates image, caption and active dot",
+    "pass": true,
+    "alt": "ARC Lab visual identity",
+    "caption": "Research Pictures Example 2",
+    "dot": "Show image 2",
+    "screenshot": "screenshots/states/home-desktop-gallery-2.jpg",
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    }
+  },
+  {
+    "check": "Gallery image 3 selection updates image, caption and active dot",
+    "pass": true,
+    "alt": "AI and Robotics for Construction Laboratory logo",
+    "caption": "Research Pictures Example 3",
+    "dot": "Show image 3",
+    "screenshot": "screenshots/states/home-desktop-gallery-3.jpg",
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    }
+  }
+]

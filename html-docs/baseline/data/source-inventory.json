@@ -1,0 +1,2800 @@
+{
+  "date": "2026-11-12",
+  "source_commit": "87792aae11e2b4e47346428cd59f047925462634",
+  "branch": "codex/website-redesign",
+  "live_base_url": "https://arc-lab-ying.github.io/ARC_Website/",
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "ARC Lab | Technion",
+      "description": "AI and Robotics for Construction Laboratory at the Technion - Israel Institute of Technology.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ARC Lab",
+          "id": "hero-title"
+        },
+        {
+          "level": 2,
+          "text": "About Us",
+          "id": "about-title"
+        },
+        {
+          "level": 2,
+          "text": "News",
+          "id": "news-module-title"
+        },
+        {
+          "level": 3,
+          "text": "ARC Lab website launched with updated research directions",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Welcome to the new researchers and students joining ARC Lab",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "AI for the built environment paper accepted for presentation",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Recent progress in construction robotics and digital twins",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "New research direction on interaction-centered BIM processes",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\nAI and Robotics for Construction Laboratory\nAbout Us\nWelcome to the AI and Robotics for Construction (ARC) Lab at the Technion – Israel Institute of Technology!\nWe envision a future in which the built environment is not only digitally represented, but can also be\nunderstood, reasoned about, and acted upon by intelligent systems.\nBuilt environment engineering has largely been shaped around the assumption that its primary agents are human — an assumption embedded in how information is represented, engineering knowledge is formed, processes are structured, and physical production is carried out.\nOur research rethinks these foundations:\n01\nHow the built environment should be represented for machine intelligence.\n02\nHow AI systems can learn engineering knowledge from the digital traces of practice.\n03\nHow digital engineering processes are constituted and analyzed.\n04\nHow construction production and management systems must evolve as robots become agents of physical production.\nNews\nSee All News\nAugust 2026\nResearch\nARC Lab website launched with updated research directions\nJuly 2026\nTeam\nWelcome to the new researchers and students joining ARC Lab\nJune 2026\nPublication\nAI for the built environment paper accepted for presentation\nMay 2026\nResearch\nRecent progress in construction robotics and digital twins\nApril 2026\nResearch\nNew research direction on interaction-centered BIM processes\nResearch Pictures Example 1\nResearch Pictures Example 2\nResearch Pictures Example 3",
+      "main_paragraphs": [
+        "AI and Robotics for Construction Laboratory",
+        "Welcome to the AI and Robotics for Construction (ARC) Lab at the Technion – Israel Institute of Technology!",
+        "We envision a future in which the built environment is not only digitally represented, but can also be understood, reasoned about, and acted upon by intelligent systems. Built environment engineering has largely been shaped around the assumption that its primary agents are human — an assumption embedded in how information is represented, engineering knowledge is formed, processes are structured, and physical production is carried out.",
+        "Our research rethinks these foundations:",
+        "Research Pictures Example 1",
+        "Research Pictures Example 2",
+        "Research Pictures Example 3"
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-08",
+          "label": "August 2026"
+        },
+        {
+          "date": "2026-07",
+          "label": "July 2026"
+        },
+        {
+          "date": "2026-06",
+          "label": "June 2026"
+        },
+        {
+          "date": "2026-05",
+          "label": "May 2026"
+        },
+        {
+          "date": "2026-04",
+          "label": "April 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/index.html",
+          "label": "See All News",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/arc-lab-website-launch.html",
+          "label": "ARC Lab website launched with updated research directions",
+          "target": "news/arc-lab-website-launch.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/welcome-new-researchers.html",
+          "label": "Welcome to the new researchers and students joining ARC Lab",
+          "target": "news/welcome-new-researchers.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/ai-built-environment-paper.html",
+          "label": "AI for the built environment paper accepted for presentation",
+          "target": "news/ai-built-environment-paper.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/construction-robotics-digital-twins.html",
+          "label": "Recent progress in construction robotics and digital twins",
+          "target": "news/construction-robotics-digital-twins.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "news/ic-bim-research-direction.html",
+          "label": "New research direction on interaction-centered BIM processes",
+          "target": "news/ic-bim-research-direction.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/hero-ai-construction-v2.jpg",
+          "label": "AI-assisted construction visualization",
+          "target": "assets/hero-ai-construction-v2.jpg",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo-source.jpg",
+          "label": "ARC Lab visual identity",
+          "target": "assets/arc-logo-source.jpg",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.jpg",
+          "label": "AI and Robotics for Construction Laboratory logo",
+          "target": "assets/arc-logo.jpg",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "join-us.html",
+      "title": "Join Us | ARC Lab",
+      "description": "Join the AI and Robotics for Construction Laboratory.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Join Us",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Work With Us",
+          "id": null
+        }
+      ],
+      "main_text": "Join Us\nWork With Us\nWe welcome students and researchers interested in artificial intelligence, robotics, and the future of construction.\nFor inquiries, please contact Dr. Huaquan Ying at\nhuaquan.ying@cv.technion.ac.il\n.",
+      "main_paragraphs": [
+        "We welcome students and researchers interested in artificial intelligence, robotics, and the future of construction.",
+        "For inquiries, please contact Dr. Huaquan Ying at huaquan.ying@cv.technion.ac.il ."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "mailto:huaquan.ying@cv.technion.ac.il",
+          "label": "huaquan.ying@cv.technion.ac.il"
+        },
+        {
+          "tag": "script",
+          "url": "script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/ai-built-environment-paper.html",
+      "title": "AI Built Environment Paper | ARC Lab",
+      "description": "ARC Lab paper on AI for the built environment accepted for presentation.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "AI for the built environment paper accepted for presentation",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nAI for the built environment paper accepted for presentation\nJune 2026\nPublication\nARC Lab's latest work on artificial intelligence for the built environment was accepted for presentation at an international research venue.\nThe work contributes to the lab's broader effort to rethink how built environment information can be represented, learned from, and acted upon by intelligent systems.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "June 2026 Publication",
+        "ARC Lab's latest work on artificial intelligence for the built environment was accepted for presentation at an international research venue.",
+        "The work contributes to the lab's broader effort to rethink how built environment information can be represented, learned from, and acted upon by intelligent systems."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-06",
+          "label": "June 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/arc-lab-website-launch.html",
+      "title": "ARC Lab Website Launch | ARC Lab",
+      "description": "ARC Lab launches its updated website.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ARC Lab website launched with updated research directions",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nARC Lab website launched with updated research directions\nAugust 2026\nResearch\nARC Lab has launched an updated website to present the group's research directions, people, publications, and opportunities for future students and collaborators.\nThe website will continue to grow as new projects, publications, and lab activities are added.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "August 2026 Research",
+        "ARC Lab has launched an updated website to present the group's research directions, people, publications, and opportunities for future students and collaborators.",
+        "The website will continue to grow as new projects, publications, and lab activities are added."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-08",
+          "label": "August 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/construction-robotics-digital-twins.html",
+      "title": "Construction Robotics and Digital Twins | ARC Lab",
+      "description": "ARC Lab presents progress in construction robotics and digital twins.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Recent progress in construction robotics and digital twins",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nRecent progress in construction robotics and digital twins\nMay 2026\nResearch\nARC Lab presented recent research progress on construction robotics, digital twins, and the future of intelligent construction operations.\nThis work supports the lab's goal of developing digital and physical systems that enable machine intelligence to participate in built environment engineering.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "May 2026 Research",
+        "ARC Lab presented recent research progress on construction robotics, digital twins, and the future of intelligent construction operations.",
+        "This work supports the lab's goal of developing digital and physical systems that enable machine intelligence to participate in built environment engineering."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-05",
+          "label": "May 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/ic-bim-research-direction.html",
+      "title": "Interaction-Centered BIM | ARC Lab",
+      "description": "ARC Lab develops research on interaction-centered BIM processes.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "New research direction on interaction-centered BIM processes",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nNew research direction on interaction-centered BIM processes\nApril 2026\nResearch\nARC Lab is developing interaction-centered Building Information Modeling as a research direction for representing and analyzing digital engineering processes.\nThis direction treats interaction as a basic unit for understanding how BIM-based work is organized, coordinated, and transformed over time.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "April 2026 Research",
+        "ARC Lab is developing interaction-centered Building Information Modeling as a research direction for representing and analyzing digital engineering processes.",
+        "This direction treats interaction as a basic unit for understanding how BIM-based work is organized, coordinated, and transformed over time."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-04",
+          "label": "April 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/index.html",
+      "title": "News | ARC Lab",
+      "description": "News from the AI and Robotics for Construction Laboratory.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "News",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "ARC Lab website launched with updated research directions",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Welcome to the new researchers and students joining ARC Lab",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "AI for the built environment paper accepted for presentation",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Recent progress in construction robotics and digital twins",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "New research direction on interaction-centered BIM processes",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Seminar on robot-centric construction systems",
+          "id": null
+        }
+      ],
+      "main_text": "News\nAugust 2026\nResearch\nARC Lab website launched with updated research directions\nJuly 2026\nTeam\nWelcome to the new researchers and students joining ARC Lab\nJune 2026\nPublication\nAI for the built environment paper accepted for presentation\nMay 2026\nResearch\nRecent progress in construction robotics and digital twins\nApril 2026\nResearch\nNew research direction on interaction-centered BIM processes\nMarch 2026\nTeam\nSeminar on robot-centric construction systems",
+      "main_paragraphs": [],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-08",
+          "label": "August 2026"
+        },
+        {
+          "date": "2026-07",
+          "label": "July 2026"
+        },
+        {
+          "date": "2026-06",
+          "label": "June 2026"
+        },
+        {
+          "date": "2026-05",
+          "label": "May 2026"
+        },
+        {
+          "date": "2026-04",
+          "label": "April 2026"
+        },
+        {
+          "date": "2026-03",
+          "label": "March 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "../assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "../assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "arc-lab-website-launch.html",
+          "label": "ARC Lab website launched with updated research directions",
+          "target": "news/arc-lab-website-launch.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "welcome-new-researchers.html",
+          "label": "Welcome to the new researchers and students joining ARC Lab",
+          "target": "news/welcome-new-researchers.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "ai-built-environment-paper.html",
+          "label": "AI for the built environment paper accepted for presentation",
+          "target": "news/ai-built-environment-paper.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "construction-robotics-digital-twins.html",
+          "label": "Recent progress in construction robotics and digital twins",
+          "target": "news/construction-robotics-digital-twins.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "ic-bim-research-direction.html",
+          "label": "New research direction on interaction-centered BIM processes",
+          "target": "news/ic-bim-research-direction.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "robot-centric-construction-seminar.html",
+          "label": "Seminar on robot-centric construction systems",
+          "target": "news/robot-centric-construction-seminar.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "../script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/robot-centric-construction-seminar.html",
+      "title": "Robot-Centric Construction Seminar | ARC Lab",
+      "description": "ARC Lab hosts a seminar on robot-centric construction systems.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Seminar on robot-centric construction systems",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nSeminar on robot-centric construction systems\nMarch 2026\nTeam\nARC Lab hosted a seminar discussing how construction information, planning, production, and management systems may change when robots become active agents of physical production.\nThe discussion connected robot-centric construction with digital twins, adaptive planning, and field-level uncertainty in construction environments.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "March 2026 Team",
+        "ARC Lab hosted a seminar discussing how construction information, planning, production, and management systems may change when robots become active agents of physical production.",
+        "The discussion connected robot-centric construction with digital twins, adaptive planning, and field-level uncertainty in construction environments."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-03",
+          "label": "March 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "news/welcome-new-researchers.html",
+      "title": "Welcome to New Researchers | ARC Lab",
+      "description": "ARC Lab welcomes new researchers and students.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Welcome to the new researchers and students joining ARC Lab",
+          "id": null
+        }
+      ],
+      "main_text": "ARC Lab\n/ News\nWelcome to the new researchers and students joining ARC Lab\nJuly 2026\nTeam\nARC Lab welcomes new researchers and students joining the group to work on artificial intelligence, robotics, digital engineering, and intelligent construction systems.\nMore details about new team members and research directions will be added as the lab website is updated.\nBack to all news",
+      "main_paragraphs": [
+        "ARC Lab / News",
+        "July 2026 Team",
+        "ARC Lab welcomes new researchers and students joining the group to work on artificial intelligence, robotics, digital engineering, and intelligent construction systems.",
+        "More details about new team members and research directions will be added as the lab website is updated."
+      ],
+      "has_primary_nav": false,
+      "has_skip_link": false,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-07",
+          "label": "July 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Back to all news",
+          "target": "news/index.html",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "people.html",
+      "title": "Team | ARC Lab",
+      "description": "Team at the AI and Robotics for Construction Laboratory.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Team",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Lab Director",
+          "id": "director-title"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Huaquan Ying",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Postdoc",
+          "id": "postdoc-title"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Timson Yeung",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "PhD Students",
+          "id": "phd-title"
+        },
+        {
+          "level": 3,
+          "text": "Zikang Wang",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Zheng Zhao",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Robot",
+          "id": "robot-title"
+        },
+        {
+          "level": 3,
+          "text": "Unitree A2",
+          "id": null
+        }
+      ],
+      "main_text": "Team\nLab Director\nDr. Huaquan Ying\n[LinkedIn]\n[Google Scholar]\nAssistant Professor\nFaculty of Civil and Environmental Engineering\nPostdoc\nDr. Timson Yeung\n[LinkedIn]\n[Google Scholar]\nResearch Interests:\nDigital Twin Construction;\nAutonomous Systems;\nBIM Collaboration.\nPhD Students\nZikang Wang\n[LinkedIn]\n[Google Scholar]\nResearch Interests:\nConstruction Robotics;\nDigital Twin Construction;\nUncertainty Modeling.\nZheng Zhao\n[LinkedIn]\n[Google Scholar]\nResearch Interests:\nAI for the Built Environment;\nBIM Intelligence;\nRepresentation Learning.\nRobot\nUnitree A2",
+      "main_paragraphs": [
+        "[LinkedIn] [Google Scholar]",
+        "Assistant Professor",
+        "Faculty of Civil and Environmental Engineering",
+        "[LinkedIn] [Google Scholar]",
+        "Research Interests: Digital Twin Construction; Autonomous Systems; BIM Collaboration.",
+        "[LinkedIn] [Google Scholar]",
+        "Research Interests: Construction Robotics; Digital Twin Construction; Uncertainty Modeling.",
+        "[LinkedIn] [Google Scholar]",
+        "Research Interests: AI for the Built Environment; BIM Intelligence; Representation Learning."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 3,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/profile-photos/name_1.png",
+          "label": "Dr. Huaquan Ying",
+          "target": "assets/profile-photos/name_1.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.linkedin.com/in/huaquan-ying-92b3191a0/",
+          "label": "LinkedIn profile for Dr. Huaquan Ying"
+        },
+        {
+          "tag": "a",
+          "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "label": "Google Scholar profile for Dr. Huaquan Ying"
+        },
+        {
+          "tag": "img",
+          "url": "assets/profile-photos/name_2.jpeg",
+          "label": "Dr. Timson Yeung",
+          "target": "assets/profile-photos/name_2.jpeg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.linkedin.com/in/timson-yeung/",
+          "label": "[LinkedIn]"
+        },
+        {
+          "tag": "img",
+          "url": "assets/profile-photos/name_4.jpeg",
+          "label": "Zikang Wang",
+          "target": "assets/profile-photos/name_4.jpeg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.linkedin.com/in/zikang-wang-8897a6403/",
+          "label": "[LinkedIn]"
+        },
+        {
+          "tag": "img",
+          "url": "assets/profile-photos/name_3.jpeg",
+          "label": "Zheng Zhao",
+          "target": "assets/profile-photos/name_3.jpeg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.linkedin.com/in/zheng-zhao-742129340/",
+          "label": "[LinkedIn]"
+        },
+        {
+          "tag": "img",
+          "url": "assets/robots/unitree-a2.png",
+          "label": "Unitree A2 quadruped robot",
+          "target": "assets/robots/unitree-a2.png",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "publications.html",
+      "title": "Publications | ARC Lab",
+      "description": "Publications from the AI and Robotics for Construction Laboratory.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Publications",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2026",
+          "id": "pub-year-2026"
+        },
+        {
+          "level": 3,
+          "text": "A BIM-Driven Robotic Framework for Autonomous 3D Projection of Construction Layouts",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Laboratory demonstration of digital twin construction",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2025",
+          "id": "pub-year-2025"
+        },
+        {
+          "level": 3,
+          "text": "Graph Representation Learning: Embedding Multimodality BIM Models into Graphs",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Image-based scan-to-BIM for interior building component reconstruction",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2024",
+          "id": "pub-year-2024"
+        },
+        {
+          "level": 3,
+          "text": "From Automatic to Autonomous: A Large Language Model-Driven Approach for Generic Building Compliance Checking",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Semantic 3D reconstruction-oriented image dataset for building component segmentation",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Classification of Architectural and MEP BIM Objects for Building Performance Evaluation",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Integrated Digital Twin Framework for Adaptive Production Planning and Control in Precast Construction",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Two Fundamental Questions Concerning BIM Data Representation for Machine Learning",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Graph-Based Change Propagation across BIM Design Software Applications",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Framework for Generic Semantic Enrichment of BIM Models",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Deep Natural Language Processing-Based Method for Ontology Learning of Project-Specific Properties from Building Information Models",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2023",
+          "id": "pub-year-2023"
+        },
+        {
+          "level": 3,
+          "text": "Synthetic Image Data Generation Using BIM and Computer Graphics for Building Scene Understanding",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "An Ontology-Aided, Natural Language-Based Approach for Multi-Constraint BIM Model Querying",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "CBIM: A Graph-Based Approach to Enhance Interoperability Using Semantic Enrichment",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2022",
+          "id": "pub-year-2022"
+        },
+        {
+          "level": 3,
+          "text": "A Two-Stage Recursive Ray Tracing Algorithm to Automatically Identify External Building Objects in Building Information Models",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Voice-Driven IMU-Enabled BIM-Based Multi-User System for Indoor Navigation in Fire Emergencies",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2021",
+          "id": "pub-year-2021"
+        },
+        {
+          "level": 3,
+          "text": "A Rule-Based System to Automatically Validate IFC Second-Level Space Boundaries for Building Energy Analysis",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Generating Second-Level Space Boundaries from Large-Scale IFC-Compliant Building Information Models Using Multiple Geometry Representations",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2020",
+          "id": "pub-year-2020"
+        },
+        {
+          "level": 3,
+          "text": "Automatic Detection of Geometric Errors in Space Boundaries of IFC-BIM Models Using Monte Carlo Ray Tracing Approach",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2019",
+          "id": "pub-year-2019"
+        },
+        {
+          "level": 3,
+          "text": "An Algorithm to Facet Curved Walls in IFC BIM for Building Energy Analysis",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Framework of a Multi-User Voice-Driven BIM-Based Navigation System for Fire Emergency Response",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Mask R-CNN Based Approach to Automatically Construct As-Is IFC BIM Objects from Digital Images",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2018",
+          "id": "pub-year-2018"
+        },
+        {
+          "level": 3,
+          "text": "Semantic Enrichment of As-Is BIMs for Building Energy Simulation",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "VPL-Based Code Translation for Automated Compliance Checking of Building Envelope Energy Efficiency",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "A Framework for Constructing Semantic As-Is Building Energy Models (BEMs) for Existing Buildings Using Digital Images",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "2017",
+          "id": "pub-year-2017"
+        },
+        {
+          "level": 3,
+          "text": "A Framework for Rule-Based Validation of IFC Space Boundaries for Building Energy Analysis",
+          "id": null
+        }
+      ],
+      "main_text": "Publications\n2026\nA BIM-Driven Robotic Framework for Autonomous 3D Projection of Construction Layouts\nISARC\n, 2026\nZ Wang, H Ying\n[Website]\n[Code]\nLaboratory demonstration of digital twin construction\nData-Centric Engineering\n, 2026\nT Yeung, S Grodsky, J Li, H Ying, D Schaumann, R Sacks\n[Website]\n[Code]\n2025\nGraph Representation Learning: Embedding Multimodality BIM Models into Graphs\nEC3 and CIB W78\n, 2025\nZ Wang, H Ying\n[Website]\n[Code]\nImage-based scan-to-BIM for interior building component reconstruction\nAutomation in Construction\n, 2025\nMO Wong, Y Sun, H Ying, M Yin, H Zhou, I Brilakis, T Kelly, CC Lam\n[Website]\n[Code]\n2024\nFrom Automatic to Autonomous: A Large Language Model-Driven Approach for Generic Building Compliance Checking\nCIB W78\n, 2024\nH Ying, R Sacks\n[Website]\n[Code]\nSemantic 3D reconstruction-oriented image dataset for building component segmentation\nAutomation in Construction\n, 2024\nMO Wong, H Ying, M Yin, X Yi, L Xiao, W Duan, C He, L Tang\n[Website]\n[Code]\nClassification of Architectural and MEP BIM Objects for Building Performance Evaluation\nAdvanced Engineering Informatics\n, 2024\nD Utkucu, H Ying, Z Wang, R Sacks\n[Website]\n[Code]\nIntegrated Digital Twin Framework for Adaptive Production Planning and Control in Precast Construction\nCIB W78\n, 2024\nT Yeung, H Ying, J Li, R Sacks\n[Website]\n[Code]\nTwo Fundamental Questions Concerning BIM Data Representation for Machine Learning\nCIB W78\n, 2024\nZ Wang, H Ying, R Sacks\n[Website]\n[Code]\nGraph-Based Change Propagation across BIM Design Software Applications\nASCE International Conference on Computing in Civil Engineering (I3CE)\n, 2024\nZ Wang, H Ying, K Nyberg\n[Website]\n[Code]\nA Framework for Generic Semantic Enrichment of BIM Models\nJournal of Computing in Civil Engineering\n, 2024\nZ Wang, R Sacks, B Ouyang, H Ying, A Borrmann\n[Website]\n[Code]\nA Deep Natural Language Processing-Based Method for Ontology Learning of Project-Specific Properties from Building Information Models\nComputer-Aided Civil and Infrastructure Engineering\n, 2024\nM Yin, L Tang, C Webster, X Yi, H Ying, Y Wen\n[Website]\n[Code]\n2023\nSynthetic Image Data Generation Using BIM and Computer Graphics for Building Scene Understanding\nAutomation in Construction\n, 2023\nH Ying, R Sacks, A Degani\n[Website]\n[Code]\nAn Ontology-Aided, Natural Language-Based Approach for Multi-Constraint BIM Model Querying\nJournal of Building Engineering\n, 2023\nM Yin, L Tang, C Webster, S Xu, X Li, H Ying\n[Website]\n[Code]\nCBIM: A Graph-Based Approach to Enhance Interoperability Using Semantic Enrichment\nEG-ICE\n, 2023\nZ Wang, H Ying, R Sacks, A Borrmann\n[Website]\n[Code]\n2022\nA Two-Stage Recursive Ray Tracing Algorithm to Automatically Identify External Building Objects in Building Information Models\nComputer-Aided Civil and Infrastructure Engineering\n, 2022\nH Ying, H Zhou, A Degani, R Sacks\n[Website]\n[Code]\nA Voice-Driven IMU-Enabled BIM-Based Multi-User System for Indoor Navigation in Fire Emergencies\nAutomation in Construction\n, 2022\nMO Wong, H Zhou, H Ying, S Lee\n[Website]\n[Code]\n2021\nA Rule-Based System to Automatically Validate IFC Second-Level Space Boundaries for Building Energy Analysis\nAutomation in Construction\n, 2021\nH Ying, S Lee\n[Website]\n[Code]\nGenerating Second-Level Space Boundaries from Large-Scale IFC-Compliant Building Information Models Using Multiple Geometry Representations\nAutomation in Construction\n, 2021\nH Ying, S Lee\n[Website]\n[Code]\n2020\nAutomatic Detection of Geometric Errors in Space Boundaries of IFC-BIM Models Using Monte Carlo Ray Tracing Approach\nJournal of Computing in Civil Engineering\n, 2020\nH Ying, S Lee\n[Website]\n[Code]\n2019\nAn Algorithm to Facet Curved Walls in IFC BIM for Building Energy Analysis\nAutomation in Construction\n, 2019\nH Ying, S Lee\n[Website]\n[Code]\nA Framework of a Multi-User Voice-Driven BIM-Based Navigation System for Fire Emergency Response\nEG-ICE\n, 2019\nH Zhou, MO Wong, H Ying, SH Lee\n[Website]\n[Code]\nA Mask R-CNN Based Approach to Automatically Construct As-Is IFC BIM Objects from Digital Images\nISARC\n, 2019\nH Ying, S Lee\n[Website]\n[Code]\n2018\nSemantic Enrichment of As-Is BIMs for Building Energy Simulation\nCIB W78\n, 2018\nH Ying, H Zhou, Q Lu, S Lee, Y Hong\n[Website]\n[Code]\nVPL-Based Code Translation for Automated Compliance Checking of Building Envelope Energy Efficiency\nConstruction Research Congress\n, 2018\nH Zhou, S Lee, H Ying\n[Website]\n[Code]\nA Framework for Constructing Semantic As-Is Building Energy Models (BEMs) for Existing Buildings Using Digital Images\nISARC\n, 2018\nH Ying, Q Lu, H Zhou, SH Lee\n[Website]\n[Code]\n2017\nA Framework for Rule-Based Validation of IFC Space Boundaries for Building Energy Analysis\nASCE International Conference on Computing in Civil Engineering (I3CE)\n, 2017\nH Ying, S Lee\n[Website]\n[Code]",
+      "main_paragraphs": [
+        "ISARC , 2026",
+        "Z Wang, H Ying",
+        "[Website] [Code]",
+        "Data-Centric Engineering , 2026",
+        "T Yeung, S Grodsky, J Li, H Ying, D Schaumann, R Sacks",
+        "[Website] [Code]",
+        "EC3 and CIB W78 , 2025",
+        "Z Wang, H Ying",
+        "[Website] [Code]",
+        "Automation in Construction , 2025",
+        "MO Wong, Y Sun, H Ying, M Yin, H Zhou, I Brilakis, T Kelly, CC Lam",
+        "[Website] [Code]",
+        "CIB W78 , 2024",
+        "H Ying, R Sacks",
+        "[Website] [Code]",
+        "Automation in Construction , 2024",
+        "MO Wong, H Ying, M Yin, X Yi, L Xiao, W Duan, C He, L Tang",
+        "[Website] [Code]",
+        "Advanced Engineering Informatics , 2024",
+        "D Utkucu, H Ying, Z Wang, R Sacks",
+        "[Website] [Code]",
+        "CIB W78 , 2024",
+        "T Yeung, H Ying, J Li, R Sacks",
+        "[Website] [Code]",
+        "CIB W78 , 2024",
+        "Z Wang, H Ying, R Sacks",
+        "[Website] [Code]",
+        "ASCE International Conference on Computing in Civil Engineering (I3CE) , 2024",
+        "Z Wang, H Ying, K Nyberg",
+        "[Website] [Code]",
+        "Journal of Computing in Civil Engineering , 2024",
+        "Z Wang, R Sacks, B Ouyang, H Ying, A Borrmann",
+        "[Website] [Code]",
+        "Computer-Aided Civil and Infrastructure Engineering , 2024",
+        "M Yin, L Tang, C Webster, X Yi, H Ying, Y Wen",
+        "[Website] [Code]",
+        "Automation in Construction , 2023",
+        "H Ying, R Sacks, A Degani",
+        "[Website] [Code]",
+        "Journal of Building Engineering , 2023",
+        "M Yin, L Tang, C Webster, S Xu, X Li, H Ying",
+        "[Website] [Code]",
+        "EG-ICE , 2023",
+        "Z Wang, H Ying, R Sacks, A Borrmann",
+        "[Website] [Code]",
+        "Computer-Aided Civil and Infrastructure Engineering , 2022",
+        "H Ying, H Zhou, A Degani, R Sacks",
+        "[Website] [Code]",
+        "Automation in Construction , 2022",
+        "MO Wong, H Zhou, H Ying, S Lee",
+        "[Website] [Code]",
+        "Automation in Construction , 2021",
+        "H Ying, S Lee",
+        "[Website] [Code]",
+        "Automation in Construction , 2021",
+        "H Ying, S Lee",
+        "[Website] [Code]",
+        "Journal of Computing in Civil Engineering , 2020",
+        "H Ying, S Lee",
+        "[Website] [Code]",
+        "Automation in Construction , 2019",
+        "H Ying, S Lee",
+        "[Website] [Code]",
+        "EG-ICE , 2019",
+        "H Zhou, MO Wong, H Ying, SH Lee",
+        "[Website] [Code]",
+        "ISARC , 2019",
+        "H Ying, S Lee",
+        "[Website] [Code]",
+        "CIB W78 , 2018",
+        "H Ying, H Zhou, Q Lu, S Lee, Y Hong",
+        "[Website] [Code]",
+        "Construction Research Congress , 2018",
+        "H Zhou, S Lee, H Ying",
+        "[Website] [Code]",
+        "ISARC , 2018",
+        "H Ying, Q Lu, H Zhou, SH Lee",
+        "[Website] [Code]",
+        "ASCE International Conference on Computing in Civil Engineering (I3CE) , 2017",
+        "H Ying, S Lee",
+        "[Website] [Code]"
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [],
+      "publication_count": 27,
+      "publication_year_counts": {
+        "2026": 2,
+        "2025": 2,
+        "2024": 8,
+        "2023": 3,
+        "2022": 2,
+        "2021": 2,
+        "2020": 1,
+        "2019": 3,
+        "2018": 3,
+        "2017": 1
+      },
+      "code_placeholders": 27,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.22260/ISARC2026/0064",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1017/dce.2026.10057",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.35490/EC3.2025.286",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://scholar.google.com/scholar?q=Image-based+scan-to-BIM+for+interior+building+component+reconstruction",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://itc.scix.net/paper/w78-2024-59",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2024.105558",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.aei.2024.102503",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://itc.scix.net/paper/w78-2024-148",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://itc.scix.net/paper/w78-2024-25",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1061/9780784486122.032",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1061/JCCEE5.CPENG-5487",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1111/mice.13013",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2023.105016",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.jobe.2023.107066",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://arxiv.org/abs/2304.11672",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1111/mice.12776",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2022.104137",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2021.103724",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2021.103659",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1061/%28ASCE%29CP.1943-5487.0000878",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1016/j.autcon.2019.03.004",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://pure.uos.ac.kr/en/publications/a-framework-of-a-multi-user-voice-driven-bim-based-navigation-sys/",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.22260/ISARC2019/0103",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1007/978-3-030-00220-6_88",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.1061/9780784481301.001",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://doi.org/10.22260/ISARC2018/0045",
+          "label": "[Website]"
+        },
+        {
+          "tag": "a",
+          "url": "https://scholar.google.com/scholar?q=A+framework+for+rule-based+validation+of+IFC+space+boundaries+for+building+energy+analysis",
+          "label": "[Website]"
+        },
+        {
+          "tag": "script",
+          "url": "script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "research/agent-oriented-design-construction.html",
+      "title": "Agent-oriented Design and Construction | ARC Lab",
+      "description": "Explore Agent-oriented Design and Construction and related news at ARC Lab.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Agent-oriented Design and Construction",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Overview",
+          "id": "overview-title"
+        },
+        {
+          "level": 2,
+          "text": "Related News",
+          "id": "related-news-title"
+        },
+        {
+          "level": 3,
+          "text": "AI for the built environment paper accepted for presentation",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Recent progress in construction robotics and digital twins",
+          "id": null
+        }
+      ],
+      "main_text": "Agent-oriented Design and Construction\nOverview\nWe investigate how engineering work in the design and construction of buildings and infrastructure should be reconfigured when AI agents become active participants. Our research aims to develop data representations and digital environments that enable AI agents to understand, reason about, and act within these processes.\nRelated News\nSee All News\nJune 2026\nPublication\nAI for the built environment paper accepted for presentation\nMay 2026\nResearch\nRecent progress in construction robotics and digital twins\nBack to research directions",
+      "main_paragraphs": [
+        "We investigate how engineering work in the design and construction of buildings and infrastructure should be reconfigured when AI agents become active participants. Our research aims to develop data representations and digital environments that enable AI agents to understand, reason about, and act within these processes."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-06",
+          "label": "June 2026"
+        },
+        {
+          "date": "2026-05",
+          "label": "May 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "research/agent-oriented-design-construction.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "../assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "../assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/index.html",
+          "label": "See All News",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/ai-built-environment-paper.html",
+          "label": "AI for the built environment paper accepted for presentation",
+          "target": "news/ai-built-environment-paper.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/construction-robotics-digital-twins.html",
+          "label": "Recent progress in construction robotics and digital twins",
+          "target": "news/construction-robotics-digital-twins.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Back to research directions",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "../script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "research/interaction-centered-bim.html",
+      "title": "Interaction-centered Building Information Modeling (IC-BIM) | ARC Lab",
+      "description": "Explore Interaction-centered Building Information Modeling (IC-BIM) and related news at ARC Lab.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Overview",
+          "id": "overview-title"
+        },
+        {
+          "level": 2,
+          "text": "Related News",
+          "id": "related-news-title"
+        },
+        {
+          "level": 3,
+          "text": "New research direction on interaction-centered BIM processes",
+          "id": null
+        }
+      ],
+      "main_text": "Interaction-centered Building Information Modeling (IC-BIM)\nOverview\nWe investigate the structure of BIM processes, treating interaction as the basic unit from which complex BIM processes are formed. Our research aims to establish a formal theory that provides a rigorous basis for representing, analyzing, and explaining how BIM processes are organized and evolve, with the potential to generalize to digital engineering processes more broadly.\nRelated News\nSee All News\nApril 2026\nResearch\nNew research direction on interaction-centered BIM processes\nBack to research directions",
+      "main_paragraphs": [
+        "We investigate the structure of BIM processes, treating interaction as the basic unit from which complex BIM processes are formed. Our research aims to establish a formal theory that provides a rigorous basis for representing, analyzing, and explaining how BIM processes are organized and evolve, with the potential to generalize to digital engineering processes more broadly."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-04",
+          "label": "April 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "research/interaction-centered-bim.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "../assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "../assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/index.html",
+          "label": "See All News",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/ic-bim-research-direction.html",
+          "label": "New research direction on interaction-centered BIM processes",
+          "target": "news/ic-bim-research-direction.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Back to research directions",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "../script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "research/representation-learning.html",
+      "title": "Representation Learning for the Built Environment | ARC Lab",
+      "description": "Explore Representation Learning for the Built Environment and related news at ARC Lab.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Representation Learning for the Built Environment",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Overview",
+          "id": "overview-title"
+        },
+        {
+          "level": 2,
+          "text": "Related News",
+          "id": "related-news-title"
+        },
+        {
+          "level": 3,
+          "text": "AI for the built environment paper accepted for presentation",
+          "id": null
+        }
+      ],
+      "main_text": "Representation Learning for the Built Environment\nOverview\nWe investigate how engineering knowledge can be learned directly from the BIM models and other digital data generated across the built environment lifecycle. Our research develops representation learning methods that capture patterns, relationships, and latent knowledge in these data, enabling more generalizable and data-driven engineering intelligence.\nRelated News\nSee All News\nJune 2026\nPublication\nAI for the built environment paper accepted for presentation\nBack to research directions",
+      "main_paragraphs": [
+        "We investigate how engineering knowledge can be learned directly from the BIM models and other digital data generated across the built environment lifecycle. Our research develops representation learning methods that capture patterns, relationships, and latent knowledge in these data, enabling more generalizable and data-driven engineering intelligence."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-06",
+          "label": "June 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "research/representation-learning.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "../assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "../assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/index.html",
+          "label": "See All News",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/ai-built-environment-paper.html",
+          "label": "AI for the built environment paper accepted for presentation",
+          "target": "news/ai-built-environment-paper.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Back to research directions",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "../script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "research/robot-centric-construction.html",
+      "title": "Robot-Centric Construction (RCC) | ARC Lab",
+      "description": "Explore Robot-Centric Construction (RCC) and related news at ARC Lab.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Robot-Centric Construction (RCC)",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Overview",
+          "id": "overview-title"
+        },
+        {
+          "level": 2,
+          "text": "Related News",
+          "id": "related-news-title"
+        },
+        {
+          "level": 3,
+          "text": "Recent progress in construction robotics and digital twins",
+          "id": null
+        },
+        {
+          "level": 3,
+          "text": "Seminar on robot-centric construction systems",
+          "id": null
+        }
+      ],
+      "main_text": "Robot-Centric Construction (RCC)\nOverview\nWe investigate how construction must evolve when robots become agents of physical production. Our research rethinks construction information, planning, coordination, and execution from the perspective of robotic agents, enabling effective robotic construction in dynamic and uncertain environments.\nRelated News\nSee All News\nMay 2026\nResearch\nRecent progress in construction robotics and digital twins\nMarch 2026\nTeam\nSeminar on robot-centric construction systems\nBack to research directions",
+      "main_paragraphs": [
+        "We investigate how construction must evolve when robots become agents of physical production. Our research rethinks construction information, planning, coordination, and execution from the perspective of robotic agents, enabling effective robotic construction in dynamic and uncertain environments."
+      ],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [
+        {
+          "date": "2026-05",
+          "label": "May 2026"
+        },
+        {
+          "date": "2026-03",
+          "label": "March 2026"
+        }
+      ],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "../styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "research/robot-centric-construction.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "../assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "../assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/index.html",
+          "label": "See All News",
+          "target": "news/index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/construction-robotics-digital-twins.html",
+          "label": "Recent progress in construction robotics and digital twins",
+          "target": "news/construction-robotics-digital-twins.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../news/robot-centric-construction-seminar.html",
+          "label": "Seminar on robot-centric construction systems",
+          "target": "news/robot-centric-construction-seminar.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "../research.html",
+          "label": "Back to research directions",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "../script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "research.html",
+      "title": "Research | ARC Lab",
+      "description": "Research at the AI and Robotics for Construction Laboratory.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Research",
+          "id": null
+        },
+        {
+          "level": 2,
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "id": "research-bim"
+        },
+        {
+          "level": 2,
+          "text": "Agent-oriented Design and Construction",
+          "id": "research-agents"
+        },
+        {
+          "level": 2,
+          "text": "Representation Learning for the Built Environment",
+          "id": "research-learning"
+        },
+        {
+          "level": 2,
+          "text": "Robot-Centric Construction (RCC)",
+          "id": "research-robotics"
+        }
+      ],
+      "main_text": "Research\nARC Lab\nAI & Robotics\nfor Construction\nInteraction-centered Building Information Modeling (IC-BIM)\nRead more\nAgent-oriented Design and Construction\nRead more\nRepresentation Learning for the Built Environment\nRead more\nRobot-Centric Construction (RCC)\nRead more",
+      "main_paragraphs": [],
+      "has_primary_nav": true,
+      "has_skip_link": true,
+      "has_footer": false,
+      "dates": [],
+      "publication_count": 0,
+      "publication_year_counts": {},
+      "code_placeholders": 0,
+      "pending_profile_links": 0,
+      "links": [
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.gstatic.com",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap",
+          "label": ""
+        },
+        {
+          "tag": "link",
+          "url": "styles.css",
+          "label": "",
+          "target": "styles.css",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "#main-content",
+          "label": "Skip to content",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "ARC Lab home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "img",
+          "url": "assets/arc-logo.svg",
+          "label": "ARC Lab - AI and Robotics for Construction",
+          "target": "assets/arc-logo.svg",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "https://www.technion.ac.il/",
+          "label": "Technion - Israel Institute of Technology"
+        },
+        {
+          "tag": "img",
+          "url": "assets/technion-logo-official.png",
+          "label": "Technion - Israel Institute of Technology",
+          "target": "assets/technion-logo-official.png",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "index.html",
+          "label": "Home",
+          "target": "index.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "people.html",
+          "label": "Team",
+          "target": "people.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research.html",
+          "label": "Research",
+          "target": "research.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "publications.html",
+          "label": "Publications",
+          "target": "publications.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "join-us.html",
+          "label": "Join Us",
+          "target": "join-us.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research/interaction-centered-bim.html",
+          "label": "Read more about Interaction-centered Building Information Modeling (IC-BIM)",
+          "target": "research/interaction-centered-bim.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research/agent-oriented-design-construction.html",
+          "label": "Read more about Agent-oriented Design and Construction",
+          "target": "research/agent-oriented-design-construction.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research/representation-learning.html",
+          "label": "Read more about Representation Learning for the Built Environment",
+          "target": "research/representation-learning.html",
+          "exists": true
+        },
+        {
+          "tag": "a",
+          "url": "research/robot-centric-construction.html",
+          "label": "Read more about Robot-Centric Construction (RCC)",
+          "target": "research/robot-centric-construction.html",
+          "exists": true
+        },
+        {
+          "tag": "script",
+          "url": "script.js",
+          "label": "",
+          "target": "script.js",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/arc-logo-source.jpg",
+      "bytes": 217374,
+      "html_references": 1,
+      "width": 3333,
+      "height": 2500
+    },
+    {
+      "path": "assets/arc-logo.jpg",
+      "bytes": 35129,
+      "html_references": 1,
+      "width": 760,
+      "height": 360
+    },
+    {
+      "path": "assets/arc-logo.svg",
+      "bytes": 7057,
+      "html_references": 10
+    },
+    {
+      "path": "assets/hero-ai-construction-v2.jpg",
+      "bytes": 261527,
+      "html_references": 1,
+      "width": 2098,
+      "height": 749
+    },
+    {
+      "path": "assets/home pic.png",
+      "bytes": 2210634,
+      "html_references": 0,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/profile-photos/name_1.png",
+      "bytes": 2799540,
+      "html_references": 1,
+      "width": 1241,
+      "height": 1267
+    },
+    {
+      "path": "assets/profile-photos/name_2.jpeg",
+      "bytes": 143260,
+      "html_references": 1,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/profile-photos/name_3.jpeg",
+      "bytes": 105971,
+      "html_references": 1,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/profile-photos/name_4.jpeg",
+      "bytes": 269372,
+      "html_references": 1,
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "path": "assets/robots/unitree-a2.png",
+      "bytes": 585671,
+      "html_references": 1,
+      "width": 1630,
+      "height": 1291
+    },
+    {
+      "path": "assets/technion-logo-official.png",
+      "bytes": 51350,
+      "html_references": 10,
+      "width": 1298,
+      "height": 297
+    }
+  ],
+  "broken_local_references": [],
+  "css_variables": {
+    "--navy": "#0c2947",
+    "--navy-deep": "#071b2e",
+    "--blue": "#1f5f91",
+    "--accent": "#d5a64b",
+    "--ink": "#24313e",
+    "--muted": "#687581",
+    "--line": "#dfe5e9",
+    "--paper": "#fff",
+    "--soft": "#f4f7f8",
+    "--max": "1180px",
+    "--rhythm": "30px",
+    "--text-leading": "24px",
+    "--section-title-size": "1.55rem",
+    "--content-width": "75%"
+  },
+  "css_hex_colors": {
+    "#0c2947": 1,
+    "#071b2e": 1,
+    "#1f5f91": 1,
+    "#d5a64b": 1,
+    "#24313e": 1,
+    "#687581": 1,
+    "#dfe5e9": 1,
+    "#fff": 1,
+    "#f4f7f8": 1,
+    "#cbd2d7": 1,
+    "#3c4955": 1,
+    "#edf5fb": 1,
+    "#404040": 7,
+    "#eef5fa": 1,
+    "#eef3f6": 2,
+    "#b9c5ce": 1,
+    "#f4f7f9": 2,
+    "#287aab": 1,
+    "#b6cad7": 1,
+    "#e3edf4": 1
+  },
+  "media_queries": [
+    "(hover:hover) and (pointer:fine) ",
+    "(max-width:1440px) ",
+    "(max-width:1100px) ",
+    "(max-width:960px) ",
+    "(max-width:720px) ",
+    "(max-width:520px) ",
+    "(prefers-reduced-motion:reduce) "
+  ],
+  "content_file_hashes": {
+    "index.html": "4bae5abd0fd6b40cc96e1b22a8dede22fe9975b129279b04eb895107001e218f",
+    "join-us.html": "8c5fae4cf6db78d37b9dd8955fc32c0ddd4ab9321c88088e7da78f1ae443ca85",
+    "news/ai-built-environment-paper.html": "4e6f1aa36c2d0231c4ddbeca4d150a82a8d7b0a4ac7c4fc4d4163e3fb9fd5023",
+    "news/arc-lab-website-launch.html": "ae5a408dcf2f2652ae7f0b83dad9b64f921b6e2aa0c9fd99aa97f79560d9ed59",
+    "news/construction-robotics-digital-twins.html": "112b72be927720582d6691e2d69aaaff438186abf74cfdad31547a35cee19dd3",
+    "news/ic-bim-research-direction.html": "dc98abe2b12022bc8f42e74b05e4c2f4acc2eedded55f2cbf60fdd8d639ef332",
+    "news/index.html": "7978675b5d4f52b5e649552f60ff3e818c5720605198288915249a240e8300d3",
+    "news/robot-centric-construction-seminar.html": "36d5ae43bba9670d6e52edd8f8d09577474d43aea676cbcd1becd98e6d75c947",
+    "news/welcome-new-researchers.html": "58ed975c35948e7beb7e11249d58529c75c5ce1308e27c545d5111f33b6f8016",
+    "people.html": "f9d00c9ce0657df264b9271a6a9baec9922fffa29f74317f8f9ec26d7bcc00b5",
+    "publications.html": "51c3aa0d8cfe4273a2f7c7e17281d7a5833389f25ed37a0a0485bfa6fbe1942b",
+    "research/agent-oriented-design-construction.html": "64e2ddbf3817c076734dd847285105925c9910b652db0c4ecf222660028ef972",
+    "research/interaction-centered-bim.html": "e7f80883780ef44b7e46b24123c2f0bf35152d71f7c4d461fb160bc48c292185",
+    "research/representation-learning.html": "d7c94eb21ca23add2feb2210d466189379758952fc9eaf7ae7d82a03c49cf9e6",
+    "research/robot-centric-construction.html": "2b8922b92fdbf2aeff3577a50103fa8af4117fe939ec61ad174bd3402a98eabf",
+    "research.html": "651e7f3997fabf47cb03cc6cc4b47fed77c7c7d4d0040e300edeb22867dac806",
+    "styles.css": "d566b381e869176a96ec4ce8fa1f624627bbf910485c1cc82eee035be8331941",
+    "script.js": "74a3dd6075203149e663281b32a843b1edc1f828531bacaf7c8ee6608fdeb29a"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "elements": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(36, 49, 62)",
+      "font": "16px / 27.2px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "27.2px",
+      "selector": "body"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "font": "700 92px / 92px \"Libre Franklin\", Arial, sans-serif",
+      "fontFamily": "\"Libre Franklin\", Arial, sans-serif",
+      "fontSize": "92px",
+      "lineHeight": "92px",
+      "selector": "h1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(12, 41, 71)",
+      "font": "700 28.8px / 31.68px \"Libre Franklin\", Arial, sans-serif",
+      "fontFamily": "\"Libre Franklin\", Arial, sans-serif",
+      "fontSize": "28.8px",
+      "lineHeight": "31.68px",
+      "selector": "h2"
+    },
+    {
+      "background": "rgb(31, 95, 145)",
+      "color": "rgb(255, 255, 255)",
+      "font": "16px / 27.2px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "27.2px",
+      "selector": ".hero"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.92)",
+      "font": "24.8px / 42.16px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "24.8px",
+      "lineHeight": "42.16px",
+      "selector": ".hero-subtitle"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "font": "20.5px / 34.44px Lora, \"Times New Roman\", serif",
+      "fontFamily": "Lora, \"Times New Roman\", serif",
+      "fontSize": "20.5px",
+      "lineHeight": "34.44px",
+      "selector": ".section-copy p"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(60, 73, 85)",
+      "font": "600 21.76px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "21.76px",
+      "lineHeight": "normal",
+      "selector": "nav > a"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(12, 41, 71)",
+      "font": "700 18.56px / 25.056px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "18.56px",
+      "lineHeight": "25.056px",
+      "selector": ".news-module h3"
+    },
+    {
+      "background": "rgb(238, 245, 250)",
+      "color": "rgb(31, 95, 145)",
+      "font": "700 10.88px / 10.88px \"DM Sans\", Arial, sans-serif",
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "fontSize": "10.88px",
+      "lineHeight": "10.88px",
+      "selector": ".news-tag"
+    }
+  ],
+  "fontStatus": "loaded",
+  "palette": {
+    "--accent": "#d5a64b",
+    "--blue": "#1f5f91",
+    "--content-width": "75%",
+    "--ink": "#24313e",
+    "--line": "#dfe5e9",
+    "--max": "1180px",
+    "--muted": "#687581",
+    "--navy": "#0c2947",
+    "--navy-deep": "#071b2e",
+    "--paper": "#fff",
+    "--rhythm": "30px",
+    "--section-title-size": "1.55rem",
+    "--soft": "#f4f7f8",
+    "--text-leading": "24px"
+  }
+}

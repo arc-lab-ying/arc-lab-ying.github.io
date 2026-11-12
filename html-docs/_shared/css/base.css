@@ -1,0 +1,237 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 5rem;
+  background: var(--eh-color-canvas);
+}
+
+body {
+  min-block-size: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(135deg, transparent 0 74%, color-mix(in srgb, var(--eh-color-brand-gold) 5%, transparent) 74% 77%, transparent 77%),
+    radial-gradient(circle at 10% 0%, color-mix(in srgb, var(--eh-color-accent-soft) 70%, transparent), transparent 30rem),
+    var(--eh-color-canvas);
+  color: var(--eh-color-ink);
+  font-family: var(--eh-font-sans);
+  font-size: var(--eh-text-base);
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg,
+canvas,
+video {
+  display: block;
+  max-inline-size: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+}
+
+button,
+summary {
+  cursor: pointer;
+}
+
+a {
+  color: var(--eh-color-accent-strong);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--eh-color-accent);
+}
+
+:focus-visible {
+  border-radius: var(--eh-radius-sm);
+  outline: 3px solid color-mix(in srgb, var(--eh-color-focus) 70%, transparent);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--eh-color-brand-gold-soft);
+  color: var(--eh-color-ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+blockquote,
+figure,
+pre,
+table {
+  margin-block-start: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--eh-color-ink);
+  font-family: var(--eh-font-display);
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+h1 {
+  max-inline-size: 18ch;
+  margin-block-end: var(--eh-space-5);
+  font-size: var(--eh-text-3xl);
+}
+
+h2 {
+  margin-block-start: var(--eh-space-8);
+  margin-block-end: var(--eh-space-5);
+  font-size: var(--eh-text-2xl);
+}
+
+h3 {
+  margin-block-start: var(--eh-space-6);
+  margin-block-end: var(--eh-space-3);
+  font-size: var(--eh-text-xl);
+}
+
+h4 {
+  margin-block-end: var(--eh-space-2);
+  font-family: var(--eh-font-sans);
+  font-size: var(--eh-text-lg);
+  letter-spacing: -0.01em;
+}
+
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+
+ul,
+ol {
+  padding-inline-start: 1.4em;
+}
+
+li + li {
+  margin-block-start: var(--eh-space-2);
+}
+
+hr {
+  border: 0;
+  border-block-start: var(--eh-border);
+  margin-block: var(--eh-space-7);
+}
+
+blockquote {
+  margin-inline: 0;
+  padding-inline-start: var(--eh-space-5);
+  border-inline-start: 4px solid var(--eh-color-brand-gold);
+  color: var(--eh-color-ink-soft);
+  font-family: var(--eh-font-display);
+  font-size: var(--eh-text-lg);
+}
+
+code,
+kbd,
+pre {
+  font-family: var(--eh-font-mono);
+}
+
+code:not(pre code) {
+  padding: 0.1em 0.35em;
+  border: var(--eh-border);
+  border-radius: var(--eh-radius-sm);
+  background: var(--eh-color-neutral-soft);
+  font-size: 0.9em;
+}
+
+pre {
+  overflow: auto;
+  padding: var(--eh-space-5);
+  border-radius: var(--eh-radius-md);
+  background: var(--eh-color-code);
+  color: var(--eh-color-code-ink);
+  font-size: var(--eh-text-sm);
+  line-height: 1.55;
+  tab-size: 2;
+}
+
+kbd {
+  display: inline-block;
+  min-inline-size: 1.8em;
+  padding: 0.05em 0.35em;
+  border: 1px solid var(--eh-color-line-strong);
+  border-block-end-width: 2px;
+  border-radius: var(--eh-radius-sm);
+  background: var(--eh-color-surface-raised);
+  font-size: 0.78em;
+  text-align: center;
+}
+
+small {
+  color: var(--eh-color-ink-soft);
+}
+
+em,
+i {
+  font-style: normal;
+  font-weight: 600;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.eh-visually-hidden {
+  position: absolute !important;
+  inline-size: 1px !important;
+  block-size: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+
+.eh-skip-link {
+  position: fixed;
+  z-index: 100;
+  inset-block-start: var(--eh-space-3);
+  inset-inline-start: var(--eh-space-3);
+  translate: 0 -200%;
+  padding: var(--eh-space-3) var(--eh-space-4);
+  border-radius: var(--eh-radius-md);
+  background: var(--eh-color-ink);
+  color: var(--eh-color-surface);
+}
+
+.eh-skip-link:focus {
+  translate: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,1778 @@
+[
+  {
+    "route": "index.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/index.jpg",
+    "capturedAt": "2026-11-12T13:12:31.016Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1866,
+      "width": 1585
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "ARC Lab",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "ARC Lab"
+      },
+      {
+        "level": "H2",
+        "text": "About Us"
+      },
+      {
+        "level": "H2",
+        "text": "News"
+      },
+      {
+        "level": "H3",
+        "text": "ARC Lab website launched with updated research directions"
+      },
+      {
+        "level": "H3",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H3",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "ARC Lab | Technion",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/index.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1585,
+      1866
+    ],
+    "sha256": "d811093a5f3875de2826399d0cd0b8b246317cc71f64459faae8711e46561d08"
+  },
+  {
+    "route": "people.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/people.jpg",
+    "capturedAt": "2026-11-12T13:14:12.584751+00:00",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 2338,
+      "width": 1585
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Team",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Team"
+      },
+      {
+        "level": "H2",
+        "text": "Lab Director"
+      },
+      {
+        "level": "H3",
+        "text": "Dr. Huaquan Ying"
+      },
+      {
+        "level": "H2",
+        "text": "Postdoc"
+      },
+      {
+        "level": "H3",
+        "text": "Dr. Timson Yeung"
+      },
+      {
+        "level": "H2",
+        "text": "PhD Students"
+      },
+      {
+        "level": "H3",
+        "text": "Zikang Wang"
+      },
+      {
+        "level": "H3",
+        "text": "Zheng Zhao"
+      },
+      {
+        "level": "H2",
+        "text": "Robot"
+      },
+      {
+        "level": "H3",
+        "text": "Unitree A2"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Team | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/people.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1585,
+      2338
+    ],
+    "sha256": "5fa4e9adffc9dbeeab5b7f0dfd63841c3bb94ebc2a379e5231769296aea50410"
+  },
+  {
+    "route": "research.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/research.jpg",
+    "capturedAt": "2026-11-12T13:12:32.907Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Research",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Research"
+      },
+      {
+        "level": "H2",
+        "text": "Interaction-centered Building Information Modeling (IC-BIM)"
+      },
+      {
+        "level": "H2",
+        "text": "Agent-oriented Design and Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Representation Learning for the Built Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Robot-Centric Construction (RCC)"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": null,
+    "title": "Research | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "66d110a36e3baeea2673f6517ef0aabf5207f231e9215a2fb3be932b28cca198"
+  },
+  {
+    "route": "publications.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/publications.jpg",
+    "capturedAt": "2026-11-12T13:12:34.439Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 4573,
+      "width": 1585
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Publications",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Publications"
+      },
+      {
+        "level": "H2",
+        "text": "2026"
+      },
+      {
+        "level": "H3",
+        "text": "A BIM-Driven Robotic Framework for Autonomous 3D Projection of Construction Layouts"
+      },
+      {
+        "level": "H3",
+        "text": "Laboratory demonstration of digital twin construction"
+      },
+      {
+        "level": "H2",
+        "text": "2025"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Representation Learning: Embedding Multimodality BIM Models into Graphs"
+      },
+      {
+        "level": "H3",
+        "text": "Image-based scan-to-BIM for interior building component reconstruction"
+      },
+      {
+        "level": "H2",
+        "text": "2024"
+      },
+      {
+        "level": "H3",
+        "text": "From Automatic to Autonomous: A Large Language Model-Driven Approach for Generic Building Compliance Checking"
+      },
+      {
+        "level": "H3",
+        "text": "Semantic 3D reconstruction-oriented image dataset for building component segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Classification of Architectural and MEP BIM Objects for Building Performance Evaluation"
+      },
+      {
+        "level": "H3",
+        "text": "Integrated Digital Twin Framework for Adaptive Production Planning and Control in Precast Construction"
+      },
+      {
+        "level": "H3",
+        "text": "Two Fundamental Questions Concerning BIM Data Representation for Machine Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Graph-Based Change Propagation across BIM Design Software Applications"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Generic Semantic Enrichment of BIM Models"
+      },
+      {
+        "level": "H3",
+        "text": "A Deep Natural Language Processing-Based Method for Ontology Learning of Project-Specific Properties from Building Information Models"
+      },
+      {
+        "level": "H2",
+        "text": "2023"
+      },
+      {
+        "level": "H3",
+        "text": "Synthetic Image Data Generation Using BIM and Computer Graphics for Building Scene Understanding"
+      },
+      {
+        "level": "H3",
+        "text": "An Ontology-Aided, Natural Language-Based Approach for Multi-Constraint BIM Model Querying"
+      },
+      {
+        "level": "H3",
+        "text": "CBIM: A Graph-Based Approach to Enhance Interoperability Using Semantic Enrichment"
+      },
+      {
+        "level": "H2",
+        "text": "2022"
+      },
+      {
+        "level": "H3",
+        "text": "A Two-Stage Recursive Ray Tracing Algorithm to Automatically Identify External Building Objects in Building Information Models"
+      },
+      {
+        "level": "H3",
+        "text": "A Voice-Driven IMU-Enabled BIM-Based Multi-User System for Indoor Navigation in Fire Emergencies"
+      },
+      {
+        "level": "H2",
+        "text": "2021"
+      },
+      {
+        "level": "H3",
+        "text": "A Rule-Based System to Automatically Validate IFC Second-Level Space Boundaries for Building Energy Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Generating Second-Level Space Boundaries from Large-Scale IFC-Compliant Building Information Models Using Multiple Geometry Representations"
+      },
+      {
+        "level": "H2",
+        "text": "2020"
+      },
+      {
+        "level": "H3",
+        "text": "Automatic Detection of Geometric Errors in Space Boundaries of IFC-BIM Models Using Monte Carlo Ray Tracing Approach"
+      },
+      {
+        "level": "H2",
+        "text": "2019"
+      },
+      {
+        "level": "H3",
+        "text": "An Algorithm to Facet Curved Walls in IFC BIM for Building Energy Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework of a Multi-User Voice-Driven BIM-Based Navigation System for Fire Emergency Response"
+      },
+      {
+        "level": "H3",
+        "text": "A Mask R-CNN Based Approach to Automatically Construct As-Is IFC BIM Objects from Digital Images"
+      },
+      {
+        "level": "H2",
+        "text": "2018"
+      },
+      {
+        "level": "H3",
+        "text": "Semantic Enrichment of As-Is BIMs for Building Energy Simulation"
+      },
+      {
+        "level": "H3",
+        "text": "VPL-Based Code Translation for Automated Compliance Checking of Building Envelope Energy Efficiency"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Constructing Semantic As-Is Building Energy Models (BEMs) for Existing Buildings Using Digital Images"
+      },
+      {
+        "level": "H2",
+        "text": "2017"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Rule-Based Validation of IFC Space Boundaries for Building Energy Analysis"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Publications | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/publications.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1585,
+      4573
+    ],
+    "sha256": "bb22cc9349a832b959b68a5b31d43b0239da510d44e2284085202771866356e2"
+  },
+  {
+    "route": "join-us.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/join-us.jpg",
+    "capturedAt": "2026-11-12T13:12:34.759Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Join Us",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Join Us"
+      },
+      {
+        "level": "H2",
+        "text": "Work With Us"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Join Us | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/join-us.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "f8bd126b1ff78457c8c95516b0c61e450bf72743c2e20ff04f7b5c0723590ad9"
+  },
+  {
+    "route": "research/interaction-centered-bim.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/research--interaction-centered-bim.jpg",
+    "capturedAt": "2026-11-12T13:12:56.439Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Interaction-centered Building Information Modeling (IC-BIM)",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Interaction-centered Building Information Modeling (IC-BIM)"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Interaction-centered Building Information Modeling (IC-BIM) | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/interaction-centered-bim.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "703a42ffdd77a849a7370f4c16a814ca2489d8cfcecbfc2349f2d6095fc64faf"
+  },
+  {
+    "route": "research/agent-oriented-design-construction.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/research--agent-oriented-design-construction.jpg",
+    "capturedAt": "2026-11-12T13:12:56.765Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Agent-oriented Design and Construction",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Agent-oriented Design and Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Agent-oriented Design and Construction | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/agent-oriented-design-construction.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "00e6d8b619fb4a027429f30e971fa285fec71085ba749d066d88cb5b0cb93850"
+  },
+  {
+    "route": "research/representation-learning.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/research--representation-learning.jpg",
+    "capturedAt": "2026-11-12T13:12:57.096Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Representation Learning for the Built Environment",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Representation Learning for the Built Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Representation Learning for the Built Environment | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/representation-learning.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "3c2890a68a7862d3c70860e830caa770a47375f3a8ee481d798453ef1d2fd992"
+  },
+  {
+    "route": "research/robot-centric-construction.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/research--robot-centric-construction.jpg",
+    "capturedAt": "2026-11-12T13:12:57.434Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Robot-Centric Construction (RCC)",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Robot-Centric Construction (RCC)"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H3",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Robot-Centric Construction (RCC) | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/robot-centric-construction.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "dd0025f89f5267973fc6d877caf79055d5b44b7680cb8751d5f7a95e4c9a454f"
+  },
+  {
+    "route": "news/index.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--index.jpg",
+    "capturedAt": "2026-11-12T13:12:58.777Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1077,
+      "width": 1585
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "News",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "News"
+      },
+      {
+        "level": "H2",
+        "text": "ARC Lab website launched with updated research directions"
+      },
+      {
+        "level": "H2",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      },
+      {
+        "level": "H2",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H2",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H2",
+        "text": "New research direction on interaction-centered BIM processes"
+      },
+      {
+        "level": "H2",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": null,
+    "title": "News | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/index.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1585,
+      1077
+    ],
+    "sha256": "1f6087d254b352036f9b3039a0d7d29445da4eb217479c34e3b2c8082f282b43"
+  },
+  {
+    "route": "news/arc-lab-website-launch.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--arc-lab-website-launch.jpg",
+    "capturedAt": "2026-11-12T13:12:59.096Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "ARC Lab website launched with updated research directions",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "ARC Lab website launched with updated research directions"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "ARC Lab Website Launch | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/arc-lab-website-launch.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "f7e206a21f06b8fecee2ebad0e3625406f2ba648aa246d4e581fc1127cc6f5d5"
+  },
+  {
+    "route": "news/welcome-new-researchers.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--welcome-new-researchers.jpg",
+    "capturedAt": "2026-11-12T13:14:09.896Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Welcome to the new researchers and students joining ARC Lab",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Welcome to New Researchers | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/welcome-new-researchers.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "cc9e81a108288b32cac7891d4a29407e3a1884c7a1d164877a709835bbbada71"
+  },
+  {
+    "route": "news/ai-built-environment-paper.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--ai-built-environment-paper.jpg",
+    "capturedAt": "2026-11-12T13:14:10.277Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "AI for the built environment paper accepted for presentation",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "AI for the built environment paper accepted for presentation"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "AI Built Environment Paper | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/ai-built-environment-paper.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "00c7bd48f261ce1494a7a450b519f5bd34d1eda9421bd848ec185a61a5bea125"
+  },
+  {
+    "route": "news/construction-robotics-digital-twins.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--construction-robotics-digital-twins.jpg",
+    "capturedAt": "2026-11-12T13:14:10.607Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Recent progress in construction robotics and digital twins",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Recent progress in construction robotics and digital twins"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Construction Robotics and Digital Twins | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/construction-robotics-digital-twins.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "d3672ffe40b8104aba9a8eb783d1bc00b2943e96e089ea5407c8ee9adb8b32b9"
+  },
+  {
+    "route": "news/ic-bim-research-direction.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--ic-bim-research-direction.jpg",
+    "capturedAt": "2026-11-12T13:14:10.954Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "New research direction on interaction-centered BIM processes",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Interaction-Centered BIM | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/ic-bim-research-direction.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "b35d03844556ce074d4544426c46f8c0b94a08cd077a37ca25f63af5787c2bd2"
+  },
+  {
+    "route": "news/robot-centric-construction-seminar.html",
+    "size": "desktop",
+    "screenshot": "screenshots/desktop/news--robot-centric-construction-seminar.jpg",
+    "capturedAt": "2026-11-12T13:14:11.283Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1000,
+      "width": 1600
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Seminar on robot-centric construction systems",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Robot-Centric Construction Seminar | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/robot-centric-construction-seminar.html",
+    "viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "pixel_size": [
+      1600,
+      1000
+    ],
+    "sha256": "fb4dc101998f3759dec80dbffb256f5c8682ea64a8b03ce7dd9d55407504feb4"
+  },
+  {
+    "route": "index.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/index.jpg",
+    "capturedAt": "2026-11-12T13:14:13.929Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 2871,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "ARC Lab",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "ARC Lab"
+      },
+      {
+        "level": "H2",
+        "text": "About Us"
+      },
+      {
+        "level": "H2",
+        "text": "News"
+      },
+      {
+        "level": "H3",
+        "text": "ARC Lab website launched with updated research directions"
+      },
+      {
+        "level": "H3",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H3",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "ARC Lab | Technion",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/index.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      2871
+    ],
+    "sha256": "0d2629a9aa875839b4770f6afdebe82fae0ac37c71664d75bcfb55b9dc9a5043"
+  },
+  {
+    "route": "people.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/people.jpg",
+    "capturedAt": "2026-11-12T13:14:15.153Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 2731,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Team",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Team"
+      },
+      {
+        "level": "H2",
+        "text": "Lab Director"
+      },
+      {
+        "level": "H3",
+        "text": "Dr. Huaquan Ying"
+      },
+      {
+        "level": "H2",
+        "text": "Postdoc"
+      },
+      {
+        "level": "H3",
+        "text": "Dr. Timson Yeung"
+      },
+      {
+        "level": "H2",
+        "text": "PhD Students"
+      },
+      {
+        "level": "H3",
+        "text": "Zikang Wang"
+      },
+      {
+        "level": "H3",
+        "text": "Zheng Zhao"
+      },
+      {
+        "level": "H2",
+        "text": "Robot"
+      },
+      {
+        "level": "H3",
+        "text": "Unitree A2"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Team | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/people.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      2731
+    ],
+    "sha256": "57227d51f9c2b9f5c4f0b93f43c92aba1b068bc3b532a1a0dd269150cc309803"
+  },
+  {
+    "route": "research.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/research.jpg",
+    "capturedAt": "2026-11-12T13:14:16.340Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1535,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Research",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Research"
+      },
+      {
+        "level": "H2",
+        "text": "Interaction-centered Building Information Modeling (IC-BIM)"
+      },
+      {
+        "level": "H2",
+        "text": "Agent-oriented Design and Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Representation Learning for the Built Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Robot-Centric Construction (RCC)"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": null,
+    "title": "Research | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1535
+    ],
+    "sha256": "bb769b00fdedbb69aa55fd4858c69cbe2776503cbfb0027664c7f38406486a38"
+  },
+  {
+    "route": "publications.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/publications.jpg",
+    "capturedAt": "2026-11-12T13:14:17.707Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 7684,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Publications",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Publications"
+      },
+      {
+        "level": "H2",
+        "text": "2026"
+      },
+      {
+        "level": "H3",
+        "text": "A BIM-Driven Robotic Framework for Autonomous 3D Projection of Construction Layouts"
+      },
+      {
+        "level": "H3",
+        "text": "Laboratory demonstration of digital twin construction"
+      },
+      {
+        "level": "H2",
+        "text": "2025"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Representation Learning: Embedding Multimodality BIM Models into Graphs"
+      },
+      {
+        "level": "H3",
+        "text": "Image-based scan-to-BIM for interior building component reconstruction"
+      },
+      {
+        "level": "H2",
+        "text": "2024"
+      },
+      {
+        "level": "H3",
+        "text": "From Automatic to Autonomous: A Large Language Model-Driven Approach for Generic Building Compliance Checking"
+      },
+      {
+        "level": "H3",
+        "text": "Semantic 3D reconstruction-oriented image dataset for building component segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Classification of Architectural and MEP BIM Objects for Building Performance Evaluation"
+      },
+      {
+        "level": "H3",
+        "text": "Integrated Digital Twin Framework for Adaptive Production Planning and Control in Precast Construction"
+      },
+      {
+        "level": "H3",
+        "text": "Two Fundamental Questions Concerning BIM Data Representation for Machine Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Graph-Based Change Propagation across BIM Design Software Applications"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Generic Semantic Enrichment of BIM Models"
+      },
+      {
+        "level": "H3",
+        "text": "A Deep Natural Language Processing-Based Method for Ontology Learning of Project-Specific Properties from Building Information Models"
+      },
+      {
+        "level": "H2",
+        "text": "2023"
+      },
+      {
+        "level": "H3",
+        "text": "Synthetic Image Data Generation Using BIM and Computer Graphics for Building Scene Understanding"
+      },
+      {
+        "level": "H3",
+        "text": "An Ontology-Aided, Natural Language-Based Approach for Multi-Constraint BIM Model Querying"
+      },
+      {
+        "level": "H3",
+        "text": "CBIM: A Graph-Based Approach to Enhance Interoperability Using Semantic Enrichment"
+      },
+      {
+        "level": "H2",
+        "text": "2022"
+      },
+      {
+        "level": "H3",
+        "text": "A Two-Stage Recursive Ray Tracing Algorithm to Automatically Identify External Building Objects in Building Information Models"
+      },
+      {
+        "level": "H3",
+        "text": "A Voice-Driven IMU-Enabled BIM-Based Multi-User System for Indoor Navigation in Fire Emergencies"
+      },
+      {
+        "level": "H2",
+        "text": "2021"
+      },
+      {
+        "level": "H3",
+        "text": "A Rule-Based System to Automatically Validate IFC Second-Level Space Boundaries for Building Energy Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Generating Second-Level Space Boundaries from Large-Scale IFC-Compliant Building Information Models Using Multiple Geometry Representations"
+      },
+      {
+        "level": "H2",
+        "text": "2020"
+      },
+      {
+        "level": "H3",
+        "text": "Automatic Detection of Geometric Errors in Space Boundaries of IFC-BIM Models Using Monte Carlo Ray Tracing Approach"
+      },
+      {
+        "level": "H2",
+        "text": "2019"
+      },
+      {
+        "level": "H3",
+        "text": "An Algorithm to Facet Curved Walls in IFC BIM for Building Energy Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework of a Multi-User Voice-Driven BIM-Based Navigation System for Fire Emergency Response"
+      },
+      {
+        "level": "H3",
+        "text": "A Mask R-CNN Based Approach to Automatically Construct As-Is IFC BIM Objects from Digital Images"
+      },
+      {
+        "level": "H2",
+        "text": "2018"
+      },
+      {
+        "level": "H3",
+        "text": "Semantic Enrichment of As-Is BIMs for Building Energy Simulation"
+      },
+      {
+        "level": "H3",
+        "text": "VPL-Based Code Translation for Automated Compliance Checking of Building Envelope Energy Efficiency"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Constructing Semantic As-Is Building Energy Models (BEMs) for Existing Buildings Using Digital Images"
+      },
+      {
+        "level": "H2",
+        "text": "2017"
+      },
+      {
+        "level": "H3",
+        "text": "A Framework for Rule-Based Validation of IFC Space Boundaries for Building Energy Analysis"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Publications | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/publications.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      7684
+    ],
+    "sha256": "504bdd2b2cce90457191f414ae232dd5903588acc82cbf373051dc9ce26dd75e"
+  },
+  {
+    "route": "join-us.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/join-us.jpg",
+    "capturedAt": "2026-11-12T13:14:17.848Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 844,
+      "width": 390
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Join Us",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Join Us"
+      },
+      {
+        "level": "H2",
+        "text": "Work With Us"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Join Us | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/join-us.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      390,
+      844
+    ],
+    "sha256": "d3b53124bab8c9c306150159009119c6be5825cfdabdedace3bcce0a8a0d8f83"
+  },
+  {
+    "route": "research/interaction-centered-bim.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/research--interaction-centered-bim.jpg",
+    "capturedAt": "2026-11-12T13:14:42.897Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1368,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Interaction-centered Building Information Modeling (IC-BIM)",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Interaction-centered Building Information Modeling (IC-BIM)"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Interaction-centered Building Information Modeling (IC-BIM) | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/interaction-centered-bim.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1368
+    ],
+    "sha256": "f9736fa2e823c7a2468ee336f5028909ecfb3f0eec95f5ee59928a08a267a906"
+  },
+  {
+    "route": "research/agent-oriented-design-construction.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/research--agent-oriented-design-construction.jpg",
+    "capturedAt": "2026-11-12T13:14:44.056Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1340,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Agent-oriented Design and Construction",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Agent-oriented Design and Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Agent-oriented Design and Construction | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/agent-oriented-design-construction.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1340
+    ],
+    "sha256": "968d1035fc32580c5b26f46cad6525b1fb7a4de9b8dad7ebcd44c566ff929ffc"
+  },
+  {
+    "route": "research/representation-learning.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/research--representation-learning.jpg",
+    "capturedAt": "2026-11-12T13:14:45.235Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1227,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Representation Learning for the Built Environment",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Representation Learning for the Built Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "AI for the built environment paper accepted for presentation"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Representation Learning for the Built Environment | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/representation-learning.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1227
+    ],
+    "sha256": "d147bb46904eda72c6a2b892506cf2469d6d7bf412957e58cbcf925dc1ab4374"
+  },
+  {
+    "route": "research/robot-centric-construction.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/research--robot-centric-construction.jpg",
+    "capturedAt": "2026-11-12T13:14:46.402Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1274,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "Robot-Centric Construction (RCC)",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Robot-Centric Construction (RCC)"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Related News"
+      },
+      {
+        "level": "H3",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H3",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": "Lora, \"Times New Roman\", serif",
+    "title": "Robot-Centric Construction (RCC) | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/research/robot-centric-construction.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1274
+    ],
+    "sha256": "38628b7fb14855000243fb2a7ca758cd04e5254e77a2c8a270b7d8f9e678739b"
+  },
+  {
+    "route": "news/index.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--index.jpg",
+    "capturedAt": "2026-11-12T13:14:47.555Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 1347,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": true,
+    "heading": "News",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "News"
+      },
+      {
+        "level": "H2",
+        "text": "ARC Lab website launched with updated research directions"
+      },
+      {
+        "level": "H2",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      },
+      {
+        "level": "H2",
+        "text": "AI for the built environment paper accepted for presentation"
+      },
+      {
+        "level": "H2",
+        "text": "Recent progress in construction robotics and digital twins"
+      },
+      {
+        "level": "H2",
+        "text": "New research direction on interaction-centered BIM processes"
+      },
+      {
+        "level": "H2",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": true,
+    "paragraphFont": null,
+    "title": "News | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/index.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      1347
+    ],
+    "sha256": "855370d714fd5f1b90a4a50f01dd08aae5c8788e4b6b8f8fb6ba930f069537c7"
+  },
+  {
+    "route": "news/arc-lab-website-launch.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--arc-lab-website-launch.jpg",
+    "capturedAt": "2026-11-12T13:14:48.685Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 928,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "ARC Lab website launched with updated research directions",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "ARC Lab website launched with updated research directions"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "ARC Lab Website Launch | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/arc-lab-website-launch.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      928
+    ],
+    "sha256": "4a35db3ccb6486fbfaa71c83e08ba31ec2126b9c2833dbecb310541cffe07bd2"
+  },
+  {
+    "route": "news/welcome-new-researchers.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--welcome-new-researchers.jpg",
+    "capturedAt": "2026-11-12T13:14:49.848Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 959,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Welcome to the new researchers and students joining ARC Lab",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Welcome to the new researchers and students joining ARC Lab"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Welcome to New Researchers | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/welcome-new-researchers.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      959
+    ],
+    "sha256": "7ec37e3406177c962dc7854575ed1476f90b3def82f0055fd58df151a66b1004"
+  },
+  {
+    "route": "news/ai-built-environment-paper.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--ai-built-environment-paper.jpg",
+    "capturedAt": "2026-11-12T13:14:50.985Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 920,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "AI for the built environment paper accepted for presentation",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "AI for the built environment paper accepted for presentation"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "AI Built Environment Paper | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/ai-built-environment-paper.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      920
+    ],
+    "sha256": "1d7a614a3328801335367ae7ea94fdb1733062e3752a65c35fd96401e4cbaa19"
+  },
+  {
+    "route": "news/construction-robotics-digital-twins.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--construction-robotics-digital-twins.jpg",
+    "capturedAt": "2026-11-12T13:14:52.121Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 920,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Recent progress in construction robotics and digital twins",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Recent progress in construction robotics and digital twins"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Construction Robotics and Digital Twins | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/construction-robotics-digital-twins.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      920
+    ],
+    "sha256": "e955e910991e690eca988af5216aa05bb648bd0c9c8fc01f221bc009258defc8"
+  },
+  {
+    "route": "news/ic-bim-research-direction.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--ic-bim-research-direction.jpg",
+    "capturedAt": "2026-11-12T13:14:53.302Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 951,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "New research direction on interaction-centered BIM processes",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "New research direction on interaction-centered BIM processes"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Interaction-Centered BIM | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/ic-bim-research-direction.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      951
+    ],
+    "sha256": "32518bad4bb8ad532432f02fac86b048fcfd5e61f21e8902fed165e1fcd73138"
+  },
+  {
+    "route": "news/robot-centric-construction-seminar.html",
+    "size": "mobile",
+    "screenshot": "screenshots/mobile/news--robot-centric-construction-seminar.jpg",
+    "capturedAt": "2026-11-12T13:14:54.441Z",
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "brokenImages": [],
+    "document": {
+      "height": 943,
+      "width": 375
+    },
+    "fonts": "loaded",
+    "hasFooter": false,
+    "hasMainNavigation": false,
+    "heading": "Seminar on robot-centric construction systems",
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Seminar on robot-centric construction systems"
+      }
+    ],
+    "imagesPending": [],
+    "menuVisible": false,
+    "paragraphFont": "\"DM Sans\", Arial, sans-serif",
+    "title": "Robot-Centric Construction Seminar | ARC Lab",
+    "url": "https://arc-lab-ying.github.io/ARC_Website/news/robot-centric-construction-seminar.html",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "pixel_size": [
+      375,
+      943
+    ],
+    "sha256": "c3e51144ac83110eff974ddbc0291494a669dea7f438606be4617b956f217c35"
+  }
+]

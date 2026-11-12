@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Living catalog for the Technion-themed Effective HTML Documents design system">
+  <title>Effective HTML Documents · Technion theme</title>
+  <link rel="stylesheet" href="_shared/css/tokens.css">
+  <link rel="stylesheet" href="_shared/css/base.css">
+  <link rel="stylesheet" href="_shared/css/layouts.css">
+  <link rel="stylesheet" href="_shared/css/components.css">
+  <link rel="stylesheet" href="_shared/css/print.css" media="print">
+  <script defer src="_shared/js/document.js"></script>
+</head>
+<body>
+  <div class="eh-reading-progress" data-eh-reading-progress aria-hidden="true"></div>
+  <a class="eh-skip-link" href="#main">Skip to content</a>
+
+  <header class="eh-masthead">
+    <div class="eh-masthead__inner">
+      <div class="eh-masthead__topline"><span class="eh-eyebrow">Technion-branded living style reference</span><button class="eh-button eh-button--quiet" type="button" data-eh-theme-toggle>Dark theme</button></div>
+      <h1>Effective HTML Documents</h1>
+      <p class="eh-masthead__lead">A Technion-themed visual system for meeting notes, learning explainers, documentation, and decks—deep blue first, with restrained golden-ochre accents.</p>
+      <div class="eh-cluster"><span class="eh-badge" data-tone="accent">Technion palette</span><span class="eh-badge">Bundled Rubik</span><span class="eh-badge">Shared CSS</span><span class="eh-badge">LTR + RTL</span></div>
+    </div>
+  </header>
+
+  <div class="eh-page">
+    <aside class="eh-sidebar" aria-label="Catalog sections"><div class="eh-sidebar__label">Catalog</div><nav class="eh-toc" data-eh-toc="#main"></nav></aside>
+    <main class="eh-main" id="main">
+      <section class="eh-callout eh-reading" aria-labelledby="customize"><strong id="customize">One brand layer for the whole collection</strong><p>Edit <code>html-docs/_shared/css/tokens.css</code>. The Technion palette, approved typography, spacing, radius, shadow, and width tokens on this page are the same tokens used by every generated document.</p></section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="tokens">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">01</span><h2 id="tokens">Color and type</h2></div>
+        <div class="eh-grid eh-grid--3">
+          <article class="eh-card" data-swatch="brand-blue"><div class="eh-card__label">Primary · dominant</div><h3>Technion deep blue</h3><code>#002147</code></article>
+          <article class="eh-card" data-swatch="brand-gold"><div class="eh-card__label">Primary · restrained</div><h3>Golden ochre</h3><code>#D59F0F</code></article>
+          <article class="eh-card" data-swatch="brand-sky"><div class="eh-card__label">Secondary</div><h3>Technion sky blue</h3><code>#5686DA</code></article>
+        </div>
+        <div class="eh-card eh-space-before"><div class="eh-card__label">Technion typography</div><h2 class="eh-heading-reset">Clear headings in the approved type stack</h2><p class="eh-masthead__lead">DIN Pro or Reforma is preferred when installed; bundled Rubik provides the approved Hebrew-and-English fallback.</p><p>Body text uses Rubik at a readable measure. Light, regular, medium, and bold weights are supported; italics are intentionally avoided.</p></div>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="scan">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">02</span><h2 id="scan">First-screen scanning</h2></div>
+        <section class="eh-summary-band" aria-label="Example summary"><article class="eh-metric"><span class="eh-metric__value">3</span><span class="eh-metric__label">Decisions</span></article><article class="eh-metric"><span class="eh-metric__value">5</span><span class="eh-metric__label">Actions</span></article><article class="eh-metric"><span class="eh-metric__value">2</span><span class="eh-metric__label">Open questions</span></article><article class="eh-metric"><span class="eh-metric__value">Fri</span><span class="eh-metric__label">Next checkpoint</span></article></section>
+        <div class="eh-grid eh-grid--3"><div class="eh-callout"><strong>Mental model</strong><p>Use accent callouts for the dominant idea.</p></div><div class="eh-callout" data-tone="positive"><strong>Confirmed</strong><p>Use positive tone for verified outcomes.</p></div><div class="eh-callout" data-tone="warning"><strong>Still open</strong><p>Use warning tone for real uncertainty.</p></div></div>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="cards">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">03</span><h2 id="cards">Cards, decisions, and comparison</h2></div>
+        <article class="eh-decision" aria-labelledby="catalog-decision"><div class="eh-cluster"><span class="eh-badge" data-tone="accent">Decision</span><span class="eh-badge" data-tone="warning">Revisit after evidence</span></div><h3 class="eh-decision__question" id="catalog-decision">Adopt one shared token layer for every document.</h3><p>This makes a design change intentional, reviewable, and immediately visible across the collection.</p><p class="eh-decision__meta"><strong>Owner:</strong> Documentation maintainer · <strong>Revisit:</strong> when the visual language changes</p></article>
+        <div class="eh-comparison eh-space-before"><article><span class="eh-badge">Static</span><h3>Explain a stable relationship</h3><p>Prefer prose, tables, or SVG when interaction adds no explanatory value.</p></article><article><span class="eh-badge" data-tone="accent">Interactive</span><h3>Reveal cause and effect</h3><p>Add controls only when manipulating the model changes what the reader can understand.</p></article></div>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="tabs">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">04</span><h2 id="tabs">Parallel views and progressive detail</h2></div>
+        <div class="eh-tabs" data-eh-tabs>
+          <div class="eh-tablist" role="tablist" aria-label="Example views"><button type="button" role="tab" id="catalog-concept-tab" aria-controls="catalog-concept-panel" aria-selected="true">Concept</button><button type="button" role="tab" id="catalog-markup-tab" aria-controls="catalog-markup-panel" aria-selected="false" tabindex="-1">Markup</button><button type="button" role="tab" id="catalog-result-tab" aria-controls="catalog-result-panel" aria-selected="false" tabindex="-1">Result</button></div>
+          <section role="tabpanel" id="catalog-concept-panel" aria-labelledby="catalog-concept-tab"><p>Tabs keep equivalent views of the same example spatially aligned.</p></section>
+          <section role="tabpanel" id="catalog-markup-panel" aria-labelledby="catalog-markup-tab" hidden><pre><code>&lt;div class="eh-tabs" data-eh-tabs&gt;...&lt;/div&gt;</code></pre></section>
+          <section role="tabpanel" id="catalog-result-panel" aria-labelledby="catalog-result-tab" hidden><p>The reader switches context without losing their place in the larger explanation.</p></section>
+        </div>
+        <div class="eh-space-before"><button class="eh-button eh-button--quiet" type="button" data-eh-toggle-all=".catalog-details" aria-expanded="false">Expand details</button><details class="eh-details catalog-details"><summary>When should content be collapsible?</summary><div><p>When it is optional depth, an answer, a diagnostic, or an advanced variant. Keep required steps visible.</p></div></details><details class="eh-details catalog-details"><summary>What should remain static?</summary><div><p>The essential conclusion, source context, and information required to navigate the page.</p></div></details></div>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="timeline">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">05</span><h2 id="timeline">Sequence and ownership</h2></div>
+        <ol class="eh-timeline"><li class="eh-timeline__item"><div class="eh-timeline__when">09:00</div><div class="eh-timeline__body"><h3>Frame the question</h3><p>State the decision or learning task before presenting detail.</p></div></li><li class="eh-timeline__item"><div class="eh-timeline__when">09:20</div><div class="eh-timeline__body"><h3>Compare evidence</h3><p>Use aligned examples, a diagram, or an exact table.</p></div></li><li class="eh-timeline__item"><div class="eh-timeline__when">09:45</div><div class="eh-timeline__body"><h3>Record the outcome</h3><p>Preserve caveats, dissent, owners, and missing fields.</p></div></li></ol>
+        <div class="eh-table-wrap"><table class="eh-table"><thead><tr><th scope="col">Owner</th><th scope="col">Action</th><th scope="col">Due</th><th scope="col">Status</th></tr></thead><tbody><tr><td>Maya</td><td>Review the learning objectives</td><td>Tuesday</td><td><span class="eh-badge" data-tone="positive">Ready</span></td></tr><tr><td>Unassigned</td><td>Validate the source references</td><td>Not specified</td><td><span class="eh-badge" data-tone="warning">Open</span></td></tr></tbody></table></div>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="diagram">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">06</span><h2 id="diagram">Diagram language</h2></div>
+        <figure class="eh-diagram"><svg viewBox="0 0 760 260" role="img" aria-labelledby="catalog-diagram-title catalog-diagram-desc"><title id="catalog-diagram-title">Source to understanding flow</title><desc id="catalog-diagram-desc">Source notes become a structured HTML document which supports scanning, exploration, and recall.</desc><defs><marker id="catalog-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--eh-color-accent)"/></marker></defs><rect x="20" y="80" width="180" height="100" rx="18" fill="var(--eh-color-neutral-soft)" stroke="var(--eh-color-line-strong)"/><text x="110" y="135" text-anchor="middle" fill="var(--eh-color-ink)" font-family="var(--eh-font-sans)" font-weight="700">Source notes</text><line x1="210" y1="130" x2="285" y2="130" stroke="var(--eh-color-accent)" stroke-width="3" marker-end="url(#catalog-arrow)"/><rect x="300" y="60" width="180" height="140" rx="18" fill="var(--eh-color-accent-soft)" stroke="var(--eh-color-accent)"/><text x="390" y="125" text-anchor="middle" fill="var(--eh-color-ink)" font-family="var(--eh-font-sans)" font-weight="700">Shared HTML</text><text x="390" y="150" text-anchor="middle" fill="var(--eh-color-ink-soft)" font-family="var(--eh-font-sans)" font-size="14">structure + visuals</text><line x1="490" y1="130" x2="565" y2="130" stroke="var(--eh-color-accent)" stroke-width="3" marker-end="url(#catalog-arrow)"/><rect x="580" y="80" width="160" height="100" rx="18" fill="var(--eh-color-positive-soft)" stroke="var(--eh-color-positive)"/><text x="660" y="135" text-anchor="middle" fill="var(--eh-color-ink)" font-family="var(--eh-font-sans)" font-weight="700">Understanding</text></svg><figcaption>Inline SVG uses the same semantic tokens as the rest of the page, so theme changes reach the diagram too.</figcaption></figure>
+      </section>
+
+      <section class="eh-section eh-reading" aria-labelledby="glossary">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">07</span><h2 id="glossary">Linked glossary</h2></div>
+        <p>A <span class="eh-term" data-term="mental-model" tabindex="0">mental model</span> is useful when it helps the reader predict what happens next. A <span class="eh-term" data-term="progressive-disclosure" tabindex="0">progressive disclosure</span> pattern keeps optional depth close without making the main path dense.</p>
+        <dl class="eh-glossary"><dt data-definition="mental-model">Mental model</dt><dd>A compact representation that supports reasoning and prediction.</dd><dt data-definition="progressive-disclosure">Progressive disclosure</dt><dd>Showing essential information first and optional detail on demand.</dd></dl>
+      </section>
+
+      <section class="eh-section eh-reading" aria-labelledby="rtl">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">08</span><h2 id="rtl">Bidirectional content</h2></div>
+        <article class="eh-card" lang="he" dir="rtl"><div class="eh-card__label">דוגמה מימין לשמאל</div><h3>העיצוב משתמש במאפיינים לוגיים</h3><p>מרווחים, גבולות וצירי זמן מסתגלים לכיוון המסמך בלי גיליון סגנונות נפרד.</p><span class="eh-badge" data-tone="accent">עברית</span></article>
+      </section>
+    </main>
+  </div>
+
+  <footer class="eh-footer"><div class="eh-footer__inner">This catalog follows the official <a href="https://marketing.technion.ac.il/plugging-in/brand-color/">Technion colors</a>, <a href="https://marketing.technion.ac.il/plugging-in/fonts/">typography</a>, and <a href="https://marketing.technion.ac.il/plugging-in/presentation/">presentation guidance</a>. Keep it working when components or tokens change.</div></footer>
+</body>
+</html>

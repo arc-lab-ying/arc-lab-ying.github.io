@@ -1,0 +1,150 @@
+{
+  "checked_at": "2026-11-12T13:14:32.429029+00:00",
+  "method": "HTTP GET; SHA-256 after CRLF-to-LF normalization",
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/index.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "4bae5abd0fd6b40cc96e1b22a8dede22fe9975b129279b04eb895107001e218f",
+      "live_sha256_lf": "4bae5abd0fd6b40cc96e1b22a8dede22fe9975b129279b04eb895107001e218f"
+    },
+    {
+      "path": "join-us.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/join-us.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "8c5fae4cf6db78d37b9dd8955fc32c0ddd4ab9321c88088e7da78f1ae443ca85",
+      "live_sha256_lf": "8c5fae4cf6db78d37b9dd8955fc32c0ddd4ab9321c88088e7da78f1ae443ca85"
+    },
+    {
+      "path": "news/ai-built-environment-paper.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/ai-built-environment-paper.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "4e6f1aa36c2d0231c4ddbeca4d150a82a8d7b0a4ac7c4fc4d4163e3fb9fd5023",
+      "live_sha256_lf": "4e6f1aa36c2d0231c4ddbeca4d150a82a8d7b0a4ac7c4fc4d4163e3fb9fd5023"
+    },
+    {
+      "path": "news/arc-lab-website-launch.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/arc-lab-website-launch.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "ae5a408dcf2f2652ae7f0b83dad9b64f921b6e2aa0c9fd99aa97f79560d9ed59",
+      "live_sha256_lf": "ae5a408dcf2f2652ae7f0b83dad9b64f921b6e2aa0c9fd99aa97f79560d9ed59"
+    },
+    {
+      "path": "news/construction-robotics-digital-twins.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/construction-robotics-digital-twins.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "112b72be927720582d6691e2d69aaaff438186abf74cfdad31547a35cee19dd3",
+      "live_sha256_lf": "112b72be927720582d6691e2d69aaaff438186abf74cfdad31547a35cee19dd3"
+    },
+    {
+      "path": "news/ic-bim-research-direction.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/ic-bim-research-direction.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "dc98abe2b12022bc8f42e74b05e4c2f4acc2eedded55f2cbf60fdd8d639ef332",
+      "live_sha256_lf": "dc98abe2b12022bc8f42e74b05e4c2f4acc2eedded55f2cbf60fdd8d639ef332"
+    },
+    {
+      "path": "news/index.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/index.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "7978675b5d4f52b5e649552f60ff3e818c5720605198288915249a240e8300d3",
+      "live_sha256_lf": "7978675b5d4f52b5e649552f60ff3e818c5720605198288915249a240e8300d3"
+    },
+    {
+      "path": "news/robot-centric-construction-seminar.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/robot-centric-construction-seminar.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "36d5ae43bba9670d6e52edd8f8d09577474d43aea676cbcd1becd98e6d75c947",
+      "live_sha256_lf": "36d5ae43bba9670d6e52edd8f8d09577474d43aea676cbcd1becd98e6d75c947"
+    },
+    {
+      "path": "news/welcome-new-researchers.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/news/welcome-new-researchers.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "58ed975c35948e7beb7e11249d58529c75c5ce1308e27c545d5111f33b6f8016",
+      "live_sha256_lf": "58ed975c35948e7beb7e11249d58529c75c5ce1308e27c545d5111f33b6f8016"
+    },
+    {
+      "path": "people.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/people.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "f9d00c9ce0657df264b9271a6a9baec9922fffa29f74317f8f9ec26d7bcc00b5",
+      "live_sha256_lf": "f9d00c9ce0657df264b9271a6a9baec9922fffa29f74317f8f9ec26d7bcc00b5"
+    },
+    {
+      "path": "publications.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/publications.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "51c3aa0d8cfe4273a2f7c7e17281d7a5833389f25ed37a0a0485bfa6fbe1942b",
+      "live_sha256_lf": "51c3aa0d8cfe4273a2f7c7e17281d7a5833389f25ed37a0a0485bfa6fbe1942b"
+    },
+    {
+      "path": "research/agent-oriented-design-construction.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/research/agent-oriented-design-construction.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "64e2ddbf3817c076734dd847285105925c9910b652db0c4ecf222660028ef972",
+      "live_sha256_lf": "64e2ddbf3817c076734dd847285105925c9910b652db0c4ecf222660028ef972"
+    },
+    {
+      "path": "research/interaction-centered-bim.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/research/interaction-centered-bim.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "e7f80883780ef44b7e46b24123c2f0bf35152d71f7c4d461fb160bc48c292185",
+      "live_sha256_lf": "e7f80883780ef44b7e46b24123c2f0bf35152d71f7c4d461fb160bc48c292185"
+    },
+    {
+      "path": "research/representation-learning.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/research/representation-learning.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "d7c94eb21ca23add2feb2210d466189379758952fc9eaf7ae7d82a03c49cf9e6",
+      "live_sha256_lf": "d7c94eb21ca23add2feb2210d466189379758952fc9eaf7ae7d82a03c49cf9e6"
+    },
+    {
+      "path": "research/robot-centric-construction.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/research/robot-centric-construction.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "2b8922b92fdbf2aeff3577a50103fa8af4117fe939ec61ad174bd3402a98eabf",
+      "live_sha256_lf": "2b8922b92fdbf2aeff3577a50103fa8af4117fe939ec61ad174bd3402a98eabf"
+    },
+    {
+      "path": "research.html",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/research.html",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "651e7f3997fabf47cb03cc6cc4b47fed77c7c7d4d0040e300edeb22867dac806",
+      "live_sha256_lf": "651e7f3997fabf47cb03cc6cc4b47fed77c7c7d4d0040e300edeb22867dac806"
+    },
+    {
+      "path": "styles.css",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/styles.css",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "d566b381e869176a96ec4ce8fa1f624627bbf910485c1cc82eee035be8331941",
+      "live_sha256_lf": "d566b381e869176a96ec4ce8fa1f624627bbf910485c1cc82eee035be8331941"
+    },
+    {
+      "path": "script.js",
+      "url": "https://arc-lab-ying.github.io/ARC_Website/script.js",
+      "status": 200,
+      "matches_checkout": true,
+      "local_sha256_lf": "74a3dd6075203149e663281b32a843b1edc1f828531bacaf7c8ee6608fdeb29a",
+      "live_sha256_lf": "74a3dd6075203149e663281b32a843b1edc1f828531bacaf7c8ee6608fdeb29a"
+    }
+  ]
+}

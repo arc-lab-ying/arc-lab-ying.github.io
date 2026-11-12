@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Rubik Local";
+  src: url("../fonts/Rubik-Variable.ttf") format("truetype-variations");
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+
+  /* Technion theme. Deep blue should dominate; use golden ochre sparingly. */
+  --eh-color-brand-blue: #002147;
+  --eh-color-brand-gold: #d59f0f;
+  --eh-color-brand-gold-strong: #7a5700;
+  --eh-color-brand-gold-soft: #f8edc9;
+  --eh-color-brand-sky: #5686da;
+  --eh-color-brand-cyan: #32b1ca;
+  --eh-color-brand-purple: #4d4084;
+  --eh-color-brand-magenta: #ae3b72;
+  --eh-color-brand-red: #e31d1a;
+
+  /* Change these semantic tokens to restyle every document. */
+  --eh-color-canvas: #f1f4f7;
+  --eh-color-surface: #ffffff;
+  --eh-color-surface-raised: #ffffff;
+  --eh-color-ink: #002147;
+  --eh-color-ink-soft: #40566e;
+  --eh-color-ink-faint: #687c90;
+  --eh-color-line: #d5dde5;
+  --eh-color-line-strong: #a8b7c7;
+  --eh-color-accent: #002147;
+  --eh-color-accent-strong: #00162f;
+  --eh-color-accent-soft: #e6edf5;
+  --eh-color-positive: #3f6f18;
+  --eh-color-positive-soft: #edf6df;
+  --eh-color-warning: #7a5700;
+  --eh-color-warning-soft: #f8edc9;
+  --eh-color-danger: #b91916;
+  --eh-color-danger-soft: #fde7e6;
+  --eh-color-neutral-soft: #e9eef3;
+  --eh-color-focus: #5686da;
+  --eh-color-code: #001a39;
+  --eh-color-code-ink: #f3f7fb;
+
+  --eh-font-sans: "Rubik Local", Rubik, Tahoma, Arial, ui-sans-serif, system-ui, sans-serif;
+  --eh-font-display: "DIN Pro", Reforma, "Rubik Local", Rubik, Tahoma, Arial, sans-serif;
+  --eh-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  --eh-text-xs: 0.75rem;
+  --eh-text-sm: 0.875rem;
+  --eh-text-base: clamp(1rem, 0.97rem + 0.14vw, 1.075rem);
+  --eh-text-lg: clamp(1.15rem, 1.08rem + 0.35vw, 1.35rem);
+  --eh-text-xl: clamp(1.4rem, 1.22rem + 0.9vw, 1.9rem);
+  --eh-text-2xl: clamp(1.9rem, 1.55rem + 1.8vw, 3rem);
+  --eh-text-3xl: clamp(2.5rem, 1.8rem + 3.5vw, 4.8rem);
+
+  --eh-space-1: 0.25rem;
+  --eh-space-2: 0.5rem;
+  --eh-space-3: 0.75rem;
+  --eh-space-4: 1rem;
+  --eh-space-5: 1.5rem;
+  --eh-space-6: 2rem;
+  --eh-space-7: 3rem;
+  --eh-space-8: 4.5rem;
+
+  --eh-radius-sm: 0.4rem;
+  --eh-radius-md: 0.75rem;
+  --eh-radius-lg: 1.15rem;
+  --eh-radius-pill: 999px;
+  --eh-shadow-sm: 0 1px 2px rgb(0 33 71 / 0.07), 0 5px 16px rgb(0 33 71 / 0.06);
+  --eh-shadow-lg: 0 24px 60px rgb(0 33 71 / 0.16);
+  --eh-reading-width: 68ch;
+  --eh-page-width: 76rem;
+  --eh-sidebar-width: 15rem;
+  --eh-border: 1px solid var(--eh-color-line);
+  --eh-transition: 160ms ease;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --eh-color-brand-gold: #dfae27;
+  --eh-color-brand-gold-strong: #f1c85f;
+  --eh-color-brand-gold-soft: #4c3a0d;
+  --eh-color-canvas: #00152f;
+  --eh-color-surface: #06294b;
+  --eh-color-surface-raised: #0b345d;
+  --eh-color-ink: #f7f9fc;
+  --eh-color-ink-soft: #d2dce8;
+  --eh-color-ink-faint: #9db0c3;
+  --eh-color-line: #284a69;
+  --eh-color-line-strong: #58738d;
+  --eh-color-accent: #dfae27;
+  --eh-color-accent-strong: #f1c85f;
+  --eh-color-accent-soft: #203b5b;
+  --eh-color-positive: #b6de7d;
+  --eh-color-positive-soft: #274321;
+  --eh-color-warning: #f1c85f;
+  --eh-color-warning-soft: #4c3a0d;
+  --eh-color-danger: #ff8b87;
+  --eh-color-danger-soft: #4c2427;
+  --eh-color-neutral-soft: #173b5d;
+  --eh-color-code: #000d1e;
+  --eh-color-code-ink: #eef4fa;
+  --eh-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.2), 0 5px 16px rgb(0 0 0 / 0.18);
+  --eh-shadow-lg: 0 24px 60px rgb(0 0 0 / 0.35);
+}

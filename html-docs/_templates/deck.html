@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" dir="{{DIR}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Presentation: {{TITLE}}">
+  <title>{{TITLE}}</title>
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/tokens.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/base.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/layouts.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/components.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/deck.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/print.css" media="print">
+  <script defer src="{{ASSET_PREFIX}}/js/document.js"></script>
+  <script defer src="{{ASSET_PREFIX}}/js/deck.js"></script>
+</head>
+<body class="eh-deck">
+  <a class="eh-skip-link" href="#slide-1">Skip to slides</a>
+  <main class="eh-deck-stage" aria-label="{{TITLE}} presentation">
+    <section class="eh-slide" id="slide-1" tabindex="-1">
+      <div class="eh-slide__inner"><span class="eh-eyebrow">Presentation · {{DATE}}</span><h1>{{TITLE}}</h1><p>[One-sentence premise and presenter or source context.]</p></div>
+    </section>
+    <section class="eh-slide" id="slide-2" tabindex="-1">
+      <div class="eh-slide__inner"><span class="eh-eyebrow">The question</span><h2>[What should the audience understand?]</h2><p>[Enough context to make the question meaningful.]</p></div>
+    </section>
+    <section class="eh-slide" id="slide-3" tabindex="-1">
+      <div class="eh-slide__inner"><span class="eh-eyebrow">The structure</span><h2>[One relationship]</h2><div class="eh-comparison"><article><h3>[A]</h3><p>[Evidence or explanation.]</p></article><article><h3>[B]</h3><p>[Evidence or explanation.]</p></article></div></div>
+    </section>
+    <section class="eh-slide eh-slide--accent" id="slide-4" tabindex="-1">
+      <div class="eh-slide__inner"><span class="eh-eyebrow">Takeaway</span><h2>[The conclusion worth remembering]</h2><p>[Next action, decision, or question.]</p></div>
+    </section>
+  </main>
+
+  <nav class="eh-deck-controls" aria-label="Slide controls"><button type="button" data-eh-slide-prev aria-label="Previous slide">←</button><output data-eh-slide-counter aria-live="polite">1 / 4</output><button type="button" data-eh-slide-next aria-label="Next slide">→</button></nav>
+</body>
+</html>

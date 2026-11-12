@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" dir="{{DIR}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentation: {{TITLE}}">
+  <title>{{TITLE}}</title>
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/tokens.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/base.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/layouts.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/components.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}/css/print.css" media="print">
+  <script defer src="{{ASSET_PREFIX}}/js/document.js"></script>
+</head>
+<body>
+  <div class="eh-reading-progress" data-eh-reading-progress aria-hidden="true"></div>
+  <a class="eh-skip-link" href="#main">Skip to content</a>
+
+  <header class="eh-masthead">
+    <div class="eh-masthead__inner">
+      <div class="eh-masthead__topline"><span class="eh-eyebrow">Documentation · {{DATE}}</span><button class="eh-button eh-button--quiet" type="button" data-eh-theme-toggle>Dark theme</button></div>
+      <h1>{{TITLE}}</h1>
+      <p class="eh-masthead__lead">[Scope, audience, and the task this document helps them complete.]</p>
+      <dl class="eh-meta"><div><dt>Status</dt><dd>[Draft/current/deprecated]</dd></div><div><dt>Owner</dt><dd>[Name/team]</dd></div><div><dt>Version</dt><dd>[Version or date]</dd></div><div><dt>Prerequisites</dt><dd>[Short summary]</dd></div></dl>
+    </div>
+  </header>
+
+  <div class="eh-page">
+    <aside class="eh-sidebar" aria-label="On this page"><div class="eh-sidebar__label">On this page</div><nav class="eh-toc" data-eh-toc="#main"></nav></aside>
+    <main class="eh-main" id="main">
+      <section class="eh-callout eh-reading" aria-labelledby="summary"><strong id="summary">In brief</strong><p>[What the system or procedure does, where it fits, and the dominant constraint.]</p></section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="map">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">01</span><h2 id="map">System map</h2></div>
+        <figure class="eh-diagram">
+          <svg viewBox="0 0 760 300" role="img" aria-labelledby="map-title map-desc">
+            <title id="map-title">[System map title]</title><desc id="map-desc">[Describe parts, direction, and the key relationship.]</desc>
+            <defs><marker id="doc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--eh-color-accent)"/></marker></defs>
+            <rect x="30" y="95" width="190" height="110" rx="18" fill="var(--eh-color-accent-soft)" stroke="var(--eh-color-accent)"/><text x="125" y="155" text-anchor="middle" fill="var(--eh-color-ink)" font-family="var(--eh-font-sans)" font-weight="700">[Input]</text>
+            <line x1="230" y1="150" x2="520" y2="150" stroke="var(--eh-color-accent)" stroke-width="3" marker-end="url(#doc-arrow)"/>
+            <rect x="540" y="95" width="190" height="110" rx="18" fill="var(--eh-color-positive-soft)" stroke="var(--eh-color-positive)"/><text x="635" y="155" text-anchor="middle" fill="var(--eh-color-ink)" font-family="var(--eh-font-sans)" font-weight="700">[Outcome]</text>
+          </svg>
+          <figcaption>[Explain what the map clarifies and where details live.]</figcaption>
+        </figure>
+      </section>
+
+      <section class="eh-section eh-reading" aria-labelledby="procedure">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">02</span><h2 id="procedure">Procedure</h2></div>
+        <ol class="eh-timeline">
+          <li class="eh-timeline__item"><div class="eh-timeline__when">Step 1</div><div class="eh-timeline__body"><h3>[Prepare]</h3><p>[Action, prerequisite, and observable result.]</p><pre><code>[command or example]</code></pre></div></li>
+          <li class="eh-timeline__item"><div class="eh-timeline__when">Step 2</div><div class="eh-timeline__body"><h3>[Execute]</h3><p>[Action and observable result.]</p></div></li>
+          <li class="eh-timeline__item"><div class="eh-timeline__when">Step 3</div><div class="eh-timeline__body"><h3>[Verify]</h3><p>[Specific check that distinguishes success from partial failure.]</p></div></li>
+        </ol>
+      </section>
+
+      <section class="eh-section eh-breakout" aria-labelledby="reference">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">03</span><h2 id="reference">Reference</h2></div>
+        <div class="eh-table-wrap"><table class="eh-table"><thead><tr><th scope="col">Item</th><th scope="col">Meaning</th><th scope="col">Default</th><th scope="col">Notes</th></tr></thead><tbody><tr><td><code>[name]</code></td><td>[Meaning]</td><td>[Value]</td><td>[Constraint or example]</td></tr></tbody></table></div>
+      </section>
+
+      <section class="eh-section eh-reading" aria-labelledby="failure-modes">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">04</span><h2 id="failure-modes">Failure modes and troubleshooting</h2></div>
+        <details class="eh-details" open><summary>[Symptom]</summary><div><p><strong>Likely cause:</strong> [Cause.]</p><p><strong>Check:</strong> [Diagnostic.]</p><p><strong>Resolution:</strong> [Scoped fix.]</p></div></details>
+        <details class="eh-details"><summary>[Optional or advanced case]</summary><div><p>[Details.]</p></div></details>
+      </section>
+
+      <section class="eh-section eh-reading" aria-labelledby="sources">
+        <div class="eh-section-heading"><span class="eh-section-heading__number">05</span><h2 id="sources">Sources and change notes</h2></div>
+        <ol class="eh-source-list"><li>[Primary source or internal document.]</li></ol>
+        <p><strong>{{DATE}}:</strong> [What changed and why.]</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="eh-footer"><div class="eh-footer__inner">Last updated {{DATE}} · Appearance is shared through <code>html-docs/_shared/css/tokens.css</code>.</div></footer>
+</body>
+</html>

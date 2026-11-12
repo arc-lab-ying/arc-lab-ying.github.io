@@ -1,0 +1,95 @@
+@media print {
+  :root {
+    color-scheme: light;
+    --eh-color-canvas: #ffffff;
+    --eh-color-surface: #ffffff;
+    --eh-color-surface-raised: #ffffff;
+    --eh-color-ink: #111111;
+    --eh-color-ink-soft: #333333;
+    --eh-color-line: #b5b5b5;
+    --eh-shadow-sm: none;
+    --eh-shadow-lg: none;
+  }
+
+  @page {
+    margin: 1.6cm;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+  }
+
+  body {
+    font-size: 10.5pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  .eh-skip-link,
+  .eh-sidebar,
+  .eh-button,
+  .eh-reading-progress,
+  .eh-deck-controls,
+  [data-eh-theme-toggle],
+  [data-eh-toggle-all],
+  [data-eh-copy-target] {
+    display: none !important;
+  }
+
+  .eh-masthead__inner,
+  .eh-page,
+  .eh-footer__inner {
+    inline-size: 100%;
+  }
+
+  .eh-page {
+    display: block;
+    padding-block: 1rem;
+  }
+
+  .eh-reading,
+  .eh-breakout {
+    max-inline-size: none;
+    inline-size: 100%;
+  }
+
+  .eh-card,
+  .eh-callout,
+  .eh-decision,
+  .eh-details,
+  .eh-table-wrap,
+  .eh-diagram,
+  .eh-tabs {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .eh-details:not([open]) > *:not(summary) {
+    display: block;
+  }
+
+  .eh-tabs [role="tabpanel"] {
+    display: block !important;
+    border-block-start: var(--eh-border);
+  }
+
+  .eh-tablist {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  pre,
+  table,
+  figure {
+    break-inside: avoid;
+  }
+}
