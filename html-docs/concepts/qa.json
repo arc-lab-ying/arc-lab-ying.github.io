@@ -1,0 +1,55 @@
+{
+  "reviewed_on": "2026-11-12",
+  "scope": "Three additional landing-page prototypes and a local comparison wrapper; original pages and Concept 01 unchanged",
+  "browser_checks": {
+    "common_viewports": [[1440, 1000], [768, 1024], [390, 844]],
+    "horizontal_overflow": false,
+    "original_arc_and_technion_logos_render": true,
+    "supporting_sections_visually_reviewed": true,
+    "parentsquare": {
+      "hero_and_director_images_load": true,
+      "research_action_scrolls_to_directions": true,
+      "screenshots": ["02-parentsquare/desktop.jpg", "02-parentsquare/mobile.jpg"]
+    },
+    "growthbook": {
+      "static_research_diagram_renders": true,
+      "research_action_scrolls_to_overview": true,
+      "robot_centric_construction_link_navigation_verified": true,
+      "screenshots": ["03-growthbook/desktop.jpg", "03-growthbook/mobile.jpg"]
+    },
+    "boostlab": {
+      "additional_narrow_viewport": [320, 740],
+      "clipped_navigation_tiles_at_narrow_viewport": 0,
+      "four_research_links_permanently_visible": true,
+      "pointer_lights_grid_cells": true,
+      "keyboard_focus_visible": true,
+      "enter_opens_agent_oriented_research_page": true,
+      "original_arc_wordmark_mask_renders": true,
+      "screenshots": ["04-boostlab/desktop.jpg", "04-boostlab/mobile.jpg", "04-boostlab/hover.jpg"]
+    },
+    "comparison": {
+      "next_and_previous_buttons": true,
+      "arrow_keys_while_focused_inside_iframe": true,
+      "wraps_between_first_and_last_concepts": true,
+      "selection_updates_url_variant": true,
+      "review_bar_usable_on_phone": true,
+      "viewport_override_reset_after_review": true
+    }
+  },
+  "source_checks": {
+    "parentsquare": {"unique_ids": 5, "h1_count": 1, "local_references_checked": 28},
+    "growthbook": {"unique_ids": 11, "h1_count": 1, "local_references_checked": 26},
+    "boostlab": {"unique_ids": 6, "h1_count": 1, "local_references_checked": 27},
+    "comparison": {"unique_ids": 6, "local_references_checked": 1},
+    "missing_routes_or_fragments": [],
+    "boostlab_and_comparison_javascript_syntax": "pass",
+    "full_logo_geometry_preserved": true,
+    "wordmark_geometry_preserved": true,
+    "logo_contains_raster_images_or_font_text": false
+  },
+  "limits": [
+    "Concept landing pages only; linked detail pages keep the original design.",
+    "Local review only; not deployed or merged into main.",
+    "Phone sizes were checked in the browser, not on a physical device."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "assets/arc-logo.svg",
+  "source_is_vector": true,
+  "paths_preserved_exactly": true,
+  "wordmark_viewbox": "376.875 438 846.375 254.875",
+  "full_logo_sha256": "fc1ac181e513031bef0aa0c01dbd04f5f7bfdea41d271f1b570e57409929a743",
+  "wordmark_sha256": "8ded209f6b3c48879b5d8585f05d8926932eea949188682545e38155d5b63b39",
+  "contains_raster_images": false,
+  "contains_font_text": false
+}

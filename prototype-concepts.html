@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- Local-only review wrapper. The four landing-page concepts remain separate from the current site. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARC Lab — Compare landing-page concepts</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: #f7f9fb; color: #0c2947; font: 14px Arial, sans-serif; }
+    iframe { display: block; width: 100%; height: 100vh; height: 100dvh; border: 0; background: white; }
+    [hidden] { display: none !important; }
+    .review-switcher { position: fixed; z-index: 100; bottom: 16px; left: 50%; transform: translateX(-50%); display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 12px; width: min(520px, calc(100% - 24px)); padding: 8px; border: 1px solid #c9d7e4; border-radius: 16px; background: #fff; box-shadow: 0 6px 28px #0c294725; }
+    .review-switcher button { width: 44px; height: 44px; border: 1px solid #dbe5ee; border-radius: 10px; background: #edf3f8; color: #0c2947; font: 22px Arial, sans-serif; cursor: pointer; }
+    .review-switcher button:hover { color: white; background: #1f5f91; }
+    .review-switcher button:focus-visible { outline: 3px solid #1f5f91; outline-offset: 2px; }
+    .review-label { text-align: center; line-height: 1.35; }
+    .review-label strong { display: block; font-size: 13px; }
+    .review-label span { display: block; margin-top: 3px; font-size: 11px; color: #597084; }
+    @media print { .review-switcher { display: none; } }
+  </style>
+</head>
+<body>
+  <iframe id="concept-frame" src="prototype-parentsquare.html" title="ARC Lab — ParentSquare-inspired concept"></iframe>
+  <nav class="review-switcher" id="review-switcher" aria-label="Compare design concepts" hidden>
+    <button id="previous-concept" type="button" aria-label="Previous concept">←</button>
+    <div class="review-label" aria-live="polite"><strong id="concept-label">02 · ParentSquare-inspired</strong><span id="concept-description">Institutional · restrained</span></div>
+    <button id="next-concept" type="button" aria-label="Next concept">→</button>
+  </nav>
+  <script>
+    const concepts = [
+      { key: 'minimal', file: 'prototype-minimal.html', name: '01 · Minimal / Motion', description: 'Oversized type · stationary A2' },
+      { key: 'parentsquare', file: 'prototype-parentsquare.html', name: '02 · ParentSquare-inspired', description: 'Institutional · restrained' },
+      { key: 'growthbook', file: 'prototype-growthbook.html', name: '03 · GrowthBook-inspired', description: 'Clear overview · restrained' },
+      { key: 'boostlab', file: 'prototype-boostlab.html', name: '04 · Boostlab-inspired', description: 'Interactive grid · expressive' }
+    ];
+    const frame = document.querySelector('#concept-frame');
+    const params = new URLSearchParams(location.search);
+    let current = Math.max(0, concepts.findIndex(concept => concept.key === (params.get('variant') || 'parentsquare')));
+    function show(index) {
+      current = (index + concepts.length) % concepts.length;
+      const concept = concepts[current];
+      frame.src = concept.file;
+      frame.title = 'ARC Lab — ' + concept.name;
+      document.querySelector('#concept-label').textContent = concept.name;
+      document.querySelector('#concept-description').textContent = concept.description;
+      const url = new URL(location.href);
+      url.searchParams.set('variant', concept.key);
+      history.replaceState(null, '', url);
+      document.title = 'ARC Lab concepts — ' + concept.name;
+    }
+    function handleKey(event) {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      if (event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      show(current + (event.key === 'ArrowRight' ? 1 : -1));
+    }
+    const localReview = ['127.0.0.1', 'localhost', ''].includes(location.hostname);
+    if (localReview) {
+      document.querySelector('#review-switcher').hidden = false;
+      document.querySelector('#previous-concept').addEventListener('click', () => show(current - 1));
+      document.querySelector('#next-concept').addEventListener('click', () => show(current + 1));
+      document.addEventListener('keydown', handleKey);
+      frame.addEventListener('load', () => frame.contentDocument?.addEventListener('keydown', handleKey));
+    }
+    show(current);
+  </script>
+</body>
+</html>
