@@ -1,0 +1,23 @@
+# Typography and Research readability review
+
+The four complete prototypes now use seven semantic type roles per theme. At the default browser setting, body and action text use 1rem (16px); meaningful supporting text and navigation use at least .875rem (14px). Larger fluid display styles preserve each concept's character. Minimal retains a small number of deliberate rem-bounded display exceptions.
+
+These are practical design choices, not a WCAG minimum-font-size rule. [USWDS typography guidance](https://designsystem.digital.gov/components/typography/) informs comfortable reading sizes, line spacing and line lengths; [MDN's font-size guidance](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-size) explains relative sizing. Reading templates use unitless line heights around 1.5–1.7 and restrained text widths. Layouts wrap and grow instead of reducing essential text to fit a phone.
+
+Research numbers and Read more actions are clearer in Minimal, including its homepage research index. Boostlab's four overview cards are native links across their full surface, with visible focus and no nested links. Redundant lab-name subheaders were removed from all four overviews; the sixteen detail pages already had no duplicate lab-name line. Useful Research/Direction breadcrumbs remain. The common comparison bar now uses 16px labels,14px support text and 44px arrow controls.
+
+[Open the Research comparison](http://127.0.0.1:8771/prototype-concepts.html?variant=boostlab&page=research.html). Arrows preserve the equivalent page between themes.
+
+Verification against b 32fecd:
+
+- 64 routes retain profile information, dates, publication content, portraits and link destinations, apart from the requested subheader removals and Minimal Read more affordances. All four Publications HTML files remain byte-for-byte unchanged, with 27 entries each.
+- All local HTML references, IDs and fragments pass. Eight theme/Team stylesheets parse cleanly; text sizing uses the semantic roles or deliberate large display exceptions. The comparison script is unchanged.297 tracked files outside the fourteen authorized source edits remain unchanged, including the original site, earlier root prototypes, assets and main branch.
+- 41 representative desktop/320px views cover Home, Research, Team, Publications and a reading template in every theme, plus a Boostlab research detail. Rendered meaningful text is at least 14px, with no root horizontal overflow or detected hidden text clipping in those samples. Minimal's full CONSTRUCTION heading was rechecked after its narrow-size correction.
+- Research navigation, titles, summaries, numeric labels and CTAs were sampled for actual computed foreground/background contrast, including gradient stops and transparent layers. The lowest sampled ratios are Minimal 4.56:1, ParentSquare 5.05:1, GrowthBook 6.18:1 and Boostlab 5.06:1. This is a focused readability check, not a whole-site conformance audit.
+- Boostlab's full-card links navigate correctly by pointer and touch on empty card padding, and by keyboard Enter. The shared header target correction was rechecked on the Research template. The enlarged comparison bar fits 320px and 390px; its arrows retain the Research route. Temporary viewport overrides were cleared.
+
+Real 200% browser/text zoom is **unverified**. Browser shortcut calls left layout dimensions and scale unchanged. A fresh native Edge binding exposed accessibility targets that disagreed with the visible window and rejected the zoom-menu target, so that path was stopped. No pinch or page-scale simulation is reported as zoom, and no zoom setting was changed. [Resize Text](https://www.w 3.org/WAI/WCAG 22/Understanding/resize-text.html) and [Reflow](https://www.w 3.org/WAI/WCAG 22/Understanding/reflow.html) are separate criteria; the supported 320px checks do not establish 200% zoom conformance.
+
+The practical 44px control goal is larger than the [WCAG 2.5.8 AA minimum](https://www.w 3.org/WAI/WCAG 22/Understanding/target-size-minimum.html), which is 24×24 CSS pixels subject to exceptions;44×44 is the [enhanced AAA criterion](https://www.w 3.org/WAI/WCAG 22/Understanding/target-size-enhanced.html). Normal-text contrast guidance is [4.5:1, with 3:1 for qualifying large text](https://www.w 3.org/WAI/WCAG 22/Understanding/contrast-minimum.html).
+
+The [QA record](qa.json) contains source counts, semantic scales, sampled contrast and compact browser results. Each concept folder contains actual Research desktop and 320px screenshots. Minimal also includes its corrected homepage phone capture. Nothing was deployed or pushed.

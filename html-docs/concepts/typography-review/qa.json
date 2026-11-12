@@ -1,0 +1,1152 @@
+{
+  "baseline": "b32fecdbc0652032daa1b1e06136d1d8f2cbf339",
+  "branch": "codex/website-redesign",
+  "main": "87792aae11e2b4e47346428cd59f047925462634",
+  "changed_source_files": [
+    "prototype-concepts.html",
+    "prototypes/boostlab/people.css",
+    "prototypes/boostlab/research.html",
+    "prototypes/boostlab/site.css",
+    "prototypes/growthbook/growthbook.css",
+    "prototypes/growthbook/people.css",
+    "prototypes/growthbook/research.html",
+    "prototypes/minimal/index.html",
+    "prototypes/minimal/minimal.css",
+    "prototypes/minimal/people.css",
+    "prototypes/minimal/research.html",
+    "prototypes/parentsquare/parentsquare.css",
+    "prototypes/parentsquare/people.css",
+    "prototypes/parentsquare/research.html"
+  ],
+  "protected_tracked_files_unchanged": 297,
+  "concepts": {
+    "minimal": {
+      "html_routes": 16,
+      "content_destinations_portraits_preserved": true,
+      "publications_html_unchanged": true,
+      "publications": 27,
+      "local_refs": 288,
+      "fragments": 38,
+      "research_routes_without_duplicate_lab_subheader": 5,
+      "css": {
+        "minimal.css": {
+          "font_size_declarations": 83,
+          "roles": {
+            "--type-support": ".875rem",
+            "--type-body": "1rem",
+            "--type-reading": "clamp(1.125rem, .98rem + .45vw, 1.375rem)",
+            "--type-lead": "clamp(1.375rem, 1.08rem + 1.15vw, 2.125rem)",
+            "--type-heading": "clamp(1.75rem, 1.2rem + 2.3vw, 3rem)",
+            "--type-display": "clamp(3rem, 1.8rem + 6.3vw, 8.5rem)",
+            "--type-hero": "clamp(2rem, 10.5vw, 11.5rem)"
+          },
+          "display_exceptions": [
+            "clamp(2.5rem, 6.5vw, 6.1875rem)"
+          ],
+          "parse_errors": []
+        },
+        "people.css": {
+          "font_size_declarations": 30,
+          "roles": {},
+          "display_exceptions": [
+            "clamp(1.9375rem, 9.2vw, 3.25rem)",
+            "clamp(2.25rem, 5.2vw, 5rem)",
+            "clamp(2.25rem, 5vw, 5rem)",
+            "clamp(2.5rem, 15vw, 6rem)",
+            "clamp(2.5rem, 6.4vw, 6rem)",
+            "clamp(4.5rem, 21vw, 16.75rem)",
+            "clamp(4.5rem, 24vw, 16.75rem)",
+            "clamp(5.625rem, 18.6vw, 16.75rem)"
+          ],
+          "parse_errors": []
+        }
+      }
+    },
+    "parentsquare": {
+      "html_routes": 16,
+      "content_destinations_portraits_preserved": true,
+      "publications_html_unchanged": true,
+      "publications": 27,
+      "local_refs": 270,
+      "fragments": 20,
+      "research_routes_without_duplicate_lab_subheader": 5,
+      "css": {
+        "parentsquare.css": {
+          "font_size_declarations": 92,
+          "roles": {
+            "--type-support": ".875rem",
+            "--type-body": "1rem",
+            "--type-lead": "1.125rem",
+            "--type-heading": "1.5rem",
+            "--type-section": "clamp(1.5rem, 1.3rem + .7vw, 2rem)",
+            "--type-page": "clamp(2rem, 1.6rem + 1.4vw, 3rem)",
+            "--type-display": "clamp(2rem, 1.8rem + 2vw, 3.5rem)"
+          },
+          "display_exceptions": [],
+          "parse_errors": []
+        },
+        "people.css": {
+          "font_size_declarations": 40,
+          "roles": {},
+          "display_exceptions": [],
+          "parse_errors": []
+        }
+      }
+    },
+    "growthbook": {
+      "html_routes": 16,
+      "content_destinations_portraits_preserved": true,
+      "publications_html_unchanged": true,
+      "publications": 27,
+      "local_refs": 283,
+      "fragments": 30,
+      "research_routes_without_duplicate_lab_subheader": 5,
+      "css": {
+        "growthbook.css": {
+          "font_size_declarations": 105,
+          "roles": {
+            "--type-support": ".875rem",
+            "--type-body": "1rem",
+            "--type-lead": "1.125rem",
+            "--type-heading": "1.5rem",
+            "--type-section": "clamp(1.5rem, 1.3rem + .7vw, 2rem)",
+            "--type-page": "clamp(2rem, 1.6rem + 1.4vw, 3rem)",
+            "--type-display": "clamp(2rem, 1.5rem + 3vw, 4.125rem)"
+          },
+          "display_exceptions": [],
+          "parse_errors": []
+        },
+        "people.css": {
+          "font_size_declarations": 38,
+          "roles": {},
+          "display_exceptions": [],
+          "parse_errors": []
+        }
+      }
+    },
+    "boostlab": {
+      "html_routes": 16,
+      "content_destinations_portraits_preserved": true,
+      "publications_html_unchanged": true,
+      "publications": 27,
+      "local_refs": 439,
+      "fragments": 53,
+      "research_routes_without_duplicate_lab_subheader": 5,
+      "css": {
+        "site.css": {
+          "font_size_declarations": 109,
+          "roles": {
+            "--type-support": ".875rem",
+            "--type-body": "1rem",
+            "--type-card": "clamp(1.25rem, 1.1rem + .4vw, 1.5rem)",
+            "--type-lead": "clamp(1.5rem, 1.3rem + .6vw, 1.875rem)",
+            "--type-heading": "clamp(2rem, 1.6rem + 1.2vw, 2.75rem)",
+            "--type-title": "clamp(2.25rem, 1.5rem + 3vw, 4.625rem)",
+            "--type-display": "clamp(3.125rem, 1.5rem + 6vw, 7rem)"
+          },
+          "display_exceptions": [],
+          "parse_errors": []
+        },
+        "people.css": {
+          "font_size_declarations": 35,
+          "roles": {},
+          "display_exceptions": [],
+          "parse_errors": []
+        }
+      }
+    }
+  },
+  "wrapper_script_unchanged": true,
+  "boostlab_native_full_card_anchors": 4,
+  "browser_views": [
+    {
+      "concept": "minimal",
+      "view": "index-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "index-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "news-ic-bim-research-direction-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "news-ic-bim-research-direction-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "people-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "people-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "publications-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "publications-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "research-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "minimal",
+      "view": "research-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "index-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "index-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "news-ic-bim-research-direction-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "news-ic-bim-research-direction-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "people-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "people-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "publications-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "publications-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "research-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "parentsquare",
+      "view": "research-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "index-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "index-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "news-ic-bim-research-direction-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "news-ic-bim-research-direction-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "people-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "people-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "publications-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "publications-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "research-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "growthbook",
+      "view": "research-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "index-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "index-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "news-ic-bim-research-direction-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "news-ic-bim-research-direction-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "people-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "people-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "publications-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "publications-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "research-desktop",
+      "width": 1440,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "research-interaction-centered-bim-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    },
+    {
+      "concept": "boostlab",
+      "view": "research-phone320",
+      "width": 320,
+      "minimum_rendered_text_px": 14.0,
+      "horizontal_overflow": false,
+      "under14_count": 0,
+      "hidden_text_clipping_count": 0
+    }
+  ],
+  "research_contrast": {
+    "minimal": {
+      "minimum_sampled_ratio": 4.56,
+      "samples": [
+        {
+          "text": "Research",
+          "font_px": 14.0,
+          "ratio": 14.48,
+          "threshold": 4.5
+        },
+        {
+          "text": "Team",
+          "font_px": 14.0,
+          "ratio": 12.94,
+          "threshold": 4.5
+        },
+        {
+          "text": "Publications",
+          "font_px": 14.0,
+          "ratio": 12.94,
+          "threshold": 4.5
+        },
+        {
+          "text": "About",
+          "font_px": 14.0,
+          "ratio": 12.94,
+          "threshold": 4.5
+        },
+        {
+          "text": "Join us",
+          "font_px": 14.0,
+          "ratio": 6.64,
+          "threshold": 4.5
+        },
+        {
+          "text": "Research",
+          "font_px": 119.52,
+          "ratio": 4.56,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)\nRead more",
+          "font_px": 16.0,
+          "ratio": 12.01,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(direction)",
+          "font_px": 48.0,
+          "ratio": 4.56,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "font_px": 48.0,
+          "ratio": 9.94,
+          "threshold": 3
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.64,
+          "threshold": 4.5
+        },
+        {
+          "text": "Agent-oriented Design and Construction\nRead more",
+          "font_px": 16.0,
+          "ratio": 12.01,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(direction)",
+          "font_px": 48.0,
+          "ratio": 4.56,
+          "threshold": 3
+        },
+        {
+          "text": "Agent-oriented Design and Construction",
+          "font_px": 48.0,
+          "ratio": 9.94,
+          "threshold": 3
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.64,
+          "threshold": 4.5
+        },
+        {
+          "text": "Representation Learning for the Built Environment\nRead more",
+          "font_px": 16.0,
+          "ratio": 12.01,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(direction)",
+          "font_px": 48.0,
+          "ratio": 4.56,
+          "threshold": 3
+        },
+        {
+          "text": "Representation Learning for the Built Environment",
+          "font_px": 48.0,
+          "ratio": 9.94,
+          "threshold": 3
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.64,
+          "threshold": 4.5
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)\nRead more",
+          "font_px": 16.0,
+          "ratio": 12.01,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(direction)",
+          "font_px": 48.0,
+          "ratio": 4.56,
+          "threshold": 3
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)",
+          "font_px": 48.0,
+          "ratio": 9.94,
+          "threshold": 3
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.64,
+          "threshold": 4.5
+        }
+      ]
+    },
+    "parentsquare": {
+      "minimum_sampled_ratio": 5.05,
+      "samples": [
+        {
+          "text": "Research",
+          "font_px": 14.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Team",
+          "font_px": 14.0,
+          "ratio": 14.75,
+          "threshold": 4.5
+        },
+        {
+          "text": "Publications",
+          "font_px": 14.0,
+          "ratio": 14.75,
+          "threshold": 4.5
+        },
+        {
+          "text": "News",
+          "font_px": 14.0,
+          "ratio": 14.75,
+          "threshold": 4.5
+        },
+        {
+          "text": "Join us",
+          "font_px": 14.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Home",
+          "font_px": 14.0,
+          "ratio": 5.05,
+          "threshold": 4.5
+        },
+        {
+          "text": "Research",
+          "font_px": 45.76,
+          "ratio": 13.67,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)\nWe investigate the s",
+          "font_px": 16.0,
+          "ratio": 12.27,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(directions)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "font_px": 24.0,
+          "ratio": 14.75,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate the structure of BIM processes, treating interaction as the basic",
+          "font_px": 16.0,
+          "ratio": 5.45,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Agent-oriented Design and Construction\nWe investigate how engineering work in th",
+          "font_px": 16.0,
+          "ratio": 12.27,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(directions)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Agent-oriented Design and Construction",
+          "font_px": 24.0,
+          "ratio": 14.75,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how engineering work in the design and construction of buildings ",
+          "font_px": 16.0,
+          "ratio": 5.45,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Representation Learning for the Built Environment\nWe investigate how engineering",
+          "font_px": 16.0,
+          "ratio": 12.27,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(directions)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Representation Learning for the Built Environment",
+          "font_px": 24.0,
+          "ratio": 14.75,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how engineering knowledge can be learned directly from the BIM mo",
+          "font_px": 16.0,
+          "ratio": 5.45,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)\nWe investigate how construction must evolve whe",
+          "font_px": 16.0,
+          "ratio": 12.27,
+          "threshold": 4.5
+        },
+        {
+          "text": "\"0\" counter(directions)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)",
+          "font_px": 24.0,
+          "ratio": 14.75,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how construction must evolve when robots become agents of physica",
+          "font_px": 16.0,
+          "ratio": 5.45,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        }
+      ]
+    },
+    "growthbook": {
+      "minimum_sampled_ratio": 6.18,
+      "samples": [
+        {
+          "text": "Research",
+          "font_px": 14.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Team",
+          "font_px": 14.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "Publications",
+          "font_px": 14.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "News",
+          "font_px": 14.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "Join us \u2197",
+          "font_px": 14.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "Research",
+          "font_px": 45.76,
+          "ratio": 13.44,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)We investigate the st",
+          "font_px": 16.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "counter(direction, decimal-leading-zero)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "font_px": 24.0,
+          "ratio": 14.2,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate the structure of BIM processes, treating interaction as the basic",
+          "font_px": 16.0,
+          "ratio": 6.18,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Agent-oriented Design and ConstructionWe investigate how engineering work in the",
+          "font_px": 16.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "counter(direction, decimal-leading-zero)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Agent-oriented Design and Construction",
+          "font_px": 24.0,
+          "ratio": 14.2,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how engineering work in the design and construction of buildings ",
+          "font_px": 16.0,
+          "ratio": 6.18,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Representation Learning for the Built EnvironmentWe investigate how engineering ",
+          "font_px": 16.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "counter(direction, decimal-leading-zero)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Representation Learning for the Built Environment",
+          "font_px": 24.0,
+          "ratio": 14.2,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how engineering knowledge can be learned directly from the BIM mo",
+          "font_px": 16.0,
+          "ratio": 6.18,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)We investigate how construction must evolve when",
+          "font_px": 16.0,
+          "ratio": 14.2,
+          "threshold": 4.5
+        },
+        {
+          "text": "counter(direction, decimal-leading-zero)",
+          "font_px": 24.0,
+          "ratio": 6.77,
+          "threshold": 3
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)",
+          "font_px": 24.0,
+          "ratio": 14.2,
+          "threshold": 3
+        },
+        {
+          "text": "We investigate how construction must evolve when robots become agents of physica",
+          "font_px": 16.0,
+          "ratio": 6.18,
+          "threshold": 4.5
+        },
+        {
+          "text": "Read more",
+          "font_px": 16.0,
+          "ratio": 6.77,
+          "threshold": 4.5
+        }
+      ]
+    },
+    "boostlab": {
+      "minimum_sampled_ratio": 5.06,
+      "samples": [
+        {
+          "text": "Home",
+          "font_px": 14.0,
+          "ratio": 14.96,
+          "threshold": 4.5
+        },
+        {
+          "text": "Team",
+          "font_px": 14.0,
+          "ratio": 14.96,
+          "threshold": 4.5
+        },
+        {
+          "text": "Research",
+          "font_px": 14.0,
+          "ratio": 5.91,
+          "threshold": 4.5
+        },
+        {
+          "text": "Publications",
+          "font_px": 14.0,
+          "ratio": 14.96,
+          "threshold": 4.5
+        },
+        {
+          "text": "News",
+          "font_px": 14.0,
+          "ratio": 14.96,
+          "threshold": 4.5
+        },
+        {
+          "text": "Join us",
+          "font_px": 16.0,
+          "ratio": 14.96,
+          "threshold": 4.5
+        },
+        {
+          "text": "02 / RESEARCH",
+          "font_px": 14.0,
+          "ratio": 5.06,
+          "threshold": 4.5
+        },
+        {
+          "text": "Research",
+          "font_px": 110.4,
+          "ratio": 13.46,
+          "threshold": 3
+        },
+        {
+          "text": "01 / RESEARCH DIRECTION\nInteraction-centered Building Information Modeling (IC-B",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "Interaction-centered Building Information Modeling (IC-BIM)",
+          "font_px": 29.44,
+          "ratio": 7.19,
+          "threshold": 3
+        },
+        {
+          "text": "Read more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "02 / RESEARCH DIRECTION\nAgent-oriented Design and Construction\nRead more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "Agent-oriented Design and Construction",
+          "font_px": 29.44,
+          "ratio": 7.19,
+          "threshold": 3
+        },
+        {
+          "text": "Read more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "03 / RESEARCH DIRECTION\nRepresentation Learning for the Built Environment\nRead m",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "Representation Learning for the Built Environment",
+          "font_px": 29.44,
+          "ratio": 7.19,
+          "threshold": 3
+        },
+        {
+          "text": "Read more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "04 / RESEARCH DIRECTION\nRobot-Centric Construction (RCC)\nRead more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        },
+        {
+          "text": "Robot-Centric Construction (RCC)",
+          "font_px": 29.44,
+          "ratio": 7.19,
+          "threshold": 3
+        },
+        {
+          "text": "Read more \u2197",
+          "font_px": 16.0,
+          "ratio": 7.19,
+          "threshold": 4.5
+        }
+      ]
+    }
+  },
+  "review_bar": {
+    "width320": {
+      "bar": 296,
+      "scrollWidth": 294
+    },
+    "width390": {
+      "bar": 366,
+      "scrollWidth": 364
+    },
+    "label_px": 16,
+    "support_px": 14,
+    "arrows_px": [
+      44,
+      44
+    ],
+    "research_route_preserved": true
+  },
+  "boostlab_full_card_inputs": [
+    "pointer on empty card padding",
+    "keyboard Enter",
+    "touch on empty card padding"
+  ],
+  "viewport_override_restored": true,
+  "real_200_percent_zoom": {
+    "verified": false,
+    "reason": "Browser shortcut calls left innerWidth, devicePixelRatio and visual scale unchanged. Fresh native Edge accessibility targets disagreed with the visible window and rejected the menu-control target. No pinch or CDP page-scale substitute was used; no zoom setting was changed."
+  },
+  "review_url": "http://127.0.0.1:8771/prototype-concepts.html?variant=boostlab&page=research.html"
+}

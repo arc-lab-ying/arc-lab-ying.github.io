@@ -1,100 +1,108 @@
 /* Team-only composition: a director column beside an open researcher directory. */
 .team-page .team-intro { padding-block: 25px 43px; border-block: 1px solid var(--line); background: #f7fafc; }
-.team-page .team-breadcrumb { margin: 0 0 31px; color: var(--muted); font-size: 11px; }
+.team-page .team-breadcrumb { margin: 0 0 31px; color: var(--muted); font-size:var(--type-support); }
 .team-page .team-breadcrumb a:hover { color: var(--blue); text-decoration: underline; text-underline-offset: 4px; }
 .team-page .team-intro-line { display: flex; justify-content: space-between; align-items: end; gap: 35px; }
 .team-page .team-intro .eyebrow { margin-bottom: 12px; }
-.team-page .team-intro h1 { font-size: clamp(40px, 4.2vw, 62px); line-height: 1.1; letter-spacing: -.045em; font-weight: 590; }
-.team-page .team-page-index { gap: 23px; padding-bottom: 7px; font-size: 11px; font-weight: 500; }
+.team-page .team-intro h1 { font-size:var(--type-display); line-height: 1.1; letter-spacing: -.045em; font-weight: 590; }
+.team-page .team-page-index { gap: 23px; padding-bottom: 7px; font-size:var(--type-body); font-weight: 500; }
 .team-page .team-page-index a { color: var(--muted); text-decoration: underline; text-underline-offset: 5px; }
 .team-page .team-page-index a:hover { color: var(--blue); }
 .team-page .team-directory-grid { display: grid; grid-template-columns: minmax(0, .93fr) minmax(0, 1.5fr); align-items: start; gap: 70px; padding-block: 54px 65px; }
 .team-page .team-director { padding: 27px; background: #edf3f7; border: 1px solid #dbe6ee; border-radius: 9px; }
-.team-page .team-director h2 { margin: 0 0 21px; color: var(--blue); font-size: 12px; line-height: 1.4; letter-spacing: .065em; font-weight: 650; text-transform: uppercase; }
+.team-page .team-director h2 { margin: 0 0 21px; color: var(--blue); font-size:var(--type-support); line-height: 1.4; letter-spacing: .065em; font-weight: 650; text-transform: uppercase; }
 .team-page .team-director-portrait { margin: 0 0 23px; width: 100%; aspect-ratio: 1 / 1.06; overflow: hidden; border-radius: 4px; }
 .team-page .team-director-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 35%; }
-.team-page .team-director h3 { font-size: clamp(24px, 2.2vw, 31px); font-weight: 570; line-height: 1.2; letter-spacing: -.035em; }
-.team-page .team-director-position { margin: 15px 0 5px; color: var(--navy); font-size: 16px; }
-.team-page .team-director-affiliation { margin: 0 0 19px; max-width: 290px; color: var(--muted); font-size: 13px; line-height: 1.75; }
-.team-page .team-profile-links { display: flex; flex-wrap: wrap; gap: 11px; margin: 17px 0 0; font-size: 11px; line-height: 1.7; }
+.team-page .team-director h3 { font-size:var(--type-section); font-weight: 570; line-height: 1.2; letter-spacing: -.035em; }
+.team-page .team-director-position { margin: 15px 0 5px; color: var(--navy); font-size:var(--type-body); }
+.team-page .team-director-affiliation { margin: 0 0 19px; max-width: 290px; color: var(--muted); font-size:var(--type-body); line-height: 1.75; }
+.team-page .team-profile-links { display: flex; flex-wrap: wrap; gap: 11px; margin: 17px 0 0; font-size:var(--type-body); line-height: 1.7; }
 .team-page .team-profile-links a { color: var(--blue); text-decoration: underline; text-underline-offset: 4px; }
 .team-page .team-profile-links a:hover { color: var(--navy); }
 .team-page .team-profile-links .profile-pending { color: #596c7b; opacity: 1; }
-.team-page .team-researchers > h2 { margin: 0 0 25px; font-size: 28px; line-height: 1.2; font-weight: 550; letter-spacing: -.035em; }
+.team-page .team-researchers > h2 { margin: 0 0 25px; font-size:var(--type-section); line-height: 1.2; font-weight: 550; letter-spacing: -.035em; }
 .team-page .team-researcher { display: grid; grid-template-columns: 145px minmax(0, 1fr); align-items: start; gap: 25px; border-top: 1px solid var(--line); padding-block: 25px 27px; }
 .team-page .team-researcher:last-child { padding-bottom: 0; }
 .team-page .team-researcher-portrait { width: 100%; aspect-ratio: 4 / 5; margin: 0; overflow: hidden; border-radius: 4px; background: var(--pale); }
 .team-page .team-researcher-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
-.team-page .team-role { margin: 0 0 7px; font-size: 10px; font-weight: 650; letter-spacing: .065em; color: var(--blue); text-transform: uppercase; }
-.team-page .team-researcher h3 { font-size: 23px; line-height: 1.25; font-weight: 560; letter-spacing: -.03em; }
-.team-page .team-research-interests { margin: 15px 0 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
-.team-page .team-research-interests strong { display: block; margin-bottom: 4px; color: var(--ink); font-size: 11px; font-weight: 550; }
+.team-page .team-role { margin: 0 0 7px; font-size:var(--type-support); font-weight: 650; letter-spacing: .065em; color: var(--blue); text-transform: uppercase; }
+.team-page .team-researcher h3 { font-size:var(--type-heading); line-height: 1.25; font-weight: 560; letter-spacing: -.03em; }
+.team-page .team-research-interests { margin: 15px 0 0; color: var(--muted); font-size:var(--type-body); line-height: 1.8; }
+.team-page .team-research-interests strong { display: block; margin-bottom: 4px; color: var(--ink); font-size:var(--type-support); font-weight: 550; }
 .team-page .team-research-interests .research-interest { display: inline; }
-.team-page .team-researcher .team-profile-links { margin-top: 13px; font-size: 10px; }
+.team-page .team-researcher .team-profile-links { margin-top: 13px; font-size:var(--type-body); }
 .team-page .team-robot-section { background: #f2f7fa; border-top: 1px solid var(--line); }
 .team-page .team-robot-layout { display: grid; grid-template-columns: .93fr 1.5fr; align-items: center; gap: 70px; padding-block: 38px; }
 .team-page .team-robot-copy { border-left: 3px solid var(--blue); padding-left: 25px; }
-.team-page .team-robot-copy h2 { margin-bottom: 13px; color: var(--blue); font-size: 11px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
-.team-page .team-robot-copy h3 { font-size: 43px; line-height: 1.2; font-weight: 550; letter-spacing: -.04em; }
+.team-page .team-robot-copy h2 { margin-bottom: 13px; color: var(--blue); font-size:var(--type-support); font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+.team-page .team-robot-copy h3 { font-size:var(--type-page); line-height: 1.2; font-weight: 550; letter-spacing: -.04em; }
 .team-page .team-robot-image { margin: 0; }
 .team-page .team-robot-image img { width: 100%; height: 235px; object-fit: contain; }
 @media (max-width: 1050px) {
   .team-page .team-directory-grid, .team-page .team-robot-layout { gap: 40px; grid-template-columns: minmax(0, .95fr) minmax(0, 1.4fr); }
   .team-page .team-director { padding: 22px; }
   .team-page .team-researcher { grid-template-columns: 115px minmax(0, 1fr); gap: 21px; }
-  .team-page .team-researcher h3 { font-size: 21px; }
-  .team-page .team-page-index { gap: 17px; font-size: 10px; }
+  .team-page .team-researcher h3 { font-size:var(--type-heading); }
+  .team-page .team-page-index { gap: 17px; font-size:var(--type-body); }
 }
 @media (max-width: 800px) {
   .team-page .team-intro-line { align-items: start; flex-direction: column; gap: 27px; }
-  .team-page .team-page-index { justify-content: start; width: auto; gap: 25px; font-size: 12px; }
+  .team-page .team-page-index { justify-content: start; width: auto; gap: 25px; font-size:var(--type-body); }
   .team-page .team-intro { padding-bottom: 30px; }
   .team-page .team-breadcrumb { margin-bottom: 24px; }
   .team-page .team-directory-grid { grid-template-columns: 1fr; gap: 40px; padding-block: 35px 45px; }
   .team-page .team-director { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 28px; padding: 26px; }
   .team-page .team-director h2 { grid-column: 1 / -1; margin-bottom: 20px; }
   .team-page .team-director-portrait { grid-column: 1; grid-row: 2 / 6; margin: 0; aspect-ratio: 1 / 1.12; }
-  .team-page .team-director h3 { grid-column: 2; align-self: end; font-size: 30px; margin-top: 12px; }
+  .team-page .team-director h3 { grid-column: 2; align-self: end; font-size:var(--type-section); margin-top: 12px; }
   .team-page .team-director-position, .team-page .team-director-affiliation, .team-page .team-director .team-profile-links { grid-column: 2; }
   .team-page .team-director-position { margin-block: 12px 4px; }
   .team-page .team-director-affiliation { margin-bottom: 0; }
   .team-page .team-director .team-profile-links { align-self: start; margin-top: 14px; }
   .team-page .team-researcher { grid-template-columns: 145px minmax(0, 1fr); gap: 26px; }
-  .team-page .team-researcher h3 { font-size: 26px; }
-  .team-page .team-research-interests { max-width: 410px; font-size: 13px; }
-  .team-page .team-researcher .team-profile-links { font-size: 11px; }
+  .team-page .team-researcher h3 { font-size:var(--type-heading); }
+  .team-page .team-research-interests { max-width: 410px; font-size:var(--type-body); }
+  .team-page .team-researcher .team-profile-links { font-size:var(--type-body); }
   .team-page .team-robot-layout { gap: 25px; }
-  .team-page .team-robot-copy h3 { font-size: 34px; }
+  .team-page .team-robot-copy h3 { font-size:var(--type-page); }
   .team-page .team-robot-image img { height: 180px; }
 }
 @media (max-width: 560px) {
-  .team-page .team-intro h1 { font-size: 42px; max-width: 330px; }
-  .team-page .team-intro .eyebrow { font-size: 10px; margin-bottom: 11px; }
+  .team-page .team-intro h1 { font-size:var(--type-display); max-width: 330px; }
+  .team-page .team-intro .eyebrow { font-size:var(--type-support); margin-bottom: 11px; }
   .team-page .team-intro-line { gap: 23px; }
-  .team-page .team-page-index { gap: 20px; font-size: 11px; flex-wrap: wrap; }
+  .team-page .team-page-index { gap: 20px; font-size:var(--type-body); flex-wrap: wrap; }
   .team-page .team-page-index a { padding: 0; }
   .team-page .team-directory-grid { padding-block: 27px 38px; gap: 35px; }
   .team-page .team-director { display: block; padding: 21px; }
-  .team-page .team-director h2 { margin-bottom: 19px; font-size: 11px; }
+  .team-page .team-director h2 { margin-bottom: 19px; font-size:var(--type-support); }
   .team-page .team-director-portrait { width: 100%; max-height: 365px; aspect-ratio: 1 / 1.06; margin-bottom: 20px; }
-  .team-page .team-director h3 { margin-top: 0; font-size: 29px; }
+  .team-page .team-director h3 { margin-top: 0; font-size:var(--type-section); }
   .team-page .team-director-position { margin-block: 12px 5px; }
-  .team-page .team-director-affiliation { max-width: none; font-size: 13px; }
+  .team-page .team-director-affiliation { max-width: none; font-size:var(--type-body); }
   .team-page .team-director .team-profile-links { margin-top: 16px; }
-  .team-page .team-researchers > h2 { font-size: 27px; margin-bottom: 21px; }
+  .team-page .team-researchers > h2 { font-size:var(--type-section); margin-bottom: 21px; }
   .team-page .team-researcher { grid-template-columns: 105px minmax(0, 1fr); gap: 19px; padding-block: 23px 25px; }
-  .team-page .team-researcher h3 { font-size: 21px; }
-  .team-page .team-role { font-size: 9px; margin-bottom: 7px; }
-  .team-page .team-research-interests { font-size: 13px; margin-top: 12px; line-height: 1.8; }
-  .team-page .team-research-interests strong { font-size: 11px; }
-  .team-page .team-researcher .team-profile-links { font-size: 11px; gap: 7px; margin-top: 12px; }
+  .team-page .team-researcher h3 { font-size:var(--type-heading); }
+  .team-page .team-role { font-size:var(--type-support); margin-bottom: 7px; }
+  .team-page .team-research-interests { font-size:var(--type-body); margin-top: 12px; line-height: 1.8; }
+  .team-page .team-research-interests strong { font-size:var(--type-support); }
+  .team-page .team-researcher .team-profile-links { font-size:var(--type-body); gap: 7px; margin-top: 12px; }
   .team-page .team-robot-layout { grid-template-columns: 1fr; gap: 22px; padding-block: 30px 24px; }
   .team-page .team-robot-copy { padding-left: 20px; }
-  .team-page .team-robot-copy h3 { font-size: 36px; }
+  .team-page .team-robot-copy h3 { font-size:var(--type-page); }
   .team-page .team-robot-image img { height: 170px; }
 }
 @media (max-width: 350px) {
-  .team-page .team-intro h1 { font-size: 37px; }
+  .team-page .team-intro h1 { font-size:var(--type-display); }
   .team-page .team-researcher { grid-template-columns: 88px minmax(0, 1fr); gap: 15px; }
-  .team-page .team-researcher h3 { font-size: 19px; }
+  .team-page .team-researcher h3 { font-size:var(--type-heading); }
 }
+
+/* Profile facts use body text; short roles and captions use the support size. */
+.team-page .team-profile-links a, .team-page .team-page-index a,
+.team-page .team-jump-links a, .team-page .team-section-heading > a { min-height: 2.75rem; min-width: 2.75rem; display: inline-flex; align-items: center; line-height: 1.35; }
+.team-page .team-profile-links { align-items: center; }
+.team-page .team-profile-links .profile-pending { font-size: var(--type-support); }
+.team-page .team-section-heading, .team-page .team-intro-line { flex-wrap: wrap; }
+.team-page .team-research-interests, .team-page .team-interest-list { line-height: 1.65; }
