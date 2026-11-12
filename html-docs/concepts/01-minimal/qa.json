@@ -1,167 +1,99 @@
 {
-  "checkedAt": "2026-11-12T14:54:52.079Z",
+  "checkedAt": "2026-11-12T15:32:07.637Z",
+  "iteration": 2,
   "layouts": [
     {
-      "captionBottom": 846.25,
+      "buttonCount": 1,
+      "caption": "Unitree A2",
+      "captionBottom": 863.25,
       "clientWidth": 1425,
       "documentWidth": 1425,
-      "fonts": "loaded",
-      "headings": [
-        {
-          "contentWidth": 1361,
-          "text": "AI & ROBOTICS",
-          "width": 1361
-        },
-        {
-          "contentWidth": 1361,
-          "text": "FOR CONSTRUCTION",
-          "width": 1361
-        }
-      ],
+      "headlineOverflows": false,
       "height": 1000,
+      "logosLoaded": true,
+      "playing": true,
       "robotReady": true,
       "width": 1440
     },
     {
-      "captionBottom": 704.65625,
+      "buttonCount": 1,
+      "caption": "Unitree A2",
+      "captionBottom": 709.65625,
       "clientWidth": 1265,
       "documentWidth": 1265,
-      "fonts": "loaded",
-      "headings": [
-        {
-          "contentWidth": 1201,
-          "text": "AI & ROBOTICS",
-          "width": 1201
-        },
-        {
-          "contentWidth": 1201,
-          "text": "FOR CONSTRUCTION",
-          "width": 1201
-        }
-      ],
+      "headlineOverflows": false,
       "height": 720,
+      "logosLoaded": true,
+      "playing": true,
       "robotReady": true,
       "width": 1280
     },
     {
-      "captionBottom": 655.96875,
+      "buttonCount": 1,
+      "caption": "Unitree A2",
+      "captionBottom": 711.96875,
       "clientWidth": 753,
       "documentWidth": 753,
-      "fonts": "loaded",
-      "headings": [
-        {
-          "contentWidth": 705,
-          "text": "AI & ROBOTICS",
-          "width": 705
-        },
-        {
-          "contentWidth": 705,
-          "text": "FOR CONSTRUCTION",
-          "width": 705
-        }
-      ],
+      "headlineOverflows": false,
       "height": 1024,
+      "logosLoaded": true,
+      "playing": true,
       "robotReady": true,
       "width": 768
     },
     {
-      "captionBottom": 965.96875,
+      "buttonCount": 1,
+      "caption": "Unitree A2",
+      "captionBottom": 937.96875,
       "clientWidth": 375,
       "documentWidth": 375,
-      "fonts": "loaded",
-      "headings": [
-        {
-          "contentWidth": 339,
-          "text": "AI & ROBOTICS",
-          "width": 339
-        },
-        {
-          "contentWidth": 339,
-          "text": "FOR CONSTRUCTION",
-          "width": 339
-        }
-      ],
+      "headlineOverflows": false,
       "height": 844,
+      "logosLoaded": true,
+      "playing": true,
       "robotReady": true,
       "width": 390
     },
     {
-      "captionBottom": 1013.53125,
+      "buttonCount": 1,
+      "caption": "Unitree A2",
+      "captionBottom": 1016.53125,
       "clientWidth": 305,
       "documentWidth": 305,
-      "fonts": "loaded",
-      "headings": [
-        {
-          "contentWidth": 269,
-          "text": "AI & ROBOTICS",
-          "width": 269
-        },
-        {
-          "contentWidth": 269,
-          "text": "FOR CONSTRUCTION",
-          "width": 269
-        }
-      ],
+      "headlineOverflows": false,
       "height": 800,
+      "logosLoaded": true,
+      "playing": true,
       "robotReady": true,
       "width": 320
     }
   ],
-  "motion": {
-    "lookUp": {
-      "paused": "false",
-      "state": "Looking up"
-    },
-    "walkLeft": "A few steps to the left",
-    "turn": "Looking around",
-    "walkRight": "A few steps to the right",
-    "pause": {
-      "pressed": "true",
-      "state": "Taking a little pause"
-    }
+  "initial": {
+    "autoplay": true,
+    "caption": "Unitree A2",
+    "motion": "playing",
+    "oldControlsRemoved": true,
+    "onlyOneButton": true,
+    "reducedMotionPreference": true
   },
-  "reducedMotion": {
-    "paused": "true",
-    "preference": true,
-    "state": "Taking a little pause"
+  "pause": {
+    "label": "Play robot animation",
+    "motion": "paused",
+    "pressed": "true"
   },
-  "about": {
-    "foundations": 4,
-    "open": true
+  "pausedImageStable": true,
+  "resume": {
+    "label": "Pause robot animation",
+    "motion": "playing",
+    "pressed": "false"
+  },
+  "files": {
+    "manifesto_matches_iteration_one": true,
+    "both_original_logos_reused": true,
+    "visible_buttons": 1,
+    "legacy_controls_and_status_removed": true,
+    "local_references_resolve": 19
   },
   "consoleErrors": [],
-  "files": {
-    "local_references_resolve": 17,
-    "images_verified": [
-      {
-        "file": "desktop.jpg",
-        "size": [
-          1425,
-          990
-        ]
-      },
-      {
-        "file": "mobile.jpg",
-        "size": [
-          375,
-          812
-        ]
-      },
-      {
-        "file": "reference.png",
-        "size": [
-          1093,
-          825
-        ]
-      },
-      {
-        "file": "walking-right.jpg",
-        "size": [
-          1425,
-          990
-        ]
-      }
-    ],
-    "syntax_check": "node --check prototype-a2.js: passed"
-  }
+  "playingImageChanges": true
 }

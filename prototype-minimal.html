@@ -13,15 +13,18 @@
   <body id="top">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="lab-mark pill" href="#top" aria-label="ARC Lab home">ARC Lab</a>
+      <div class="brand-group">
+        <a class="lab-mark" href="#top" aria-label="ARC Lab home"><img src="assets/arc-logo.svg" alt="ARC Lab — AI and Robotics for Construction" /></a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="institution-link" href="https://www.technion.ac.il/" target="_blank" rel="noreferrer"><img src="assets/technion-logo-official.png" alt="Technion — Israel Institute of Technology" /></a>
+      </div>
       <nav aria-label="Main navigation">
         <a class="pill" href="#research">Research</a>
         <a class="pill" href="people.html">Team</a>
         <a class="pill" href="publications.html">Publications</a>
         <a class="pill" href="#about">About</a>
-        <a class="pill" href="join-us.html">Join us <span aria-hidden="true">↗</span></a>
+        <a class="pill join-link" href="join-us.html">Join us <span aria-hidden="true">↗</span></a>
       </nav>
-      <a class="institution-link" href="https://www.technion.ac.il/" target="_blank" rel="noreferrer">Technion <span aria-hidden="true">↗</span></a>
     </header>
 
     <main id="main">
@@ -42,16 +45,12 @@
           </div>
 
           <figure class="robot-study">
-            <div class="a2-stage" id="a2-stage" role="img" aria-label="A silver Unitree A2 robot looks up, turns, and takes a few steps in each direction.">
+            <div class="a2-stage" id="a2-stage" role="img" aria-label="A silver Unitree A2 stands in place and gently looks left, right, up, and down.">
               <img class="robot-fallback" src="assets/robots/unitree-a2.png" alt="" aria-hidden="true" />
             </div>
             <figcaption class="robot-caption">
-              <div><span class="robot-name">Unitree A2</span><span class="robot-state" id="robot-state">Our four-legged labmate</span></div>
-              <div class="robot-controls" aria-label="Robot movements">
-                <button type="button" id="look-button">Look up <span aria-hidden="true">↗</span></button>
-                <button type="button" id="walk-button">Walk <span aria-hidden="true">↔</span></button>
-                <button class="pause-button" type="button" id="pause-button" aria-label="Pause robot animation" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
-              </div>
+              <span class="robot-name">Unitree A2</span>
+              <button class="pause-button" type="button" id="pause-button" aria-label="Pause robot animation" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
             </figcaption>
           </figure>
         </div>

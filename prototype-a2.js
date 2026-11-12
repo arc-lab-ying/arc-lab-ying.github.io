@@ -3,9 +3,7 @@ import * as THREE from './assets/prototypes/minimal/vendor/three.module.min.js';
 import { RoundedBoxGeometry } from './assets/prototypes/minimal/vendor/RoundedBoxGeometry.js';
 
 const stage = document.querySelector('#a2-stage');
-const status = document.querySelector('#robot-state');
 const pauseButton = document.querySelector('#pause-button');
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const scene = new THREE.Scene();
 const camera = new THREE.OrthographicCamera(-3, 3, 1.55, -1.55, .1, 30);
 camera.position.set(-3.9, 2.65, 5.2);
@@ -86,9 +84,11 @@ const upperLength = .70;
 const lowerLength = .85;
 for (const x of [-.96, .96]) {
   for (const side of [-1, 1]) {
+    const mount = new THREE.Group();
+    mount.position.set(x, 0, side * .59);
+    body.add(mount);
     const hip = new THREE.Group();
-    hip.position.set(x, 0, side * .59);
-    body.add(hip);
+    mount.add(hip);
     cylinder(hip, .215, .30, [0, 0, 0], silver);
     cylinder(hip, .182, .025, [0, 0, side * .163], paleSilver);
     cylinder(hip, .102, .032, [0, 0, side * .181], graphite);
@@ -107,7 +107,7 @@ for (const x of [-.96, .96]) {
     const shoe = new THREE.Mesh(new THREE.SphereGeometry(1, 20, 12), rubber);
     shoe.scale.set(.123, .075, .112);
     foot.add(shoe);
-    legs.push({ hip, knee, foot, x, side, phase: (x < 0) === (side < 0) ? 0 : Math.PI });
+    legs.push({ mount, hip, knee, foot, x, side });
   }
 }
 
@@ -139,80 +139,60 @@ shadow.rotation.x = -Math.PI / 2;
 shadow.position.y = .002;
 scene.add(shadow);
 
-const ease = value => value * value * (3 - 2 * value);
 let elapsed = 0;
 let lastTime = 0;
 let lastDraw = 0;
-let playing = !reducedMotion.matches;
+let playing = true;
 let inView = true;
-let pointerX = 0;
-let pointerTarget = 0;
 const inverseBody = new THREE.Matrix4();
 const footTarget = new THREE.Vector3();
+const footLevel = new THREE.Quaternion();
+
+// Small glances with pauses; the robot stays planted instead of turning on a pedestal.
+const gazePoses = [
+  { at: 0, pitch: 0, roll: 0, yaw: 0 },
+  { at: 2, pitch: 0, roll: 0, yaw: 0 },
+  { at: 4, pitch: -.02, roll: -.065, yaw: -.14 },
+  { at: 6, pitch: -.02, roll: -.065, yaw: -.14 },
+  { at: 8, pitch: -.13, roll: -.025, yaw: -.05 },
+  { at: 10, pitch: -.13, roll: -.025, yaw: -.05 },
+  { at: 12.5, pitch: -.015, roll: .065, yaw: .14 },
+  { at: 14.5, pitch: -.015, roll: .065, yaw: .14 },
+  { at: 17, pitch: .075, roll: .025, yaw: .06 },
+  { at: 19, pitch: .075, roll: .025, yaw: .06 },
+  { at: 22, pitch: 0, roll: 0, yaw: 0 },
+];
 
 function pose(time) {
   const t = time % 22;
-  let x = 0;
-  let yaw = 0;
-  let walk = 0;
-  let look = t < 4 ? Math.sin(t / 4 * Math.PI) : 0;
-  let name = t < 4 ? 'Looking up' : 'Looking around';
-  if (t >= 4 && t < 7) {
-    const progress = (t - 4) / 3;
-    x = -.44 * ease(progress);
-    walk = Math.sin(progress * Math.PI);
-    name = 'A few steps to the left';
-  } else if (t >= 7 && t < 9) {
-    x = -.44;
-    yaw = Math.PI * ease(Math.max(0, t - 8));
-    look = Math.sin((t - 7) / 2 * Math.PI) * .55;
-  } else if (t >= 9 && t < 14) {
-    const progress = (t - 9) / 5;
-    x = -.44 + .88 * ease(progress);
-    yaw = Math.PI;
-    walk = Math.sin(progress * Math.PI);
-    name = 'A few steps to the right';
-  } else if (t >= 14 && t < 16) {
-    x = .44;
-    yaw = Math.PI + Math.PI * ease(Math.max(0, t - 15));
-    look = Math.sin((t - 14) / 2 * Math.PI) * .55;
-  } else if (t >= 16 && t < 19) {
-    const progress = (t - 16) / 3;
-    x = .44 * (1 - ease(progress));
-    yaw = Math.PI * 2;
-    walk = Math.sin(progress * Math.PI);
-    name = 'Heading back';
-  }
-  return { x, yaw, walk, look, name };
+  const next = gazePoses.findIndex(point => point.at > t);
+  const from = gazePoses[next - 1];
+  const to = gazePoses[next];
+  const blend = THREE.MathUtils.smootherstep(t, from.at, to.at);
+  return {
+    pitch: THREE.MathUtils.lerp(from.pitch, to.pitch, blend),
+    roll: THREE.MathUtils.lerp(from.roll, to.roll, blend),
+    yaw: THREE.MathUtils.lerp(from.yaw, to.yaw, blend),
+  };
 }
 
 function draw(time) {
   const state = pose(time);
-  pointerX += (pointerTarget - pointerX) * .06;
-  robot.position.x = state.x;
-  robot.rotation.y = state.yaw + Math.sin(time * .65) * .035 + pointerX * .12;
-  body.position.y = 1.32 + Math.sin(time * 1.8) * .009 + Math.sin(time * 12) * state.walk * .012;
-  body.rotation.z = -state.look * .13 + Math.sin(time * 1.4) * .007;
+  body.position.y = 1.32 + Math.sin(time * 1.5) * .005;
+  body.rotation.set(state.roll, state.yaw, state.pitch);
   body.updateMatrix();
   inverseBody.copy(body.matrix).invert();
   for (const leg of legs) {
-    const phase = time * 6.3 + leg.phase;
-    const step = Math.sin(phase) * .24 * state.walk;
-    const lift = Math.max(0, Math.cos(phase)) * .13 * state.walk;
-    footTarget.set(leg.x + step, .075 + lift, leg.side * .59).applyMatrix4(inverseBody).sub(leg.hip.position);
-    const cosine = (footTarget.x ** 2 + footTarget.y ** 2 - upperLength ** 2 - lowerLength ** 2) / (2 * upperLength * lowerLength);
+    footTarget.set(leg.x, .075, leg.side * .59).applyMatrix4(inverseBody).sub(leg.mount.position);
+    leg.mount.rotation.x = Math.atan2(-footTarget.z, -footTarget.y);
+    const vertical = -Math.hypot(footTarget.y, footTarget.z);
+    const cosine = (footTarget.x ** 2 + vertical ** 2 - upperLength ** 2 - lowerLength ** 2) / (2 * upperLength * lowerLength);
     const knee = -Math.acos(THREE.MathUtils.clamp(cosine, -1, 1));
-    const hip = Math.atan2(footTarget.x, -footTarget.y) - Math.atan2(lowerLength * Math.sin(knee), upperLength + lowerLength * Math.cos(knee));
+    const hip = Math.atan2(footTarget.x, -vertical) - Math.atan2(lowerLength * Math.sin(knee), upperLength + lowerLength * Math.cos(knee));
     leg.hip.rotation.z = hip;
     leg.knee.rotation.z = knee;
-    leg.foot.rotation.z = -hip - knee;
-  }
-  shadow.position.x = state.x;
-  shadow.rotation.z = -state.yaw;
-  const stateText = playing ? state.name : 'Taking a little pause';
-  if (status.textContent !== stateText) {
-    status.textContent = stateText;
-    stage.dataset.motion = playing ? state.name : 'Paused';
+    leg.knee.getWorldQuaternion(footLevel);
+    leg.foot.quaternion.copy(footLevel.invert());
   }
   renderer.render(scene, camera);
 }
@@ -235,14 +215,10 @@ function setPlaying(value) {
   pauseButton.setAttribute('aria-pressed', String(!playing));
   pauseButton.setAttribute('aria-label', playing ? 'Pause robot animation' : 'Play robot animation');
   pauseButton.firstElementChild.textContent = playing ? 'Ⅱ' : '▷';
+  stage.dataset.motion = playing ? 'playing' : 'paused';
   draw(elapsed);
 }
-document.querySelector('#look-button').addEventListener('click', () => { elapsed = 0; setPlaying(true); });
-document.querySelector('#walk-button').addEventListener('click', () => { elapsed = 4; setPlaying(true); });
 pauseButton.addEventListener('click', () => setPlaying(!playing));
-stage.addEventListener('pointermove', event => { const rect = stage.getBoundingClientRect(); pointerTarget = (event.clientX - rect.left) / rect.width - .5; });
-stage.addEventListener('pointerleave', () => { pointerTarget = 0; });
-reducedMotion.addEventListener('change', event => setPlaying(!event.matches));
 new ResizeObserver(resize).observe(stage);
 new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; lastTime = 0; }).observe(stage);
 document.addEventListener('visibilitychange', () => { lastTime = 0; });

@@ -1,10 +1,10 @@
 # Concept 01 — Minimal / Motion
 
-**Status:** first prototype, awaiting user feedback. No design decision has been validated yet.
+**Status:** iteration 2, revised from user feedback and awaiting the next review.
 
 **Question:** does the reference's oversized typography and quiet, asymmetric composition work with the lab's name, a short manifesto on the left, and an animated Unitree A2 on the right?
 
-[Desktop first screen](desktop.jpg) · [Mobile first screen](mobile.jpg) · [Rightward walk](walking-right.jpg) · [Browser checks](qa.json)
+[Desktop first screen](desktop.jpg) · [Mobile first screen](mobile.jpg) · [Browser checks](qa.json)
 
 Open `/prototype-minimal.html` from a static server at the repository root. For example:
 
@@ -21,14 +21,18 @@ Then visit <http://127.0.0.1:8771/prototype-minimal.html>.
 - Put a short, basic manifesto / About introduction on the left.
 - Keep a fuller introduction lower down for this first pass; a separate About page remains an option.
 - Replace the right-hand expertise block with a minimalist animated Unitree A2 graphic.
-- Let the robot look up and take a few steps left and right, rather than showing a static photo.
+- Add blue to the visual theme and put the existing ARC and Technion logos at the top.
+- Keep the short manifesto as it is.
+- Keep the robot standing in place, looking left, right, up, and down with gentle tilts. Remove walking and the large rotations.
+- Show only “Unitree A2” under the robot; the user confirmed A2 after initially saying A3.
+- Remove the motion descriptions and Look up / Walk buttons. Keep one pause/play control and start playing automatically.
 - Explore this first option, iterate, and try other references as they arrive. This prototype contains one direction, following that request.
 
 ## What this pass explores
 
-Monochrome Inter typography, oversized lab-name lettering, a faint dot grid, gray-to-black emphasis, small pill navigation, a condensed manifesto, and an unboxed silver robot. Current research direction links form the next section. The existing full introduction is available further down the page.
+Blue and navy oversized lab-name lettering, a faint dot grid, pale blue pill navigation, the supplied ARC and Technion logos, the unchanged manifesto, and an unboxed silver robot. The current research direction links form the next section. The existing full introduction is available further down the page.
 
-The robot is a simplified procedural 3D illustration based on the A2 photo already in `assets/robots/unitree-a2.png`. It has articulated legs, a body tilt to look up, turns, short walks in both directions, and subtle pointer response. It is a visual study rather than a CAD model or a physical gait simulation. Look up, Walk, and Pause controls make the motions easy to compare. Reduced-motion preferences start with the robot paused.
+The robot is a simplified procedural 3D illustration based on the A2 photo already in `assets/robots/unitree-a2.png`. Its feet stay planted while its body makes small glances and tilts, with pauses between them. Leg joints compensate for the body's pitch, roll, and limited yaw. The entire robot no longer translates or spins. This remains a visual study rather than a CAD model or a physical simulation. A single animation loop plays by default, as explicitly requested, and can be paused and resumed.
 
 The original site pages, stylesheet, script, assets, and baseline record are untouched. This concept is isolated in `prototype-minimal.html`, `prototype-minimal.css`, `prototype-a2.js`, and `assets/prototypes/minimal/`. It has not been deployed or merged into main.
 
@@ -43,4 +47,6 @@ No package installation, build step, or runtime CDN request is required.
 
 ## Checks
 
-Rendered at 1440 × 1000, 1280 × 720, 768 × 1024, 390 × 844, and 320 × 800 CSS pixels. The headline and page fit at each width, and the 3D canvas and local font load. Look up, walk left, turn, walk right, and pause were exercised in the browser. Reduced-motion preferences start the robot paused. The full introduction expands and contains all four original research questions. No browser console errors were recorded.
+The headline, logos, and simplified controls fit at 1440 × 1000, 1280 × 720, 768 × 1024, 390 × 844, and 320 × 800 CSS pixels. Automatic playback was verified on a fresh load. Pausing produced a stable image, resuming produced changing animation frames, and no browser console errors were recorded. The manifesto matches the first iteration exactly, and all 19 local references resolve. Details are in [qa.json](qa.json).
+
+The first pass, including its walking animation, remains in commit `0da2355`; [walking-right.jpg](walking-right.jpg) is its historical motion capture.
