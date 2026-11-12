@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- Concept 01: does an oversized lab name + short manifesto + animated A2 work as the landing page? -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An exploratory landing-page concept for the AI and Robotics for Construction Laboratory at the Technion." />
+    <title>ARC Lab — Minimal / Motion · Concept 01</title>
+    <link rel="preload" href="assets/prototypes/minimal/InterVariable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="prototype-minimal.css" />
+    <script type="module" src="prototype-a2.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="lab-mark pill" href="#top" aria-label="ARC Lab home">ARC Lab</a>
+      <nav aria-label="Main navigation">
+        <a class="pill" href="#research">Research</a>
+        <a class="pill" href="people.html">Team</a>
+        <a class="pill" href="publications.html">Publications</a>
+        <a class="pill" href="#about">About</a>
+        <a class="pill" href="join-us.html">Join us <span aria-hidden="true">↗</span></a>
+      </nav>
+      <a class="institution-link" href="https://www.technion.ac.il/" target="_blank" rel="noreferrer">Technion <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" aria-label="AI and Robotics for Construction Laboratory">
+          <span class="hero-line">AI &amp; ROBOTICS</span>
+          <span class="hero-line construction-line"><span class="quiet-word">FOR</span> CONSTRUCTION</span>
+        </h1>
+        <div class="hero-meta">
+          <span>A research laboratory</span>
+          <span>Technion — Israel Institute of Technology</span>
+        </div>
+
+        <div class="intro-grid">
+          <div class="manifesto">
+            <p>We’re a research lab at <span>the Technion</span>, exploring how <span>AI and robots</span> can <span>understand, reason about, and act on</span> the built environment.</p>
+            <a class="text-link" href="#about">A little more about us <span aria-hidden="true">↙</span></a>
+          </div>
+
+          <figure class="robot-study">
+            <div class="a2-stage" id="a2-stage" role="img" aria-label="A silver Unitree A2 robot looks up, turns, and takes a few steps in each direction.">
+              <img class="robot-fallback" src="assets/robots/unitree-a2.png" alt="" aria-hidden="true" />
+            </div>
+            <figcaption class="robot-caption">
+              <div><span class="robot-name">Unitree A2</span><span class="robot-state" id="robot-state">Our four-legged labmate</span></div>
+              <div class="robot-controls" aria-label="Robot movements">
+                <button type="button" id="look-button">Look up <span aria-hidden="true">↗</span></button>
+                <button type="button" id="walk-button">Walk <span aria-hidden="true">↔</span></button>
+                <button class="pause-button" type="button" id="pause-button" aria-label="Pause robot animation" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <h2 id="research-title">RESEARCH<br />DIRECTIONS</h2>
+          <p>Rethinking the built environment<br />through machine intelligence.</p>
+        </div>
+        <div class="research-list">
+          <a href="research/interaction-centered-bim.html"><span class="row-number">01</span><h3>Interaction-centered Building Information Modeling (IC-BIM)</h3><span class="row-arrow" aria-hidden="true">↗</span></a>
+          <a href="research/agent-oriented-design-construction.html"><span class="row-number">02</span><h3>Agent-oriented Design and Construction</h3><span class="row-arrow" aria-hidden="true">↗</span></a>
+          <a href="research/representation-learning.html"><span class="row-number">03</span><h3>Representation Learning for the Built Environment</h3><span class="row-arrow" aria-hidden="true">↗</span></a>
+          <a href="research/robot-centric-construction.html"><span class="row-number">04</span><h3>Robot-Centric Construction (RCC)</h3><span class="row-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><h2 id="about-title">ABOUT<br />ARC LAB</h2><span class="eyebrow">AI &amp; Robotics for Construction</span></div>
+        <div class="about-copy">
+          <p>We envision a future in which the built environment is not only digitally represented, but can also be <strong>understood, reasoned about, and acted upon by intelligent systems.</strong></p>
+          <details>
+            <summary>Read our full introduction <span aria-hidden="true">+</span></summary>
+            <div class="full-introduction">
+              <p>Welcome to the AI and Robotics for Construction (ARC) Lab at the Technion – Israel Institute of Technology!</p>
+              <p>Built environment engineering has largely been shaped around the assumption that its primary agents are human — an assumption embedded in how information is represented, engineering knowledge is formed, processes are structured, and physical production is carried out.</p>
+              <p>Our research rethinks these foundations:</p>
+              <ol>
+                <li>How the built environment should be represented for machine intelligence.</li>
+                <li>How AI systems can learn engineering knowledge from the digital traces of practice.</li>
+                <li>How digital engineering processes are constituted and analyzed.</li>
+                <li>How construction production and management systems must evolve as robots become agents of physical production.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Concept 01 · Minimal / Motion</span>
+      <a href="index.html">View the current website <span aria-hidden="true">↗</span></a>
+    </footer>
+  </body>
+</html>

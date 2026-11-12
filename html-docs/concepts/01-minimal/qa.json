@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-11-12T14:54:52.079Z",
+  "layouts": [
+    {
+      "captionBottom": 846.25,
+      "clientWidth": 1425,
+      "documentWidth": 1425,
+      "fonts": "loaded",
+      "headings": [
+        {
+          "contentWidth": 1361,
+          "text": "AI & ROBOTICS",
+          "width": 1361
+        },
+        {
+          "contentWidth": 1361,
+          "text": "FOR CONSTRUCTION",
+          "width": 1361
+        }
+      ],
+      "height": 1000,
+      "robotReady": true,
+      "width": 1440
+    },
+    {
+      "captionBottom": 704.65625,
+      "clientWidth": 1265,
+      "documentWidth": 1265,
+      "fonts": "loaded",
+      "headings": [
+        {
+          "contentWidth": 1201,
+          "text": "AI & ROBOTICS",
+          "width": 1201
+        },
+        {
+          "contentWidth": 1201,
+          "text": "FOR CONSTRUCTION",
+          "width": 1201
+        }
+      ],
+      "height": 720,
+      "robotReady": true,
+      "width": 1280
+    },
+    {
+      "captionBottom": 655.96875,
+      "clientWidth": 753,
+      "documentWidth": 753,
+      "fonts": "loaded",
+      "headings": [
+        {
+          "contentWidth": 705,
+          "text": "AI & ROBOTICS",
+          "width": 705
+        },
+        {
+          "contentWidth": 705,
+          "text": "FOR CONSTRUCTION",
+          "width": 705
+        }
+      ],
+      "height": 1024,
+      "robotReady": true,
+      "width": 768
+    },
+    {
+      "captionBottom": 965.96875,
+      "clientWidth": 375,
+      "documentWidth": 375,
+      "fonts": "loaded",
+      "headings": [
+        {
+          "contentWidth": 339,
+          "text": "AI & ROBOTICS",
+          "width": 339
+        },
+        {
+          "contentWidth": 339,
+          "text": "FOR CONSTRUCTION",
+          "width": 339
+        }
+      ],
+      "height": 844,
+      "robotReady": true,
+      "width": 390
+    },
+    {
+      "captionBottom": 1013.53125,
+      "clientWidth": 305,
+      "documentWidth": 305,
+      "fonts": "loaded",
+      "headings": [
+        {
+          "contentWidth": 269,
+          "text": "AI & ROBOTICS",
+          "width": 269
+        },
+        {
+          "contentWidth": 269,
+          "text": "FOR CONSTRUCTION",
+          "width": 269
+        }
+      ],
+      "height": 800,
+      "robotReady": true,
+      "width": 320
+    }
+  ],
+  "motion": {
+    "lookUp": {
+      "paused": "false",
+      "state": "Looking up"
+    },
+    "walkLeft": "A few steps to the left",
+    "turn": "Looking around",
+    "walkRight": "A few steps to the right",
+    "pause": {
+      "pressed": "true",
+      "state": "Taking a little pause"
+    }
+  },
+  "reducedMotion": {
+    "paused": "true",
+    "preference": true,
+    "state": "Taking a little pause"
+  },
+  "about": {
+    "foundations": 4,
+    "open": true
+  },
+  "consoleErrors": [],
+  "files": {
+    "local_references_resolve": 17,
+    "images_verified": [
+      {
+        "file": "desktop.jpg",
+        "size": [
+          1425,
+          990
+        ]
+      },
+      {
+        "file": "mobile.jpg",
+        "size": [
+          375,
+          812
+        ]
+      },
+      {
+        "file": "reference.png",
+        "size": [
+          1093,
+          825
+        ]
+      },
+      {
+        "file": "walking-right.jpg",
+        "size": [
+          1425,
+          990
+        ]
+      }
+    ],
+    "syntax_check": "node --check prototype-a2.js: passed"
+  }
+}
