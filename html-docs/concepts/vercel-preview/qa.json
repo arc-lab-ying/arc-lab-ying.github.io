@@ -1,0 +1,46 @@
+{
+  "share_url": "https://arc-lab-concepts-preview.vercel.app/",
+  "project": "arc-lab-concepts-preview",
+  "owner": "timsonyeung-8349",
+  "scope": "timson-yeungs-projects",
+  "plan": "hobby",
+  "release_files": 95,
+  "release_bytes": 6062048,
+  "anonymous_http": {
+    "http_200": 96,
+    "pages": 64,
+    "cookies_or_auth_sent": false,
+    "assets": 26,
+    "requests": 96,
+    "source_hash_match": true,
+    "failures": []
+  },
+  "browser": {
+    "publications": 27,
+    "viewport_restored": true,
+    "iframe_arrow_key": true,
+    "news_deep_link": true,
+    "page_preserving_buttons": true,
+    "phone_inner_client_width": 375,
+    "phone_inner_scroll_width": 375,
+    "review_label_px": 16,
+    "grid_distinct_intensities": 49,
+    "review_button_size": 44,
+    "console_errors": 0,
+    "native_team_tracking": true,
+    "nested_research_deep_link": true,
+    "a2_default_playing": true,
+    "a2_pause_play": true,
+    "phone_width": 390,
+    "a2_canvas": true,
+    "review_bar_width": 366,
+    "all_four_variants": true
+  },
+  "protection": "Stable share alias is public; generated deployment URLs retain default Vercel authentication. No protection setting changed.",
+  "limitations": [
+    "Real200% zoom remains unverified from the earlier typography review."
+  ],
+  "original_index_unchanged": true,
+  "main_unchanged": true,
+  "github_push": false
+}

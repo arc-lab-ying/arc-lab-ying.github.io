@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- Local-only review wrapper. Four complete prototype sites remain separate from the current site. -->
+<!-- Shareable review wrapper. Four complete prototype sites remain separate from the current site. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -78,13 +78,10 @@
       event.preventDefault();
       show(current + (event.key === 'ArrowRight' ? 1 : -1));
     }
-    const localReview = ['127.0.0.1', 'localhost', ''].includes(location.hostname);
-    if (localReview) {
-      document.querySelector('#review-switcher').hidden = false;
-      document.querySelector('#previous-concept').addEventListener('click', () => show(current - 1));
-      document.querySelector('#next-concept').addEventListener('click', () => show(current + 1));
-      document.addEventListener('keydown', handleKey);
-    }
+    document.querySelector('#review-switcher').hidden = false;
+    document.querySelector('#previous-concept').addEventListener('click', () => show(current - 1));
+    document.querySelector('#next-concept').addEventListener('click', () => show(current + 1));
+    document.addEventListener('keydown', handleKey);
     frame.addEventListener('load', () => {
       const base = new URL('prototypes/' + concepts[current].key + '/', location.href);
       const inner = new URL(frame.contentWindow.location.href);
@@ -92,7 +89,7 @@
       if (inner.origin === base.origin && inner.pathname.startsWith(base.pathname) && pages.has(page)) {
         currentPage = page;
         updateReview();
-        if (localReview) frame.contentDocument.addEventListener('keydown', handleKey);
+        frame.contentDocument.addEventListener('keydown', handleKey);
       }
     });
     show(current);
