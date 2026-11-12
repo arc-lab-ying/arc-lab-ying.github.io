@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "baseline": "32ac0ab",
+  "branch": "codex/website-redesign",
+  "main": "87792aae11e2b4e47346428cd59f047925462634",
+  "protected_tracked_files_unchanged": 275,
+  "changed_tracked_source": [
+    "prototypes/boostlab/people.html",
+    "prototypes/growthbook/people.html",
+    "prototypes/minimal/people.html",
+    "prototypes/parentsquare/people.html"
+  ],
+  "publications_unchanged": true,
+  "shared_theme_files_unchanged": true,
+  "homepages_and_other_routes_unchanged": true,
+  "comparison_wrapper_unchanged": true
+}

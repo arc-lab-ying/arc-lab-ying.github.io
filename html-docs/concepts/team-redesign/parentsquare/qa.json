@@ -1,0 +1,77 @@
+{
+  "status": "pass",
+  "composition": "Director column alongside an open researcher directory",
+  "source": {
+    "concept": "parentsquare",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 22,
+    "fragments": 4,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  },
+  "views": [
+    {
+      "concept": "parentsquare",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 1729,
+        "h1": "People at ARC Lab.",
+        "names": [
+          "Lab Director",
+          "Dr. Huaquan Ying",
+          "Researchers",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Robot",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Director column alongside an open researcher directory",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "parentsquare/desktop.jpg"
+    },
+    {
+      "concept": "parentsquare",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2315,
+        "h1": "People at ARC Lab.",
+        "names": [
+          "Lab Director",
+          "Dr. Huaquan Ying",
+          "Researchers",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Robot",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Director column alongside an open researcher directory",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "parentsquare/phone.jpg"
+    }
+  ],
+  "screenshots": [
+    "parentsquare/desktop-lower.jpg",
+    "parentsquare/desktop.jpg",
+    "parentsquare/phone-directory.jpg",
+    "parentsquare/phone-lower.jpg",
+    "parentsquare/phone.jpg"
+  ]
+}

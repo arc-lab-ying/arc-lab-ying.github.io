@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "composition": "Continuous numbered editorial profile bands",
+  "source": {
+    "concept": "minimal",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 25,
+    "fragments": 7,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  },
+  "views": [
+    {
+      "concept": "minimal",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2910,
+        "h1": "PEOPLE.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Continuous numbered editorial profile bands",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "minimal/desktop.jpg"
+    },
+    {
+      "concept": "minimal",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 3226,
+        "h1": "PEOPLE.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Continuous numbered editorial profile bands",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "minimal/phone.jpg"
+    }
+  ],
+  "screenshots": [
+    "minimal/desktop-lower.jpg",
+    "minimal/desktop.jpg",
+    "minimal/phone-lower.jpg",
+    "minimal/phone.jpg"
+  ]
+}

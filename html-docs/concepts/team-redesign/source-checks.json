@@ -1,0 +1,58 @@
+[
+  {
+    "concept": "minimal",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 25,
+    "fragments": 7,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  },
+  {
+    "concept": "parentsquare",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 22,
+    "fragments": 4,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  },
+  {
+    "concept": "growthbook",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 22,
+    "fragments": 4,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  },
+  {
+    "concept": "boostlab",
+    "status": "pass",
+    "people": 4,
+    "profile_facts": 11,
+    "robot": "Unitree A2",
+    "live_profile_destinations": 5,
+    "inactive_scholar_spans": 3,
+    "local_references": 39,
+    "fragments": 12,
+    "http": 200,
+    "css_syntax": "pass",
+    "errors": []
+  }
+]

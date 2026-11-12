@@ -1,0 +1,408 @@
+{
+  "status": "pass",
+  "date": "2026-11-12",
+  "scope": "Only the four recomposed Team pages",
+  "browser": "Microsoft Edge (Chromium), dedicated QA tab",
+  "viewport_overrides": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "phone": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "views": [
+    {
+      "concept": "minimal",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2910,
+        "h1": "PEOPLE.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Continuous numbered editorial profile bands",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "minimal/desktop.jpg"
+    },
+    {
+      "concept": "minimal",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 3226,
+        "h1": "PEOPLE.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Continuous numbered editorial profile bands",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "minimal/phone.jpg"
+    },
+    {
+      "concept": "parentsquare",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 1729,
+        "h1": "People at ARC Lab.",
+        "names": [
+          "Lab Director",
+          "Dr. Huaquan Ying",
+          "Researchers",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Robot",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Director column alongside an open researcher directory",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "parentsquare/desktop.jpg"
+    },
+    {
+      "concept": "parentsquare",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2315,
+        "h1": "People at ARC Lab.",
+        "names": [
+          "Lab Director",
+          "Dr. Huaquan Ying",
+          "Researchers",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Robot",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Director column alongside an open researcher directory",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "parentsquare/phone.jpg"
+    },
+    {
+      "concept": "growthbook",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2423,
+        "h1": "The people behindARC Lab.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Our researchers",
+          "Postdoc",
+          "Dr. Timson Yeung",
+          "PhD Students",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Centered introduction, director feature and open portrait spread",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "growthbook/desktop.jpg"
+    },
+    {
+      "concept": "growthbook",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 2796,
+        "h1": "The people behindARC Lab.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Our researchers",
+          "Postdoc",
+          "Dr. Timson Yeung",
+          "PhD Students",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Centered introduction, director feature and open portrait spread",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "growthbook/phone.jpg"
+    },
+    {
+      "concept": "boostlab",
+      "view": "desktop",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 1200,
+        "h1": "Team.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "composition": "Five-entry interactive roster with a portrait/detail stage",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "boostlab/desktop.jpg"
+    },
+    {
+      "concept": "boostlab",
+      "view": "phone",
+      "metrics": {
+        "brokenImages": [],
+        "documentHeight": 1799,
+        "h1": "Team.",
+        "names": [
+          "Dr. Huaquan Ying",
+          "Dr. Timson Yeung",
+          "Zikang Wang",
+          "Zheng Zhao",
+          "Unitree A2"
+        ],
+        "overflowing": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "composition": "Five-entry interactive roster with a portrait/detail stage",
+      "complete_page_scroll_review": "pass",
+      "screenshot": "boostlab/phone.jpg"
+    }
+  ],
+  "interaction_checks": {
+    "status": "pass",
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "phone": {
+      "width": 390,
+      "height": 844
+    },
+    "profilesReviewed": "All four people, their interests/roles/portraits and Unitree A2, in each concept",
+    "boostlab": {
+      "click": "pass",
+      "keyboard": "Tab, Space and Enter pass",
+      "touch": "Native touch selected Zikang Wang and scrolled the stage into view",
+      "selection": "Exactly one pressed button and one visible complete profile for each of five entries",
+      "noJavaScript": "All five complete profiles remained visible; native roster anchor navigation worked",
+      "scriptsRestored": true
+    },
+    "comparison": {
+      "iframeFocusedArrowKey": "pass",
+      "leftUrl": "http://127.0.0.1:8771/prototype-concepts.html?variant=growthbook&page=people.html",
+      "finalTeamUrl": "http://127.0.0.1:8771/prototype-concepts.html?variant=boostlab&page=people.html"
+    },
+    "temporaryViewportReset": true,
+    "siteRuntimeErrors": [],
+    "extensionOriginMessages": "Two Zotero extension messages appeared during script-disable testing; no site-source error was reported",
+    "fullPageCapture": "Backend timed out; reliable viewport top/lower captures used instead",
+    "finalViewport": {
+      "height": 960,
+      "width": 1912
+    }
+  },
+  "boostlab_selections": [
+    {
+      "clientWidth": 1425,
+      "facts": "Assistant ProfessorFaculty of Civil and Environmental Engineering",
+      "hiddenProfiles": 4,
+      "id": "profile-huaquan-ying",
+      "name": "Dr. Huaquan Ying",
+      "portrait": "../../assets/profile-photos/name_1.png",
+      "role": "Lab Director",
+      "scrollWidth": 1425,
+      "selectedButtons": 1,
+      "width": 919.453125
+    },
+    {
+      "clientWidth": 1425,
+      "facts": "Research Interests: Digital Twin Construction; Autonomous Systems; BIM Collaboration.",
+      "hiddenProfiles": 4,
+      "id": "profile-timson-yeung",
+      "name": "Dr. Timson Yeung",
+      "portrait": "../../assets/profile-photos/name_2.jpeg",
+      "role": "Postdoc",
+      "scrollWidth": 1425,
+      "selectedButtons": 1,
+      "width": 919.453125
+    },
+    {
+      "clientWidth": 1425,
+      "facts": "",
+      "hiddenProfiles": 4,
+      "id": "profile-unitree-a2",
+      "name": "Unitree A2",
+      "portrait": "../../assets/robots/unitree-a2.png",
+      "role": "Robot",
+      "scrollWidth": 1425,
+      "selectedButtons": 1,
+      "width": 919.453125
+    },
+    {
+      "clientWidth": 1425,
+      "facts": "Research Interests: AI for the Built Environment; BIM Intelligence; Representation Learning.",
+      "hiddenProfiles": 4,
+      "id": "profile-zheng-zhao",
+      "name": "Zheng Zhao",
+      "portrait": "../../assets/profile-photos/name_3.jpeg",
+      "role": "PhD Student",
+      "scrollWidth": 1425,
+      "selectedButtons": 1,
+      "width": 919.453125
+    },
+    {
+      "clientWidth": 1425,
+      "facts": "Research Interests: Construction Robotics; Digital Twin Construction; Uncertainty Modeling.",
+      "hiddenProfiles": 4,
+      "id": "profile-zikang-wang",
+      "name": "Zikang Wang",
+      "portrait": "../../assets/profile-photos/name_4.jpeg",
+      "role": "PhD Student",
+      "scrollWidth": 1425,
+      "selectedButtons": 1,
+      "width": 919.453125
+    }
+  ],
+  "screenshot_count": 19,
+  "screenshots": [
+    "minimal/desktop-lower.jpg",
+    "minimal/desktop.jpg",
+    "minimal/phone-lower.jpg",
+    "minimal/phone.jpg",
+    "parentsquare/desktop-lower.jpg",
+    "parentsquare/desktop.jpg",
+    "parentsquare/phone-directory.jpg",
+    "parentsquare/phone-lower.jpg",
+    "parentsquare/phone.jpg",
+    "growthbook/desktop-lower.jpg",
+    "growthbook/desktop-researchers.jpg",
+    "growthbook/desktop.jpg",
+    "growthbook/phone-lower.jpg",
+    "growthbook/phone.jpg",
+    "boostlab/desktop-no-js.jpg",
+    "boostlab/desktop-zikang.jpg",
+    "boostlab/desktop.jpg",
+    "boostlab/phone-timson-detail.jpg",
+    "boostlab/phone.jpg"
+  ],
+  "capture_pixel_sizes": {
+    "minimal/desktop-lower.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "minimal/desktop.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "minimal/phone-lower.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "minimal/phone.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "parentsquare/desktop-lower.jpg": {
+      "width": 1440,
+      "height": 1000
+    },
+    "parentsquare/desktop.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "parentsquare/phone-directory.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "parentsquare/phone-lower.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "parentsquare/phone.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "growthbook/desktop-lower.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "growthbook/desktop-researchers.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "growthbook/desktop.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "growthbook/phone-lower.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "growthbook/phone.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "boostlab/desktop-no-js.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "boostlab/desktop-zikang.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "boostlab/desktop.jpg": {
+      "width": 1425,
+      "height": 990
+    },
+    "boostlab/phone-timson-detail.jpg": {
+      "width": 375,
+      "height": 812
+    },
+    "boostlab/phone.jpg": {
+      "width": 375,
+      "height": 812
+    }
+  },
+  "source_checks": "source-checks.json",
+  "protected_files": "protected-files.json",
+  "limits": [
+    "Responsive emulation in one Chromium browser; no physical devices or other engines tested.",
+    "Full-page capture timed out; top/lower viewport captures document the new compositions.",
+    "Native viewport captures omit browser scrollbars; their pixel sizes are recorded separately from the viewport override."
+  ]
+}
