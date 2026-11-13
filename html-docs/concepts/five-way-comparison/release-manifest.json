@@ -1,0 +1,622 @@
+[
+  {
+    "path": "assets/arc-logo-source.jpg",
+    "bytes": 217374,
+    "sha256": "99609c315f14ace5f51f57f38c77047b6b434eb2da121748711676fca4b87060"
+  },
+  {
+    "path": "assets/arc-logo.jpg",
+    "bytes": 35129,
+    "sha256": "74bc0047c377639aacadc858339658a70d392b33fb3432b23048b0864c6b5ba1"
+  },
+  {
+    "path": "assets/arc-logo.svg",
+    "bytes": 7057,
+    "sha256": "cc62c5bf4ffe1722f3ee764b62dc68be3456659026c3dc9c8757e1917fbf3443"
+  },
+  {
+    "path": "assets/hero-ai-construction-v2.jpg",
+    "bytes": 261527,
+    "sha256": "f24206a123e8cb7ac85d8da5fed14977f1307bc739cf6b05ae8b0e286382ddb0"
+  },
+  {
+    "path": "assets/profile-photos/name_1.png",
+    "bytes": 2799540,
+    "sha256": "8cc79fa13778f145767aa28bc3fa646cab8d1b78d1c6d32e28a106a2f48433df"
+  },
+  {
+    "path": "assets/profile-photos/name_2.jpeg",
+    "bytes": 143260,
+    "sha256": "6032b94a6ac78c86e0f011f53771d318d017e6ae41f8fd35bf60d0dd2282db9c"
+  },
+  {
+    "path": "assets/profile-photos/name_3.jpeg",
+    "bytes": 105971,
+    "sha256": "d71d69d13c1af678c31cce56d74a9b4af6b3ac15e7b4259aa6908e91ffbf8af4"
+  },
+  {
+    "path": "assets/profile-photos/name_4.jpeg",
+    "bytes": 269372,
+    "sha256": "09d251cf60441f10e53f0f65f76c8b47e8540f79c7886f5ee81c01286b84a1e3"
+  },
+  {
+    "path": "assets/prototypes/minimal/Inter-LICENSE.txt",
+    "bytes": 4380,
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  {
+    "path": "assets/prototypes/minimal/InterVariable.woff2",
+    "bytes": 352240,
+    "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+  },
+  {
+    "path": "assets/prototypes/minimal/vendor/RoundedBoxGeometry.js",
+    "bytes": 6492,
+    "sha256": "047158fdb27e8b64a42b03af68c69c32f667818a8f328ea2b85691e0bf974414"
+  },
+  {
+    "path": "assets/prototypes/minimal/vendor/THREE-LICENSE.txt",
+    "bytes": 1081,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "path": "assets/prototypes/minimal/vendor/three.core.min.js",
+    "bytes": 381124,
+    "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+  },
+  {
+    "path": "assets/prototypes/minimal/vendor/three.module.min.js",
+    "bytes": 338908,
+    "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
+  },
+  {
+    "path": "assets/prototypes/shared/arc-wordmark.svg",
+    "bytes": 1289,
+    "sha256": "624484fb7bc5724124fb1f1fbde3041e6b05ee5421c42416561fac6ff92a5ae5"
+  },
+  {
+    "path": "assets/robots/unitree-a2.png",
+    "bytes": 585671,
+    "sha256": "e076c8f12c977feb2063d5ab3846b967763ae4255fb8f8f4972e0c08e8b6a365"
+  },
+  {
+    "path": "assets/technion-logo-official.png",
+    "bytes": 51350,
+    "sha256": "6f33b09533005d4a26a5abc4d2840e4c6c7386d4bc5db8fdb700a8d0ad3bfe57"
+  },
+  {
+    "path": "index.html",
+    "bytes": 7454,
+    "sha256": "7f22f4400eb0b8c97825ec71bb87ee0f51ed05f7703dc3961eef5cadd41fe700"
+  },
+  {
+    "path": "prototype-a2.js",
+    "bytes": 10065,
+    "sha256": "fd9c2026e8545994d5974f0411588773dd45ce9a37c6de958856b4c2409ae0b5"
+  },
+  {
+    "path": "prototype-concepts.html",
+    "bytes": 7454,
+    "sha256": "7f22f4400eb0b8c97825ec71bb87ee0f51ed05f7703dc3961eef5cadd41fe700"
+  },
+  {
+    "path": "prototypes/boostlab/index.html",
+    "bytes": 11538,
+    "sha256": "7c2a9d6f9ceaa21dd8fc9fcdb55c62a81d00c376b3b883d25ec2d82a6ea1c158"
+  },
+  {
+    "path": "prototypes/boostlab/join-us.html",
+    "bytes": 3066,
+    "sha256": "b9942f4680b71117a5c27da2d5fad6dfcf13281e93bedb8f5bab0f52fee63d1a"
+  },
+  {
+    "path": "prototypes/boostlab/news/ai-built-environment-paper.html",
+    "bytes": 3341,
+    "sha256": "8ed5125b34bda5394b2fd07cecfb6014e1c2984cfbbc4303cb721326671f39d8"
+  },
+  {
+    "path": "prototypes/boostlab/news/arc-lab-website-launch.html",
+    "bytes": 3248,
+    "sha256": "e330d0b0c85d00d9f621a5deb08375ff869392d2656a5d61fc2fdb26ce908383"
+  },
+  {
+    "path": "prototypes/boostlab/news/construction-robotics-digital-twins.html",
+    "bytes": 3335,
+    "sha256": "22ee8811be74977515becc3b25c07a8d63a6bd9758aed116cbb6f84baa4370be"
+  },
+  {
+    "path": "prototypes/boostlab/news/ic-bim-research-direction.html",
+    "bytes": 3321,
+    "sha256": "a2e8e30470cf467b3f976630bebee739da57da6889b267b4b3de14aae6b2edaa"
+  },
+  {
+    "path": "prototypes/boostlab/news/index.html",
+    "bytes": 4283,
+    "sha256": "340963cebba1f0930b024d45e6d0dbd814ccaa744779b23924f083d0d008b637"
+  },
+  {
+    "path": "prototypes/boostlab/news/robot-centric-construction-seminar.html",
+    "bytes": 3338,
+    "sha256": "9beb7ba7f07a9b20f30f038b460c68f51e6eea3842c810015041c4886597180c"
+  },
+  {
+    "path": "prototypes/boostlab/news/welcome-new-researchers.html",
+    "bytes": 3273,
+    "sha256": "834a4a6d956ba1e2e2104c0ea4875c4099dd2db4eb7d0db35a658e98306428ea"
+  },
+  {
+    "path": "prototypes/boostlab/people.css",
+    "bytes": 11088,
+    "sha256": "d145322f52c533e4c07457a39e8f2e20e86ff80fdb67bae3d16d7044e5932148"
+  },
+  {
+    "path": "prototypes/boostlab/people.html",
+    "bytes": 10975,
+    "sha256": "fd4aed018843bc3db6948434b32cc5fc9d66637c36a954378cea7e51154fccd8"
+  },
+  {
+    "path": "prototypes/boostlab/people.js",
+    "bytes": 2254,
+    "sha256": "cefdd906de61192849ac075022531d3cb2cea084c597096e66007ce758a55d5b"
+  },
+  {
+    "path": "prototypes/boostlab/publications.html",
+    "bytes": 17489,
+    "sha256": "2cfa211c541c4b22d88b3e9b928f6e573363c59d6981796d508a154f9115be6b"
+  },
+  {
+    "path": "prototypes/boostlab/research/agent-oriented-design-construction.html",
+    "bytes": 4285,
+    "sha256": "12fa4703f48996a77c190a43177f5219f32073477bd1660e714caa56756d655e"
+  },
+  {
+    "path": "prototypes/boostlab/research/interaction-centered-bim.html",
+    "bytes": 4135,
+    "sha256": "26eaa6bf69b197e3da155c33a648aa81b7bf1adbe774bae5451df5cedf808c9a"
+  },
+  {
+    "path": "prototypes/boostlab/research/representation-learning.html",
+    "bytes": 4087,
+    "sha256": "76b194585ffefcd535dbd146d1ab08b17d4a5d8b5fe2a2aad6136a8734446257"
+  },
+  {
+    "path": "prototypes/boostlab/research/robot-centric-construction.html",
+    "bytes": 4230,
+    "sha256": "9a96bc5166514d8eef8b12b7ebd5d5c9dc4b846dfe6c51ade325707e259c7afc"
+  },
+  {
+    "path": "prototypes/boostlab/research.html",
+    "bytes": 4348,
+    "sha256": "ae367b4488867e031e8893b95bb6cd2ca76b7d36c44d61fe9417fe41cc01275a"
+  },
+  {
+    "path": "prototypes/boostlab/site.css",
+    "bytes": 36495,
+    "sha256": "63ceec59322197e667439c17141a139ebcdedcc8f29204d5aaed4ecebe97a30d"
+  },
+  {
+    "path": "prototypes/boostlab/site.js",
+    "bytes": 8194,
+    "sha256": "675ce53b3f1b2fe1f939de3611ee21426c2e03c0dbf033f39063ccdbabcc59b2"
+  },
+  {
+    "path": "prototypes/growthbook/growthbook.css",
+    "bytes": 26087,
+    "sha256": "6f72f01ec854429c391b0d18e8ca7e21acc83e5965f3d6ca8925997fdffc0803"
+  },
+  {
+    "path": "prototypes/growthbook/index.html",
+    "bytes": 11666,
+    "sha256": "49a69359ee9cca9a427571a13a2407097c43c7593cde04d9b57f0a38c6676e44"
+  },
+  {
+    "path": "prototypes/growthbook/join-us.html",
+    "bytes": 2593,
+    "sha256": "4dde91a9a3071d34c58de52244b0dad96ecbaf5d8e8c3f3c2cff348f73429224"
+  },
+  {
+    "path": "prototypes/growthbook/news/ai-built-environment-paper.html",
+    "bytes": 2824,
+    "sha256": "e0e1953d8800018962eee1e783befd7c1e9c3d31447f1fdb05b9e788d1eee645"
+  },
+  {
+    "path": "prototypes/growthbook/news/arc-lab-website-launch.html",
+    "bytes": 2731,
+    "sha256": "076a62e420a4a19f11b69e96c4c786233c1c58090885ded95068be0446aa31ed"
+  },
+  {
+    "path": "prototypes/growthbook/news/construction-robotics-digital-twins.html",
+    "bytes": 2818,
+    "sha256": "03727ce1d5aef4c7a13938b75d5da920446b0a9f2e81745ec30d85d7749e2419"
+  },
+  {
+    "path": "prototypes/growthbook/news/ic-bim-research-direction.html",
+    "bytes": 2804,
+    "sha256": "51a07649eb5c09e924c3fc09ea346c94d52c7bb3bb3dd0bf599850e71788419c"
+  },
+  {
+    "path": "prototypes/growthbook/news/index.html",
+    "bytes": 3788,
+    "sha256": "e88c7703c626f5a6d1df7ad1b40f9fb3f3d68a5b9efb2875199a2a8ceb8ffbdb"
+  },
+  {
+    "path": "prototypes/growthbook/news/robot-centric-construction-seminar.html",
+    "bytes": 2821,
+    "sha256": "25a2588433f0d1440ae79adcb91625eacc98cb49fda57f57e6375fbd87aed78b"
+  },
+  {
+    "path": "prototypes/growthbook/news/welcome-new-researchers.html",
+    "bytes": 2756,
+    "sha256": "6b0b3686f8e549e250bea4246ca47575d942f8f11b3139f333b9141549542b64"
+  },
+  {
+    "path": "prototypes/growthbook/people.css",
+    "bytes": 9347,
+    "sha256": "f0b64ff638c95832a80e0f6be595071b9c053e5e9e39b755e7b772d390fd3068"
+  },
+  {
+    "path": "prototypes/growthbook/people.html",
+    "bytes": 7218,
+    "sha256": "250b3c741944b02d21172083d13f4425357280493d62a52c216e02442e2195f6"
+  },
+  {
+    "path": "prototypes/growthbook/publications.html",
+    "bytes": 17014,
+    "sha256": "1806c13915a05f6009d0327dbf5f2c725ae882ed87e2f55416300c9697e9f9d9"
+  },
+  {
+    "path": "prototypes/growthbook/research/agent-oriented-design-construction.html",
+    "bytes": 3806,
+    "sha256": "ce48cc810fe4c72b8d1bd75ee0390f541a0932bd9abab7a29aad1d45a5e6f4d9"
+  },
+  {
+    "path": "prototypes/growthbook/research/interaction-centered-bim.html",
+    "bytes": 3656,
+    "sha256": "fe32ae69ba9b294f7a78bb4ec68f1f2285309177a8d7c3a25055e58d276daead"
+  },
+  {
+    "path": "prototypes/growthbook/research/representation-learning.html",
+    "bytes": 3608,
+    "sha256": "ef16c596a265680fd81fdc9071b9b32223461db4695c873a1344579b513a2182"
+  },
+  {
+    "path": "prototypes/growthbook/research/robot-centric-construction.html",
+    "bytes": 3751,
+    "sha256": "3ac0d8ad555485b056c0b99a92547a9578a6a6773cc09060efe3b61acaa97ca0"
+  },
+  {
+    "path": "prototypes/growthbook/research.html",
+    "bytes": 5145,
+    "sha256": "075e9f3daa82be4e8661b0ab454ef73cf50f495826101c07e58c6e1ad66e6853"
+  },
+  {
+    "path": "prototypes/minimal/index.html",
+    "bytes": 8014,
+    "sha256": "15b788a5a242852977d456235bef0cf8309fad1e88eee00bda76a8c11284ccb0"
+  },
+  {
+    "path": "prototypes/minimal/join-us.html",
+    "bytes": 2327,
+    "sha256": "3701e19d9c9b2a6d85a0f33fa0b30cde8b3330a64776026837732d84fb9964f0"
+  },
+  {
+    "path": "prototypes/minimal/minimal.css",
+    "bytes": 26082,
+    "sha256": "0711e505f96aa4e80b01e5d88923cf00ebf6f90d5664c9ee2b5c6cdcdaa214a5"
+  },
+  {
+    "path": "prototypes/minimal/news/ai-built-environment-paper.html",
+    "bytes": 2656,
+    "sha256": "080299e65807dec2c3c95623f56d17f7507cd957e23593dee6dacc4d687565da"
+  },
+  {
+    "path": "prototypes/minimal/news/arc-lab-website-launch.html",
+    "bytes": 2563,
+    "sha256": "d753b55275e962e70adf54d6df6e2802bfb9e5d0275fdf553b602d0a78857a2d"
+  },
+  {
+    "path": "prototypes/minimal/news/construction-robotics-digital-twins.html",
+    "bytes": 2650,
+    "sha256": "783a1defff3c8bc3786edea9014f44326ba3a1d672914b5db94758ecd9012450"
+  },
+  {
+    "path": "prototypes/minimal/news/ic-bim-research-direction.html",
+    "bytes": 2636,
+    "sha256": "f875a78d6f6d926868d1b45828bdc227b724a2abc015d14f56affee1fa6545dd"
+  },
+  {
+    "path": "prototypes/minimal/news/index.html",
+    "bytes": 3512,
+    "sha256": "363476bbc3e4c172f35e92cc3c8cfddb8935a89b65ca10fe8c6197ced384d5a1"
+  },
+  {
+    "path": "prototypes/minimal/news/robot-centric-construction-seminar.html",
+    "bytes": 2653,
+    "sha256": "c36c93b87567c7245122ad09c3a1d4cc6675485a2704fd2b32dfc4ac5f2bb791"
+  },
+  {
+    "path": "prototypes/minimal/news/welcome-new-researchers.html",
+    "bytes": 2588,
+    "sha256": "5ea364ef28502c85a08ac700c09c5ba22ab6305dfe208e2fe1ff156b54438e35"
+  },
+  {
+    "path": "prototypes/minimal/people.css",
+    "bytes": 8540,
+    "sha256": "6fc6c1bd5c30d95dfd8a37bbeab729997e1bc9be6c783a6913bfdc6bbed436d5"
+  },
+  {
+    "path": "prototypes/minimal/people.html",
+    "bytes": 6942,
+    "sha256": "8e9fec57129f86208b223a0abf212d774f4a8f28733c545b74e5077a963c3e70"
+  },
+  {
+    "path": "prototypes/minimal/publications.html",
+    "bytes": 16324,
+    "sha256": "12d077add2dc9218b2ef9cd8d1d7c5dcd5016c492e60f6a0ececab38ccb884d5"
+  },
+  {
+    "path": "prototypes/minimal/research/agent-oriented-design-construction.html",
+    "bytes": 3480,
+    "sha256": "480e3ba5cdc97a1783db601f938d7d807e13807d4194f98f8928e37272a51ae1"
+  },
+  {
+    "path": "prototypes/minimal/research/interaction-centered-bim.html",
+    "bytes": 3330,
+    "sha256": "8b778b91e36d660a139d528d9963eecbd44356df23fa0a1ce97000b4d58cf188"
+  },
+  {
+    "path": "prototypes/minimal/research/representation-learning.html",
+    "bytes": 3282,
+    "sha256": "14cbca2e439ba36533b005f89fd358a6db76dac19d5715f35edce8e9224f5e6f"
+  },
+  {
+    "path": "prototypes/minimal/research/robot-centric-construction.html",
+    "bytes": 3425,
+    "sha256": "3d9aa15a0a3488412cf1cd314fb478c5b5afa5ea655e9eb0a7d0802baddce441"
+  },
+  {
+    "path": "prototypes/minimal/research.html",
+    "bytes": 3342,
+    "sha256": "e50fbcd74b726e23f39e0bed9c21f34cbf0a55456a1c28965deb977753828a1b"
+  },
+  {
+    "path": "prototypes/original/assets/arc-logo-source.jpg",
+    "bytes": 217374,
+    "sha256": "99609c315f14ace5f51f57f38c77047b6b434eb2da121748711676fca4b87060"
+  },
+  {
+    "path": "prototypes/original/assets/arc-logo.jpg",
+    "bytes": 35129,
+    "sha256": "74bc0047c377639aacadc858339658a70d392b33fb3432b23048b0864c6b5ba1"
+  },
+  {
+    "path": "prototypes/original/assets/arc-logo.svg",
+    "bytes": 7015,
+    "sha256": "b08c4628b0a4818f4d69acc40cba0c362f8321a21e80b87b057feb4dc3c05548"
+  },
+  {
+    "path": "prototypes/original/assets/hero-ai-construction-v2.jpg",
+    "bytes": 261527,
+    "sha256": "f24206a123e8cb7ac85d8da5fed14977f1307bc739cf6b05ae8b0e286382ddb0"
+  },
+  {
+    "path": "prototypes/original/assets/home pic.png",
+    "bytes": 2210634,
+    "sha256": "19e79a2e07ea0582bdeb2a5bcdabdcd5f9615bb459e6f2c6cb141a5339692a68"
+  },
+  {
+    "path": "prototypes/original/assets/profile-photos/name_1.png",
+    "bytes": 2799540,
+    "sha256": "8cc79fa13778f145767aa28bc3fa646cab8d1b78d1c6d32e28a106a2f48433df"
+  },
+  {
+    "path": "prototypes/original/assets/profile-photos/name_2.jpeg",
+    "bytes": 143260,
+    "sha256": "6032b94a6ac78c86e0f011f53771d318d017e6ae41f8fd35bf60d0dd2282db9c"
+  },
+  {
+    "path": "prototypes/original/assets/profile-photos/name_3.jpeg",
+    "bytes": 105971,
+    "sha256": "d71d69d13c1af678c31cce56d74a9b4af6b3ac15e7b4259aa6908e91ffbf8af4"
+  },
+  {
+    "path": "prototypes/original/assets/profile-photos/name_4.jpeg",
+    "bytes": 269372,
+    "sha256": "09d251cf60441f10e53f0f65f76c8b47e8540f79c7886f5ee81c01286b84a1e3"
+  },
+  {
+    "path": "prototypes/original/assets/robots/unitree-a2.png",
+    "bytes": 585671,
+    "sha256": "e076c8f12c977feb2063d5ab3846b967763ae4255fb8f8f4972e0c08e8b6a365"
+  },
+  {
+    "path": "prototypes/original/assets/technion-logo-official.png",
+    "bytes": 51350,
+    "sha256": "6f33b09533005d4a26a5abc4d2840e4c6c7386d4bc5db8fdb700a8d0ad3bfe57"
+  },
+  {
+    "path": "prototypes/original/index.html",
+    "bytes": 8087,
+    "sha256": "4bae5abd0fd6b40cc96e1b22a8dede22fe9975b129279b04eb895107001e218f"
+  },
+  {
+    "path": "prototypes/original/join-us.html",
+    "bytes": 2745,
+    "sha256": "8c5fae4cf6db78d37b9dd8955fc32c0ddd4ab9321c88088e7da78f1ae443ca85"
+  },
+  {
+    "path": "prototypes/original/news/ai-built-environment-paper.html",
+    "bytes": 1665,
+    "sha256": "4e6f1aa36c2d0231c4ddbeca4d150a82a8d7b0a4ac7c4fc4d4163e3fb9fd5023"
+  },
+  {
+    "path": "prototypes/original/news/arc-lab-website-launch.html",
+    "bytes": 1572,
+    "sha256": "ae5a408dcf2f2652ae7f0b83dad9b64f921b6e2aa0c9fd99aa97f79560d9ed59"
+  },
+  {
+    "path": "prototypes/original/news/construction-robotics-digital-twins.html",
+    "bytes": 1659,
+    "sha256": "112b72be927720582d6691e2d69aaaff438186abf74cfdad31547a35cee19dd3"
+  },
+  {
+    "path": "prototypes/original/news/ic-bim-research-direction.html",
+    "bytes": 1645,
+    "sha256": "dc98abe2b12022bc8f42e74b05e4c2f4acc2eedded55f2cbf60fdd8d639ef332"
+  },
+  {
+    "path": "prototypes/original/news/index.html",
+    "bytes": 4343,
+    "sha256": "7978675b5d4f52b5e649552f60ff3e818c5720605198288915249a240e8300d3"
+  },
+  {
+    "path": "prototypes/original/news/robot-centric-construction-seminar.html",
+    "bytes": 1662,
+    "sha256": "36d5ae43bba9670d6e52edd8f8d09577474d43aea676cbcd1becd98e6d75c947"
+  },
+  {
+    "path": "prototypes/original/news/welcome-new-researchers.html",
+    "bytes": 1597,
+    "sha256": "58ed975c35948e7beb7e11249d58529c75c5ce1308e27c545d5111f33b6f8016"
+  },
+  {
+    "path": "prototypes/original/people.html",
+    "bytes": 7806,
+    "sha256": "f9d00c9ce0657df264b9271a6a9baec9922fffa29f74317f8f9ec26d7bcc00b5"
+  },
+  {
+    "path": "prototypes/original/publications.html",
+    "bytes": 19993,
+    "sha256": "51c3aa0d8cfe4273a2f7c7e17281d7a5833389f25ed37a0a0485bfa6fbe1942b"
+  },
+  {
+    "path": "prototypes/original/research/agent-oriented-design-construction.html",
+    "bytes": 4161,
+    "sha256": "64e2ddbf3817c076734dd847285105925c9910b652db0c4ecf222660028ef972"
+  },
+  {
+    "path": "prototypes/original/research/interaction-centered-bim.html",
+    "bytes": 3906,
+    "sha256": "e7f80883780ef44b7e46b24123c2f0bf35152d71f7c4d461fb160bc48c292185"
+  },
+  {
+    "path": "prototypes/original/research/representation-learning.html",
+    "bytes": 3858,
+    "sha256": "d7c94eb21ca23add2feb2210d466189379758952fc9eaf7ae7d82a03c49cf9e6"
+  },
+  {
+    "path": "prototypes/original/research/robot-centric-construction.html",
+    "bytes": 4106,
+    "sha256": "2b8922b92fdbf2aeff3577a50103fa8af4117fe939ec61ad174bd3402a98eabf"
+  },
+  {
+    "path": "prototypes/original/research.html",
+    "bytes": 4042,
+    "sha256": "651e7f3997fabf47cb03cc6cc4b47fed77c7c7d4d0040e300edeb22867dac806"
+  },
+  {
+    "path": "prototypes/original/script.js",
+    "bytes": 2355,
+    "sha256": "74a3dd6075203149e663281b32a843b1edc1f828531bacaf7c8ee6608fdeb29a"
+  },
+  {
+    "path": "prototypes/original/styles.css",
+    "bytes": 22368,
+    "sha256": "d566b381e869176a96ec4ce8fa1f624627bbf910485c1cc82eee035be8331941"
+  },
+  {
+    "path": "prototypes/parentsquare/index.html",
+    "bytes": 9563,
+    "sha256": "a9ce00b9364910148c8bbd6c39d61fef7f6ac378a4fa9a7141f6f6a1ea73722d"
+  },
+  {
+    "path": "prototypes/parentsquare/join-us.html",
+    "bytes": 2698,
+    "sha256": "8f4c6046b1eb8ab94db3128ec68b3167ced294a7efc6fdb33350e6acccd3687b"
+  },
+  {
+    "path": "prototypes/parentsquare/news/ai-built-environment-paper.html",
+    "bytes": 2971,
+    "sha256": "790241a53585181e90c972da9f8c651e912001fec6bb884ffebc376061634947"
+  },
+  {
+    "path": "prototypes/parentsquare/news/arc-lab-website-launch.html",
+    "bytes": 2878,
+    "sha256": "415489f81f74e82e26233c3862785d685c8e88c48a7ecb57003143b3bcc28d0f"
+  },
+  {
+    "path": "prototypes/parentsquare/news/construction-robotics-digital-twins.html",
+    "bytes": 2965,
+    "sha256": "8552dbfd50bcaab89e8b233792fbfb7794334739b94759410c41cfd7546ed06e"
+  },
+  {
+    "path": "prototypes/parentsquare/news/ic-bim-research-direction.html",
+    "bytes": 2951,
+    "sha256": "51d0ff53583e996e8105af772a45e369b717e55f40efe5884fc9c284a4e91b34"
+  },
+  {
+    "path": "prototypes/parentsquare/news/index.html",
+    "bytes": 3894,
+    "sha256": "17532a4e35f920fc6c41677d668d181f726d549d3cd5d0d1e2b522d6debc0f5a"
+  },
+  {
+    "path": "prototypes/parentsquare/news/robot-centric-construction-seminar.html",
+    "bytes": 2968,
+    "sha256": "90867cddaf0db24393aa24b7e4b82ea8eea89c124cd26d4a997d82687a0165c5"
+  },
+  {
+    "path": "prototypes/parentsquare/news/welcome-new-researchers.html",
+    "bytes": 2903,
+    "sha256": "fb715efa7d79460eda55dfcdfeb1faeb0ae519c7e95cbe6b0e1a0d6aa43423fc"
+  },
+  {
+    "path": "prototypes/parentsquare/parentsquare.css",
+    "bytes": 23709,
+    "sha256": "2a2e6f601d4f8b00b4c110d6bf2c7296fed7a585475490069a2b9e211af4282e"
+  },
+  {
+    "path": "prototypes/parentsquare/people.css",
+    "bytes": 9750,
+    "sha256": "969cd65333bff80df12e67e9b3a3529ff59366ce94b3aca23f3057bad3feaca4"
+  },
+  {
+    "path": "prototypes/parentsquare/people.html",
+    "bytes": 6805,
+    "sha256": "2ffc1383d64d512661e0bc8bd48b3d21035ada348196d5ca818932b678f1fb78"
+  },
+  {
+    "path": "prototypes/parentsquare/publications.html",
+    "bytes": 16690,
+    "sha256": "f30bbaf153d5fb5cf29034a1236429b804a4f64d6bf709019ecc3dd96d088baf"
+  },
+  {
+    "path": "prototypes/parentsquare/research/agent-oriented-design-construction.html",
+    "bytes": 3882,
+    "sha256": "fa43f86f53c4bb583a6d5d6b3fc42d63ff0eacbb91ac1cad4e418055912aa878"
+  },
+  {
+    "path": "prototypes/parentsquare/research/interaction-centered-bim.html",
+    "bytes": 3732,
+    "sha256": "91a75d72439dcee41862c983d5dc9982c4e66ed2f2909b5dd0c6633cdb703ac9"
+  },
+  {
+    "path": "prototypes/parentsquare/research/representation-learning.html",
+    "bytes": 3684,
+    "sha256": "6c655aff3b6b24a27cb253f84ca52bd00c6870ff3c03320e033ff8297ff42108"
+  },
+  {
+    "path": "prototypes/parentsquare/research/robot-centric-construction.html",
+    "bytes": 3827,
+    "sha256": "9fbafc4add26bbbcc0a9f95f8abb02e57c95fbd5b21ce10b25af4618996a4066"
+  },
+  {
+    "path": "prototypes/parentsquare/research.html",
+    "bytes": 5091,
+    "sha256": "bf4cdee041cdaf35cefbcf9f1a338423496331dae8b6ad9ae556ab17473f47bb"
+  },
+  {
+    "path": "vercel.json",
+    "bytes": 172,
+    "sha256": "e15fdf300a667afce228d1abbc9c349b62130899e7377587759213e3dd52c2fc"
+  }
+]

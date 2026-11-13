@@ -1,0 +1,38 @@
+{
+  "source_commit": "88541f14a76fbbe63f5a2bb48ab67b593dc78695",
+  "deployment": "ibh02mu70",
+  "share_url": "https://arc-lab-concepts-preview.vercel.app/",
+  "default": "00 \u00b7 Original Website",
+  "canonical_keys": [
+    "original",
+    "minimal",
+    "classic",
+    "overview",
+    "grid"
+  ],
+  "aliases": {
+    "parentsquare": "classic",
+    "growthbook": "overview",
+    "boostlab": "grid"
+  },
+  "public_baseline_home_team_research_checked": true,
+  "public_legacy_deep_page_hash_checked": true,
+  "local_five_way_interaction_record": "local-comparison.json",
+  "phone_width": 390,
+  "phone_inner_width": 375,
+  "phone_inner_scroll_width": 375,
+  "viewport_restored": true,
+  "email_images": 4,
+  "email_format": "JPEG",
+  "email_actual_dimensions": [
+    1425,
+    990
+  ],
+  "zip_entries": 4,
+  "zip_bytes": 373368,
+  "release_files": 124,
+  "release_bytes": 12847386,
+  "original_external_fonts_retained_for_fidelity": true,
+  "original_main_source_unchanged": true,
+  "github_push": false
+}

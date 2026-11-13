@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01-minimal-motion.jpg",
+    "format": "JPEG",
+    "width": 1425,
+    "height": 990,
+    "bytes": 115984,
+    "sha256": "242a8b77ccc0b02bc8a9798aae6f0a8261ba100378a5d20624f5eb4b5d993aad"
+  },
+  {
+    "file": "02-classic-academic.jpg",
+    "format": "JPEG",
+    "width": 1425,
+    "height": 990,
+    "bytes": 126120,
+    "sha256": "6a9d14ac44951a0475c75e7b2471808de3a09dda24b6a527f69a5edfc5cad7a1"
+  },
+  {
+    "file": "03-research-overview.jpg",
+    "format": "JPEG",
+    "width": 1425,
+    "height": 990,
+    "bytes": 97275,
+    "sha256": "53e5846454b51a20e4ec634d9e63a13639cf5b510c6c572a28432e77f5afc90f"
+  },
+  {
+    "file": "04-interactive-grid.jpg",
+    "format": "JPEG",
+    "width": 1425,
+    "height": 990,
+    "bytes": 85909,
+    "sha256": "a53f4711bce90302b57a5f2ddf92e9761ca3008f60e122e87eb4a30a3814cd5d"
+  }
+]

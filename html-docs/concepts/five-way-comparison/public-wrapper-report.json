@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "default_original": true,
+  "previous_from_original_wraps_grid": true,
+  "canonical_page_states": 80,
+  "legacy_alias_page_states": 48,
+  "five_cycle_transitions": 640,
+  "selected_page_hash_preserved": true,
+  "iframe_click_replaceState_hash_sync": true,
+  "fresh_hash_read_at_switch": true,
+  "iframe_hashchange_sync": true,
+  "same_origin": true,
+  "generic_dynamic_names": true,
+  "invalid_key_page_falls_back_original": true
+}
