@@ -1,0 +1,60 @@
+{
+  "url": "https://arc-lab-concepts-preview.vercel.app/",
+  "deployment_version": "dkoojdmak",
+  "anonymous_no_cookies_no_authorization": true,
+  "requests": 7,
+  "http_200": 7,
+  "redirects": 0,
+  "team_pages": [
+    {
+      "variant": "minimal",
+      "source_sha256": "d473ba8630f1ecaf06f4c0e3fba39e81362d555192e33ffb2ba23b6128a93af8",
+      "scholar_links": 3,
+      "interest_lines": 9,
+      "portraits": 5,
+      "facts_preserved": true
+    },
+    {
+      "variant": "parentsquare",
+      "source_sha256": "09970fce4d74b9de8cd19f38b6a225aa1ea0d0637892e91735b08fdf6d2e765a",
+      "scholar_links": 3,
+      "interest_lines": 9,
+      "portraits": 5,
+      "facts_preserved": true
+    },
+    {
+      "variant": "growthbook",
+      "source_sha256": "0936869bb8d22698f3c285634c8b9eedcf7fdc3def1b8e047c6baa59a47aa0cd",
+      "scholar_links": 3,
+      "interest_lines": 9,
+      "portraits": 5,
+      "facts_preserved": true
+    },
+    {
+      "variant": "boostlab",
+      "source_sha256": "cdc07885a3348dbe257012b26bc36baa48c30dceea4c7d340c16af1772f327d0",
+      "scholar_links": 3,
+      "interest_lines": 9,
+      "portraits": 5,
+      "facts_preserved": true
+    }
+  ],
+  "interest_lines_cleaned": 36,
+  "director_scholar_unchanged": true,
+  "new_scholar": {
+    "Dr. Huaquan Ying": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+    "Dr. Timson Yeung": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+    "Zikang Wang": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+    "Zheng Zhao": null
+  },
+  "zheng_scholar_completely_omitted": true,
+  "boostlab_callout_and_unused_backplate_css_removed": true,
+  "boostlab_team_runtime_unchanged": true,
+  "public_team_query_wrapper_unchanged": true,
+  "current_source_bytes_match": true,
+  "identity_references": {
+    "Timson Yeung": "https://cris.technion.ac.il/en/publications/integrating-digital-twin-and-agent-based-simulation-to-support-ad/",
+    "Zikang Wang": "https://www.iaarc.org/publications/2026_proceedings_of_the_43rd_isarc_singapore/a_bim_driven_robotic_framework_for_autonomous_3d_projection_of_construction_layouts.html"
+  },
+  "status": "PASS"
+}

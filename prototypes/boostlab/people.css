@@ -1,14 +1,11 @@
 /* Team-only portrait explorer. Every profile remains visible without JavaScript. */
 .team-explorer-page { background: #f1f3f6; border-top: 1px solid #d7dee7; }
 .team-intro { --cells: 16; --rows: 3; position: relative; isolation: isolate; display: flex; align-items: end; justify-content: space-between; gap: 30px; padding: 35px 6.25% 34px; }
-.team-title-block, .team-intro-note { background: #f1f3f6; }
+.team-title-block { background: #f1f3f6; }
 .team-title-block { padding-right: 40px; }
 .team-eyebrow { font-size: var(--type-support); letter-spacing: .1em; color: #546e85; margin: 0 0 9px; }
 .team-intro h1 { margin: 0; font-size: var(--type-display); line-height: .96; letter-spacing: -.075em; font-weight: 450; }
 .team-intro h1 > span { color: #175dd4; }
-.team-intro-note { padding: 15px 0 5px 24px; text-align: right; }
-.team-intro-note p { margin: 0 0 12px; color: #546e85; font-size: var(--type-support); }
-.team-intro-note > span { color: #0b2845; font-size: var(--type-body); letter-spacing: -.025em; }
 .people-explorer { position: relative; display: grid; grid-template-columns: minmax(255px, .33fr) minmax(0, 1fr); align-items: start; gap: 24px; width: 87.5%; max-width: 1440px; margin: 0 auto; padding: 0 0 72px; }
 .team-roster { position: sticky; top: 22px; min-width: 0; background: #f9fbfd; border: 1px solid #cdd9e7; scroll-margin-top: 20px; }
 .roster-heading { display: flex; align-items: center; justify-content: space-between; min-height: 59px; padding: 18px 20px; color: #58718a; font-size: var(--type-support); letter-spacing: .09em; border-bottom: 1px solid #d7e0ea; }
@@ -66,8 +63,6 @@
 @media (max-width: 760px) {
   .team-intro { padding: 30px 24px 28px; }
   .team-intro h1 { font-size: var(--type-display); }
-  .team-intro-note p { max-width: 180px; font-size: var(--type-support); line-height: 1.7; }
-  .team-intro-note > span { font-size: var(--type-body); }
   .people-explorer { grid-template-columns: 1fr; width: calc(100% - 48px); gap: 24px; padding-bottom: 52px; }
   .team-roster { position: static; }
   .roster-heading { min-height: 43px; padding-block: 10px; }
@@ -90,9 +85,6 @@
   .team-intro { align-items: start; gap: 20px; padding: 27px 20px 25px; }
   .team-title-block { padding-right: 14px; }
   .team-intro h1 { font-size: var(--type-display); }
-  .team-intro-note { padding-top: 12px; padding-left: 0; }
-  .team-intro-note p { max-width: 130px; margin-bottom: 9px; font-size: var(--type-support); }
-  .team-intro-note > span { display: block; max-width: 125px; font-size: var(--type-body); line-height: 1.5; }
   .people-explorer { width: calc(100% - 40px); gap: 20px; }
   .roster-option { padding-inline: 11px; gap: 5px; }
   .roster-name { font-size: var(--type-card); letter-spacing: -.045em; }
@@ -104,7 +96,6 @@
 @media (max-width: 350px) {
   .team-intro { padding-inline: 16px; gap: 8px; }
   .team-intro h1 { font-size: var(--type-display); }
-  .team-intro-note > span { max-width: 105px; }
   .people-explorer { width: calc(100% - 32px); }
   .roster-option { grid-template-columns: 14px minmax(0,1fr); gap: 4px; padding-inline: 8px; }
   .roster-name { font-size: var(--type-card); }
@@ -116,9 +107,6 @@
 
 /* Team keeps its explorer composition while labels reflow at readable sizes. */
 .team-intro { flex-wrap: wrap; }
-.team-intro-note { max-width: 34rem; }
-.team-intro-note p { max-width: none; line-height: 1.5; }
-.team-intro-note > span { max-width: none; line-height: 1.5; }
 .team-title-block { flex: 0 0 auto; }
 .roster-heading { line-height: 1.5; }
 .roster-option { min-height: 7rem; }
@@ -145,7 +133,6 @@
   .explorer-detail { min-height: 26rem; }
 }
 @media (max-width: 760px) {
-  .team-intro-note { padding-left: 0; text-align: left; }
   .roster-option { min-height: 8rem; }
   .roster-option:last-child { min-height: 7rem; }
   .explorer-portrait { height: 29rem; }
@@ -153,9 +140,6 @@
 }
 @media (max-width: 460px) {
   .team-intro { gap: 1rem; }
-  .team-intro-note { width: 100%; padding: 0; }
-  .team-intro-note p { max-width: none; }
-  .team-intro-note > span { max-width: none; }
   .explorer-portrait { height: 25rem; }
   .roster-option { min-height: 8.5rem; }
 }

@@ -1,0 +1,409 @@
+{
+  "baseline": "cb7a1b54e72074b3c46a68a0c4eb050207cfba48",
+  "verified_urls": {
+    "timson": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+    "zikang": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en"
+  },
+  "pages": {
+    "minimal": {
+      "scholar_links": 3,
+      "active_profile_links": 7,
+      "clean_interest_lines": 9,
+      "portraits": 5,
+      "local_refs": 25,
+      "fragments": 7,
+      "other_information_preserved": true,
+      "missing_profile_omitted": true
+    },
+    "parentsquare": {
+      "scholar_links": 3,
+      "active_profile_links": 7,
+      "clean_interest_lines": 9,
+      "portraits": 5,
+      "local_refs": 22,
+      "fragments": 4,
+      "other_information_preserved": true,
+      "missing_profile_omitted": true
+    },
+    "growthbook": {
+      "scholar_links": 3,
+      "active_profile_links": 7,
+      "clean_interest_lines": 9,
+      "portraits": 5,
+      "local_refs": 22,
+      "fragments": 4,
+      "other_information_preserved": true,
+      "missing_profile_omitted": true
+    },
+    "boostlab": {
+      "scholar_links": 3,
+      "active_profile_links": 7,
+      "clean_interest_lines": 9,
+      "portraits": 5,
+      "local_refs": 39,
+      "fragments": 12,
+      "other_information_preserved": true,
+      "missing_profile_omitted": true
+    }
+  },
+  "protected_tracked_files": 334,
+  "boostlab_static_fallback_has_all_profiles": true,
+  "boostlab_selection_script_unchanged": true,
+  "branch": "codex/website-redesign",
+  "main": "87792aae11e2b4e47346428cd59f047925462634",
+  "share_url": "https://arc-lab-concepts-preview.vercel.app/?variant=boostlab&page=people.html",
+  "release_files": 95,
+  "release_bytes": 6061257,
+  "layout_views": [
+    {
+      "concept": "boostlab",
+      "view": "desktop-timson",
+      "callout": false,
+      "clientWidth": 2537,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        }
+      ],
+      "scrollWidth": 2537,
+      "width": 2552
+    },
+    {
+      "concept": "boostlab",
+      "view": "desktop-zikang",
+      "callout": false,
+      "clientWidth": 2537,
+      "interests": [
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 2537,
+      "width": 2552
+    },
+    {
+      "concept": "boostlab",
+      "view": "desktop-zheng",
+      "callout": false,
+      "clientWidth": 2537,
+      "interests": [
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        }
+      ],
+      "scrollWidth": 2537,
+      "width": 2552
+    },
+    {
+      "concept": "minimal",
+      "view": "desktop",
+      "callout": false,
+      "clientWidth": 1425,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "concept": "parentsquare",
+      "view": "desktop",
+      "callout": false,
+      "clientWidth": 1425,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "concept": "growthbook",
+      "view": "desktop",
+      "callout": false,
+      "clientWidth": 1425,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "concept": "growthbook",
+      "view": "phone390",
+      "callout": false,
+      "clientWidth": 375,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "concept": "parentsquare",
+      "view": "phone390",
+      "callout": false,
+      "clientWidth": 375,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "concept": "minimal",
+      "view": "phone390",
+      "callout": false,
+      "clientWidth": 375,
+      "interests": [
+        "Digital Twin Construction",
+        "Autonomous Systems",
+        "BIM Collaboration",
+        "Construction Robotics",
+        "Digital Twin Construction",
+        "Uncertainty Modeling",
+        "AI for the Built Environment",
+        "BIM Intelligence",
+        "Representation Learning"
+      ],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": true
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "concept": "boostlab",
+      "view": "phone390",
+      "callout": false,
+      "clientWidth": 375,
+      "interests": [],
+      "pending": false,
+      "scholar": [
+        {
+          "href": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=RLjm8pgAAAAJ",
+          "target": "_blank",
+          "visible": true
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=uA5bHgYAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        },
+        {
+          "href": "https://scholar.google.com/citations?user=ct8rOnIAAAAJ&hl=en",
+          "target": "_blank",
+          "visible": false
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 390
+    }
+  ],
+  "public_browser": {
+    "new_scholar_links_clicked_and_canonical_tabs_verified": true,
+    "boostlab_callout_absent": true,
+    "phone_client_and_scroll_width": 375,
+    "site_source_errors": 0,
+    "viewport_restored": true
+  },
+  "independent_http_report": "independent-public-check.json"
+}
