@@ -16,3 +16,14 @@ assets/prototypes/shared/arc-wordmark.svg
 assets/robots/unitree-a2.png
 assets/technion-logo-official.png
 prototype-a2.js
+prototypes/original/assets/arc-logo-source.jpg
+prototypes/original/assets/arc-logo.jpg
+prototypes/original/assets/arc-logo.svg
+prototypes/original/assets/hero-ai-construction-v2.jpg
+prototypes/original/assets/home pic.png
+prototypes/original/assets/profile-photos/name_1.png
+prototypes/original/assets/profile-photos/name_2.jpeg
+prototypes/original/assets/profile-photos/name_3.jpeg
+prototypes/original/assets/profile-photos/name_4.jpeg
+prototypes/original/assets/robots/unitree-a2.png
+prototypes/original/assets/technion-logo-official.png

@@ -1,4 +1,4 @@
-"""Package only the four review sites and their audited static dependencies."""
+"""Package the original website, four redesigns and their audited dependencies."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -13,7 +13,7 @@ output = args.output.resolve()
 output.mkdir(parents=True, exist_ok=False)
 
 files = {'prototype-concepts.html'}
-for concept in ('minimal', 'parentsquare', 'growthbook', 'boostlab'):
+for concept in ('original', 'minimal', 'parentsquare', 'growthbook', 'boostlab'):
     for path in (root / 'prototypes' / concept).rglob('*'):
         if path.suffix in ('.html', '.css', '.js'):
             files.add(path.relative_to(root).as_posix())

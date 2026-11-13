@@ -1,0 +1,14 @@
+{
+  "baseline": "c7e613492cd578146ba9bdf4bb03fab53e666ecc",
+  "pinned_main": "87792aae11e2b4e47346428cd59f047925462634",
+  "existing_concept_main_header_assets_unchanged": 64,
+  "generic_titles_and_footers": 64,
+  "original_snapshot_exact_files": 29,
+  "original_routes": 16,
+  "wrapper_style_and_page_allowlist_unchanged": true,
+  "intended_existing_source_edits": 67,
+  "protected_tracked_files": 278,
+  "release_files": 124,
+  "release_bytes": 12847386,
+  "manifest_matches_source": true
+}

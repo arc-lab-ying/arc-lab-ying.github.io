@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- Shareable review wrapper. Four complete prototype sites remain separate from the current site. -->
+<!-- Shareable review wrapper. The original website and four redesigns remain separate. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -22,19 +22,21 @@
   </style>
 </head>
 <body>
-  <iframe id="concept-frame" src="prototypes/parentsquare/index.html" title="ARC Lab — ParentSquare-inspired concept"></iframe>
+  <iframe id="concept-frame" src="prototypes/original/index.html" title="ARC Lab — 00 · Original Website — Home"></iframe>
   <nav class="review-switcher" id="review-switcher" aria-label="Compare design concepts" hidden>
     <button id="previous-concept" type="button" aria-label="Previous concept">←</button>
-    <div class="review-label" aria-live="polite"><strong id="concept-label">02 · ParentSquare-inspired</strong><span id="concept-description">Institutional · restrained</span><small id="concept-page">Home</small></div>
+    <div class="review-label" aria-live="polite"><strong id="concept-label">00 · Original Website</strong><span id="concept-description">Original layout · baseline</span><small id="concept-page">Home</small></div>
     <button id="next-concept" type="button" aria-label="Next concept">→</button>
   </nav>
   <script>
     const concepts = [
-      { key: 'minimal', name: '01 · Minimal / Motion', description: 'Oversized type · stationary A2' },
-      { key: 'parentsquare', name: '02 · ParentSquare-inspired', description: 'Institutional · restrained' },
-      { key: 'growthbook', name: '03 · GrowthBook-inspired', description: 'Clear overview · restrained' },
-      { key: 'boostlab', name: '04 · Boostlab-inspired', description: 'Interactive grid · expressive' }
+      { key: 'original', folder: 'original', name: '00 · Original Website', description: 'Original layout · baseline' },
+      { key: 'minimal', folder: 'minimal', name: '01 · Minimal / Motion', description: 'Oversized type · stationary A2' },
+      { key: 'classic', folder: 'parentsquare', name: '02 · Classic Academic', description: 'Institutional · restrained' },
+      { key: 'overview', folder: 'growthbook', name: '03 · Research Overview', description: 'Clear overview · restrained' },
+      { key: 'grid', folder: 'boostlab', name: '04 · Interactive Grid', description: 'Interactive grid · expressive' }
     ];
+    const aliases = new Map([['parentsquare', 'classic'], ['growthbook', 'overview'], ['boostlab', 'grid']]);
     const pages = new Map([
       ['index.html', 'Home'], ['people.html', 'Team'], ['publications.html', 'Publications'],
       ['research.html', 'Research'], ['join-us.html', 'Join us'], ['news/index.html', 'News'],
@@ -51,8 +53,10 @@
     ]);
     const frame = document.querySelector('#concept-frame');
     const params = new URLSearchParams(location.search);
-    let current = Math.max(0, concepts.findIndex(concept => concept.key === (params.get('variant') || 'parentsquare')));
+    const requested = params.get('variant') || 'original';
+    let current = Math.max(0, concepts.findIndex(concept => concept.key === (aliases.get(requested) || requested)));
     let currentPage = pages.has(params.get('page')) ? params.get('page') : 'index.html';
+    let currentHash = location.hash;
     function updateReview() {
       const concept = concepts[current];
       frame.title = 'ARC Lab — ' + concept.name + ' — ' + pages.get(currentPage);
@@ -63,33 +67,49 @@
       url.searchParams.set('variant', concept.key);
       if (currentPage === 'index.html') url.searchParams.delete('page');
       else url.searchParams.set('page', currentPage);
+      url.hash = currentHash;
       history.replaceState(null, '', url);
       document.title = 'ARC Lab concepts — ' + concept.name + ' — ' + pages.get(currentPage);
     }
     function show(index) {
       current = (index + concepts.length) % concepts.length;
-      frame.src = 'prototypes/' + concepts[current].key + '/' + currentPage;
+      frame.src = 'prototypes/' + concepts[current].folder + '/' + currentPage + currentHash;
       updateReview();
+    }
+    function readFrameLocation() {
+      const base = new URL('prototypes/' + concepts[current].folder + '/', location.href);
+      const inner = new URL(frame.contentWindow.location.href);
+      const page = inner.pathname.slice(base.pathname.length);
+      if (inner.origin !== base.origin || !inner.pathname.startsWith(base.pathname) || !pages.has(page)) return false;
+      currentPage = page;
+      currentHash = inner.hash;
+      return true;
+    }
+    function switchConcept(offset) {
+      readFrameLocation();
+      show(current + offset);
     }
     function handleKey(event) {
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
       if (event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
       if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
       event.preventDefault();
-      show(current + (event.key === 'ArrowRight' ? 1 : -1));
+      switchConcept(event.key === 'ArrowRight' ? 1 : -1);
     }
     document.querySelector('#review-switcher').hidden = false;
-    document.querySelector('#previous-concept').addEventListener('click', () => show(current - 1));
-    document.querySelector('#next-concept').addEventListener('click', () => show(current + 1));
+    document.querySelector('#previous-concept').addEventListener('click', () => switchConcept(-1));
+    document.querySelector('#next-concept').addEventListener('click', () => switchConcept(1));
     document.addEventListener('keydown', handleKey);
     frame.addEventListener('load', () => {
-      const base = new URL('prototypes/' + concepts[current].key + '/', location.href);
-      const inner = new URL(frame.contentWindow.location.href);
-      const page = inner.pathname.slice(base.pathname.length);
-      if (inner.origin === base.origin && inner.pathname.startsWith(base.pathname) && pages.has(page)) {
-        currentPage = page;
+      if (readFrameLocation()) {
         updateReview();
         frame.contentDocument.addEventListener('keydown', handleKey);
+        frame.contentDocument.addEventListener('click', () => {
+          if (readFrameLocation()) updateReview();
+        });
+        frame.contentWindow.addEventListener('hashchange', () => {
+          if (readFrameLocation()) updateReview();
+        });
       }
     });
     show(current);

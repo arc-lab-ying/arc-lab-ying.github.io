@@ -1,0 +1,69 @@
+[
+  {
+    "test": "default-original",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=original",
+    "label": "00 · Original Website"
+  },
+  {
+    "test": "previous-wrap",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=grid",
+    "label": "04 · Interactive Grid"
+  },
+  {
+    "test": "next-cycle",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=original",
+    "label": "00 · Original Website"
+  },
+  {
+    "test": "next-cycle",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=minimal",
+    "label": "01 · Minimal / Motion"
+  },
+  {
+    "test": "next-cycle",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=classic",
+    "label": "02 · Classic Academic"
+  },
+  {
+    "test": "next-cycle",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=overview",
+    "label": "03 · Research Overview"
+  },
+  {
+    "test": "next-cycle",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=grid",
+    "label": "04 · Interactive Grid"
+  },
+  {
+    "test": "legacy-parentsquare",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=classic&page=research%2Frobot-centric-construction.html#main-content",
+    "label": "02 · Classic Academic",
+    "heading": "Robot-Centric Construction (RCC)"
+  },
+  {
+    "test": "legacy-growthbook",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=overview&page=people.html#timson-yeung",
+    "label": "03 · Research Overview",
+    "heading": "The people behind\nARC Lab."
+  },
+  {
+    "test": "legacy-boostlab",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=grid&page=people.html#profile-zikang-wang",
+    "label": "04 · Interactive Grid",
+    "heading": "Team."
+  },
+  {
+    "test": "selected-profile-hash",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=grid&page=people.html#profile-timson-yeung"
+  },
+  {
+    "test": "iframe-key-wrap-to-original",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=original&page=people.html#profile-timson-yeung",
+    "heading": "Team"
+  },
+  {
+    "test": "original-research",
+    "url": "http://127.0.0.1:8771/prototype-concepts.html?variant=original&page=research.html",
+    "heading": "Research"
+  }
+]
