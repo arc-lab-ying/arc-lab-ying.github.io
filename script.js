@@ -80,3 +80,74 @@ document.querySelectorAll('[data-carousel]').forEach((carousel) => {
   showSlide(current);
   startAuto();
 });
+
+const researcherList = document.querySelector('[data-researchers]');
+const moreResearchers = document.querySelector('[data-more-researchers]');
+
+if (researcherList && moreResearchers) {
+  const additionalResearchers = Array.from(researcherList.children).slice(3);
+
+  if (additionalResearchers.length) {
+    moreResearchers.querySelector('.team-researcher-list').append(...additionalResearchers);
+    moreResearchers.hidden = false;
+  }
+}
+
+const yearNavigation = document.querySelector('.publication-years');
+
+if (yearNavigation) {
+  const yearLinks = Array.from(yearNavigation.querySelectorAll('a'));
+  const years = Array.from(document.querySelectorAll('.publication-year-group'), (group) => ({
+    hash: `#${group.getAttribute('aria-labelledby')}`,
+    button: group.querySelector('.publication-year-toggle'),
+    items: group.querySelector('.publication-year-items'),
+  }));
+
+  const setYearExpanded = ({ button, items }, expanded) => {
+    button.setAttribute('aria-expanded', String(expanded));
+    items.hidden = !expanded;
+  };
+
+  const updateYearNavigation = () => {
+    const expandedYears = years.filter(({ items }) => !items.hidden);
+    const currentHash = expandedYears.length === 1 ? expandedYears[0].hash : '';
+
+    for (const link of yearLinks) {
+      if (link.hash === currentHash) {
+        link.setAttribute('aria-current', 'location');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    }
+  };
+
+  const showYearFromHash = (hash) => {
+    const selectedYear = years.find((year) => year.hash === hash);
+
+    if (selectedYear || !hash) {
+      for (const year of years) {
+        setYearExpanded(year, !selectedYear || year === selectedYear);
+      }
+      updateYearNavigation();
+    }
+  };
+
+  for (const year of years) {
+    year.button.disabled = false;
+    year.button.addEventListener('click', () => {
+      setYearExpanded(year, year.items.hidden);
+      updateYearNavigation();
+    });
+  }
+
+  for (const link of yearLinks) {
+    link.addEventListener('click', (event) => {
+      if (!event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+        showYearFromHash(link.hash);
+      }
+    });
+  }
+
+  window.addEventListener('hashchange', () => showYearFromHash(window.location.hash));
+  showYearFromHash(window.location.hash);
+}

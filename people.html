@@ -40,102 +40,98 @@
 
     <main class="page-main" id="main-content">
       <section class="page-banner">
-        <div class="page-banner-inner people-shell subpage-shell">
+        <div class="page-banner-inner people-shell subpage-shell team-banner">
           <h1>Team</h1>
+          <nav class="team-page-index" aria-label="On this page">
+            <a href="#director-title">Lab Director</a>
+            <a href="#researchers-title">Researchers</a>
+            <a href="#robot-title">Robot</a>
+          </nav>
         </div>
       </section>
-      <section class="page-content people-content subpage-shell">
-        <section class="people-section" aria-labelledby="director-title">
-          <h2 id="director-title">Lab Director</h2>
-          <article class="person-profile director-profile">
-            <div class="person-photo director-photo">
+      <div class="page-content people-shell subpage-shell team-directory">
+        <section aria-labelledby="director-title">
+          <h2 class="team-section-title" id="director-title">Lab Director</h2>
+          <article class="team-director">
+            <figure class="team-director-portrait">
               <img src="assets/profile-photos/name_1.png" alt="Dr. Huaquan Ying" />
-            </div>
-            <div class="person-info">
-              <h3 class="person-name-row">
-                <span class="person-name-text">Dr. Huaquan Ying</span>
-              </h3>
-              <p class="person-socials" aria-label="Professional profiles">
-                <a class="person-social-link" href="https://www.linkedin.com/in/huaquan-ying-92b3191a0/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Dr. Huaquan Ying">[LinkedIn]</a>
-                <a class="person-scholar-link" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=RLjm8pgAAAAJ" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Dr. Huaquan Ying">[Google Scholar]</a>
-              </p>
-              <p class="person-title">Assistant Professor</p>
-              <p class="person-affiliation">Faculty of Civil and Environmental Engineering</p>
+            </figure>
+            <div>
+              <h3>Dr. Huaquan Ying</h3>
+              <p class="team-director-position">Assistant Professor</p>
+              <p class="team-director-affiliation">Faculty of Civil and Environmental Engineering</p>
+              <div class="team-profile-links" aria-label="Professional profiles for Dr. Huaquan Ying" role="group">
+                <a href="https://www.linkedin.com/in/huaquan-ying-92b3191a0/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Dr. Huaquan Ying">[LinkedIn]</a>
+                <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=RLjm8pgAAAAJ" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Dr. Huaquan Ying">[Google Scholar]</a>
+              </div>
             </div>
           </article>
         </section>
 
-        <section class="people-section" aria-labelledby="postdoc-title">
-          <h2 id="postdoc-title">Postdoc</h2>
-          <div class="people-grid">
-            <article class="person-profile">
-              <div class="person-photo round-photo">
-                <img src="assets/profile-photos/name_2.jpeg" alt="Dr. Timson Yeung" />
-              </div>
-              <div class="person-info">
-                <h3 class="person-name-row">
-                  <span class="person-name-text">Dr. Timson Yeung</span>
-                </h3>
-                <p class="person-socials" aria-label="Professional profiles for Dr. Timson Yeung">
-                  <a class="person-social-link" href="https://www.linkedin.com/in/timson-yeung/" target="_blank" rel="noreferrer">[LinkedIn]</a>
-                  <span class="person-scholar-link profile-pending" title="Profile link coming soon">[Google Scholar]</span>
-                </p>
-                <p class="person-research"><strong>Research Interests:</strong> <span class="research-interest">Digital Twin Construction;</span> <span class="research-interest">Autonomous Systems;</span> <span class="research-interest">BIM Collaboration.</span></p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="people-section" aria-labelledby="phd-title">
-          <h2 id="phd-title">PhD Students</h2>
-          <div class="people-grid">
-            <article class="person-profile">
-              <div class="person-photo round-photo">
-                <img src="assets/profile-photos/name_4.jpeg" alt="Zikang Wang" />
-              </div>
-              <div class="person-info">
-                <h3 class="person-name-row">
-                  <span class="person-name-text">Zikang Wang</span>
-                </h3>
-                <p class="person-socials" aria-label="Professional profiles for Zikang Wang">
-                  <a class="person-social-link" href="https://www.linkedin.com/in/zikang-wang-8897a6403/" target="_blank" rel="noreferrer">[LinkedIn]</a>
-                  <span class="person-scholar-link profile-pending" title="Profile link coming soon">[Google Scholar]</span>
-                </p>
-                <p class="person-research"><strong>Research Interests:</strong> <span class="research-interest">Construction Robotics;</span> <span class="research-interest">Digital Twin Construction;</span> <span class="research-interest">Uncertainty Modeling.</span></p>
-              </div>
-            </article>
-
-            <article class="person-profile">
-              <div class="person-photo round-photo">
-                <img src="assets/profile-photos/name_3.jpeg" alt="Zheng Zhao" />
-              </div>
-              <div class="person-info">
-                <h3 class="person-name-row">
-                  <span class="person-name-text">Zheng Zhao</span>
-                </h3>
-                <p class="person-socials" aria-label="Professional profiles for Zheng Zhao">
-                  <a class="person-social-link" href="https://www.linkedin.com/in/zheng-zhao-742129340/" target="_blank" rel="noreferrer">[LinkedIn]</a>
-                  <span class="person-scholar-link profile-pending" title="Profile link coming soon">[Google Scholar]</span>
-                </p>
-                <p class="person-research"><strong>Research Interests:</strong> <span class="research-interest">AI for the Built Environment;</span> <span class="research-interest">BIM Intelligence;</span> <span class="research-interest">Representation Learning.</span></p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="people-section robots-section" aria-labelledby="robot-title">
-          <h2 id="robot-title">Robot</h2>
-          <div class="robots-grid">
-            <article class="robot-profile">
-              <figure class="robot-photo">
-                <img src="assets/robots/unitree-a2.png" alt="Unitree A2 quadruped robot" />
+        <section aria-labelledby="researchers-title">
+          <h2 class="team-section-title" id="researchers-title">Researchers</h2>
+          <div class="team-researcher-list" data-researchers>
+            <article class="team-researcher">
+              <figure class="team-researcher-portrait">
+                <img src="assets/profile-photos/name_2.jpeg" alt="Dr. Timson Yeung" loading="lazy" />
               </figure>
-              <div class="robot-info">
-                <h3>Unitree A2</h3>
+              <div>
+                <p class="team-role" id="postdoc-title">Postdoc</p>
+                <h3>Dr. Timson Yeung</h3>
+                <p class="team-research-interests"><strong>Research Interests:</strong> Digital Twin Construction; Autonomous Systems; BIM Collaboration.</p>
+                <div class="team-profile-links" aria-label="Professional profiles for Dr. Timson Yeung" role="group">
+                  <a href="https://www.linkedin.com/in/timson-yeung/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Dr. Timson Yeung">[LinkedIn]</a>
+                  <a href="https://scholar.google.com/citations?user=uA5bHgYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Dr. Timson Yeung">[Google Scholar]</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="team-researcher">
+              <figure class="team-researcher-portrait">
+                <img src="assets/profile-photos/name_4.jpeg" alt="Zikang Wang" loading="lazy" />
+              </figure>
+              <div>
+                <p class="team-role" id="phd-title">PhD Student</p>
+                <h3>Zikang Wang</h3>
+                <p class="team-research-interests"><strong>Research Interests:</strong> Construction Robotics; Digital Twin Construction; Uncertainty Modeling.</p>
+                <div class="team-profile-links" aria-label="Professional profiles for Zikang Wang" role="group">
+                  <a href="https://www.linkedin.com/in/zikang-wang-8897a6403/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Zikang Wang">[LinkedIn]</a>
+                  <a href="https://scholar.google.com/citations?user=ct8rOnIAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Zikang Wang">[Google Scholar]</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="team-researcher">
+              <figure class="team-researcher-portrait">
+                <img src="assets/profile-photos/name_3.jpeg" alt="Zheng Zhao" loading="lazy" />
+              </figure>
+              <div>
+                <p class="team-role">PhD Student</p>
+                <h3>Zheng Zhao</h3>
+                <p class="team-research-interests"><strong>Research Interests:</strong> AI for the Built Environment; BIM Intelligence; Representation Learning.</p>
+                <div class="team-profile-links" aria-label="Professional profiles for Zheng Zhao" role="group">
+                  <a href="https://www.linkedin.com/in/zheng-zhao-742129340/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Zheng Zhao">[LinkedIn]</a>
+                </div>
               </div>
             </article>
           </div>
+          <details class="team-more" data-more-researchers hidden>
+            <summary>More researchers</summary>
+            <div class="team-researcher-list"></div>
+          </details>
         </section>
+      </div>
+
+      <section class="team-robot" aria-labelledby="robot-title">
+        <div class="people-shell subpage-shell team-robot-layout">
+          <div class="team-robot-copy">
+            <h2 id="robot-title">Robot</h2>
+            <h3>Unitree A2</h3>
+          </div>
+          <figure class="team-robot-image">
+            <img src="assets/robots/unitree-a2.png" alt="Unitree A2 quadruped robot" loading="lazy" />
+          </figure>
+        </div>
       </section>
     </main>
 
