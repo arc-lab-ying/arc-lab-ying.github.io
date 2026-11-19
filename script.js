@@ -96,6 +96,7 @@ if (researcherList && moreResearchers) {
 const yearNavigation = document.querySelector('.publication-years');
 
 if (yearNavigation) {
+  const expandAll = yearNavigation.querySelector('.publication-expand-all');
   const yearLinks = Array.from(yearNavigation.querySelectorAll('a'));
   const years = Array.from(document.querySelectorAll('.publication-year-group'), (group) => ({
     hash: `#${group.getAttribute('aria-labelledby')}`,
@@ -145,6 +146,16 @@ if (yearNavigation) {
       if (!event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
         showYearFromHash(link.hash);
       }
+    });
+  }
+
+  if (expandAll) {
+    expandAll.hidden = false;
+    expandAll.addEventListener('click', () => {
+      if (years.some(({ hash }) => hash === window.location.hash)) {
+        window.history.pushState(null, '', window.location.pathname + window.location.search);
+      }
+      showYearFromHash('');
     });
   }
 
