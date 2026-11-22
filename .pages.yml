@@ -231,3 +231,16 @@ content:
         label: Page content
         type: rich-text
         options: { format: markdown, switcher: false }
+
+  - name: preview
+    label: Preview
+    type: file
+    path: _cms/preview.yaml
+    format: yaml
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: links
+        label: Preview saved changes
+        type: rich-text
+        readonly: true
+        options: { format: html, switcher: false }
