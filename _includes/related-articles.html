@@ -1,0 +1,20 @@
+{% assign articles = site.articles | sort: "date" | reverse %}
+{% capture related_articles %}
+  {% for article in articles %}
+    {% if article.directions contains include.direction %}
+      {% include article-list-item.html article=article heading="h3" %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign related_articles = related_articles | strip %}
+{% if related_articles != "" %}
+<section class="research-related-news" aria-labelledby="related-news-title">
+  <div class="research-news-heading">
+    <h2 id="related-news-title">Related News</h2>
+    <a href="{{ '/news/index.html' | relative_url }}">See All News</a>
+  </div>
+  <ol class="news-module-list">
+    {{ related_articles }}
+  </ol>
+</section>
+{% endif %}

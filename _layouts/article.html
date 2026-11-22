@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% if page.summary %}<meta name="description" content="{{ page.summary | escape }}" />{% endif %}
+    <title>{{ page.seo_title | default: page.title | escape }} | ARC Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@600;700&family=Lora:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}" />
+  </head>
+  <body>
+    <main class="news-detail">
+      <section class="news-detail-banner">
+        <div class="news-detail-header">
+          <p class="news-detail-kicker"><a href="{{ '/news/index.html' | relative_url }}">ARC Lab</a> / News</p>
+          <h1>{{ page.title | escape }}</h1>
+          <p class="news-detail-meta news-meta-row">{% include article-meta.html article=page %}</p>
+        </div>
+      </section>
+      <article class="news-detail-body">
+        {% if page.image and page.image != "" %}
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: '' | escape }}" />
+        {% endif %}
+        {% assign upload_src = 'src="' | append: site.baseurl | append: '/uploads/' %}
+        {{ content | replace: 'src="/uploads/', upload_src }}
+        <a class="news-detail-back" href="{{ '/news/index.html' | relative_url }}">Back to all news</a>
+      </article>
+    </main>
+  </body>
+</html>

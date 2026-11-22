@@ -1,0 +1,39 @@
+:root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #172b3d; background: #f6f8f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 12px clamp(16px, 4vw, 64px); border-bottom: 1px solid #d7dfe4; background: white; }
+header img { display: block; width: 110px; height: 42px; object-fit: contain; object-position: left; }
+a { color: #124875; text-underline-offset: 3px; }
+main { max-width: 1560px; margin: auto; padding: clamp(20px, 3vw, 48px) clamp(16px, 4vw, 64px); }
+.intro, .review-head, .tools { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.intro, .review-head { justify-content: space-between; }
+h1 { font-size: clamp(30px, 3.4vw, 46px); letter-spacing: -.045em; line-height: 1.08; margin: 0; }
+h2 { font-size: 18px; margin: 0; }
+p { margin: 8px 0 0; color: #445a69; }
+.button, button, select { font: inherit; font-size: 14px; border: 1px solid #b7c6d0; border-radius: 5px; padding: 8px 12px; background: white; color: #193a55; }
+.button { text-decoration: none; font-weight: 600; }
+.primary { background: #173e5e; border-color: #173e5e; color: white; }
+.primary:hover { background: #26597e; }
+button { cursor: pointer; }
+.workspace { display: grid; grid-template-columns: minmax(145px, 190px) minmax(0, 1fr); gap: clamp(18px, 3vw, 46px); margin-top: 32px; }
+nav { align-self: start; }
+nav h2 { margin: 8px 0 12px; }
+nav a { display: flex; justify-content: space-between; gap: 16px; padding: 10px 2px; border-bottom: 1px solid #d7dfe4; text-decoration: none; }
+nav a:hover, .tools a:hover { text-decoration: underline; }
+nav span { color: #667a87; }
+.review { min-width: 0; border: 1px solid #ced9df; border-radius: 8px; overflow: hidden; background: white; }
+.review-head { padding: 14px 18px 8px; }
+#status { font-size: 13px; color: #4a6272; }
+.tools { padding: 2px 18px 14px; gap: 8px; font-size: 14px; }
+.tools select { max-width: min(100%, 24rem); min-width: 0; flex: 1; }
+.tools a { margin-left: auto; }
+iframe { display: block; width: 100%; height: min(70vh, 820px); min-height: 330px; border: 0; border-top: 1px solid #d7dfe4; background: #fff; }
+:focus-visible { outline: 3px solid #126ea1; outline-offset: 2px; }
+@media (max-width: 700px) {
+  .workspace { grid-template-columns: 1fr; margin-top: 20px; }
+  nav { display: flex; flex-wrap: wrap; gap: 2px 16px; }
+  nav h2 { width: 100%; margin: 0; }
+  nav a { gap: 4px; }
+  .tools select { max-width: calc(100% - 52px); }
+  iframe { min-height: 380px; }
+}

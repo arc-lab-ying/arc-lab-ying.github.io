@@ -1,0 +1,233 @@
+media:
+  input: uploads
+  output: /uploads
+  extensions: [jpg, jpeg, png, webp, gif]
+  rename: safe
+
+settings:
+  hide: true
+  content:
+    merge: true
+
+actions:
+  - name: publish-site
+    label: Publish preview to live site
+    workflow: publish.yml
+    ref: main
+    cancelable: false
+    confirm:
+      title: Publish preview?
+      message: Publish the current preview to the live ARC Lab website.
+      button: Publish
+
+content:
+  - name: news
+    label: News
+    type: collection
+    path: _articles
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    operations: { rename: false, delete: true }
+    view:
+      fields: [title, date, category]
+      sort: [date, title]
+      default: { sort: date, order: desc }
+    fields:
+      - name: title
+        label: Headline
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+        options: { format: yyyy-MM-dd }
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: [Research, Team, Publication, Blog]
+      - name: summary
+        label: Summary
+        type: text
+      - name: image
+        label: Cover image
+        type: image
+      - name: image_alt
+        label: Cover image description
+        type: string
+        description: Describe the image for visitors who use screen readers.
+      - name: directions
+        label: Research directions
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: interaction-centered-bim, label: Interaction-centered BIM }
+            - { name: agent-oriented-design-construction, label: Agent-oriented design and construction }
+            - { name: representation-learning, label: Representation learning }
+            - { name: robot-centric-construction, label: Robot-centric construction }
+      - name: body
+        label: Article
+        type: rich-text
+        options: { format: markdown, switcher: false }
+
+  - name: publications
+    label: Publications
+    type: collection
+    path: _publications
+    format: yaml-frontmatter
+    filename: "{fields.year}-{primary}.md"
+    operations: { rename: false, delete: true }
+    view:
+      fields: [title, year, order]
+      sort: [year, title]
+      default: { sort: year, order: desc }
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: year
+        label: Publication year
+        type: number
+        required: true
+        options: { min: 1900, max: 9999 }
+      - name: order
+        label: Position within the year
+        type: number
+        required: true
+        description: Use a whole number. Lower numbers appear first.
+        options: { min: 1 }
+      - name: venue
+        label: Journal or conference
+        type: string
+        required: true
+      - name: authors
+        label: Authors
+        type: string
+        required: true
+      - name: website_url
+        label: Publication link
+        type: string
+        required: true
+        pattern: '^https?://\S+$'
+
+  - name: researchers
+    label: Researchers
+    type: collection
+    path: _researchers
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    operations: { rename: false, delete: true }
+    view:
+      primary: name
+      fields: [name, role, order]
+      sort: [order, name]
+      default: { sort: order, order: asc }
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: role
+        label: Role
+        type: string
+        required: true
+      - name: photo
+        label: Profile photo
+        type: image
+        required: true
+      - name: interests
+        label: Research interests
+        type: text
+        required: true
+      - name: order
+        label: Display position
+        type: number
+        required: true
+        description: Use a whole number. Lower numbers appear first.
+        options: { min: 1 }
+      - name: linkedin_url
+        label: LinkedIn profile link
+        type: string
+        pattern: '^https?://\S+$'
+      - name: scholar_url
+        label: Google Scholar profile link
+        type: string
+        pattern: '^https?://\S+$'
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: _lab_pages
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    operations: { rename: false, delete: true }
+    view:
+      fields: [title]
+      sort: [title]
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+      - name: description
+        label: Summary
+        type: text
+      - name: body
+        label: Page content
+        type: rich-text
+        options: { format: markdown, switcher: false }
+      - name: sections
+        label: Additional sections
+        type: block
+        list: true
+        blockKey: _block
+        blocks:
+          - name: text
+            label: Text section
+            fields:
+              - name: heading
+                label: Heading
+                type: string
+              - name: body
+                label: Text
+                type: rich-text
+                required: true
+                options: { format: markdown, switcher: false }
+          - name: image
+            label: Image section
+            fields:
+              - name: image
+                label: Image
+                type: image
+                required: true
+              - name: alt
+                label: Image description
+                type: string
+                required: true
+                description: Describe the image for visitors who use screen readers.
+              - name: caption
+                label: Caption
+                type: string
+
+  - name: join-us
+    label: Join Us
+    type: file
+    path: join-us.md
+    format: yaml-frontmatter
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+      - name: description
+        label: Summary
+        type: text
+      - name: body
+        label: Page content
+        type: rich-text
+        options: { format: markdown, switcher: false }

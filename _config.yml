@@ -1,0 +1,20 @@
+title: ARC Lab
+url: https://arc-lab-ying.github.io
+baseurl: ""
+collections:
+  articles:
+    output: true
+    permalink: /news/:name.html
+  publications:
+    output: false
+  researchers:
+    output: false
+  lab_pages:
+    output: true
+    permalink: /pages/:name.html
+defaults:
+  - scope: { path: "", type: articles }
+    values: { layout: article, render_with_liquid: false }
+  - scope: { path: "", type: lab_pages }
+    values: { layout: lab-page, render_with_liquid: false }
+exclude: [Gemfile, Gemfile.lock, vendor]

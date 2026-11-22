@@ -1,0 +1,11 @@
+---
+layout: null
+---
+{
+  "articles": [{% assign articles = site.articles | sort: "date" | reverse %}{% for entry in articles %}
+    {"title": {{ entry.title | jsonify }}, "path": {{ entry.url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],
+  "pages": [{% assign pages = site.lab_pages | sort: "title" %}{% for entry in pages %}
+    {"title": {{ entry.title | jsonify }}, "path": {{ entry.url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}

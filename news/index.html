@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -45,49 +47,11 @@
         </div>
       </section>
       <section class="page-content news-archive subpage-shell">
+        {% assign articles = site.articles | sort: "date" | reverse %}
         <ol class="news-archive-list">
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-08">August 2026</time>
-              <span class="news-tag">Research</span>
-            </div>
-            <h2><a href="arc-lab-website-launch.html">ARC Lab website launched with updated research directions</a></h2>
-          </li>
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-07">July 2026</time>
-              <span class="news-tag">Team</span>
-            </div>
-            <h2><a href="welcome-new-researchers.html">Welcome to the new researchers and students joining ARC Lab</a></h2>
-          </li>
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-06">June 2026</time>
-              <span class="news-tag">Publication</span>
-            </div>
-            <h2><a href="ai-built-environment-paper.html">AI for the built environment paper accepted for presentation</a></h2>
-          </li>
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-05">May 2026</time>
-              <span class="news-tag">Research</span>
-            </div>
-            <h2><a href="construction-robotics-digital-twins.html">Recent progress in construction robotics and digital twins</a></h2>
-          </li>
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-04">April 2026</time>
-              <span class="news-tag">Research</span>
-            </div>
-            <h2><a href="ic-bim-research-direction.html">New research direction on interaction-centered BIM processes</a></h2>
-          </li>
-          <li>
-            <div class="news-meta-row">
-              <time datetime="2026-03">March 2026</time>
-              <span class="news-tag">Team</span>
-            </div>
-            <h2><a href="robot-centric-construction-seminar.html">Seminar on robot-centric construction systems</a></h2>
-          </li>
+          {% for article in articles %}
+            {% include article-list-item.html article=article heading="h2" %}
+          {% endfor %}
         </ol>
       </section>
     </main>

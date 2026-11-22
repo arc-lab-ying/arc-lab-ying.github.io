@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Content editor | ARC Lab</title>
+  <link rel="stylesheet" href="/admin/editor.css">
+  <script src="/admin/editor.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="/" aria-label="ARC Lab homepage"><img src="/assets/arc-logo.svg" alt="ARC Lab"></a>
+    <a href="/" target="_blank" rel="noopener">View live site ↗</a>
+  </header>
+  <main>
+    <div class="intro">
+      <div><h1>Content editor</h1><p>Save in the editor, review the preview, then publish.</p></div>
+      <a class="button primary" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/actions" target="_blank" rel="noopener">Publishing controls ↗</a>
+    </div>
+    <div class="workspace">
+      <nav aria-label="Edit website content">
+        <h2>Edit content</h2>
+        <a data-section="news" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/collection/news" target="_blank" rel="noopener">News &amp; blog <span>↗</span></a>
+        <a data-section="publications" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/collection/publications" target="_blank" rel="noopener">Publications <span>↗</span></a>
+        <a data-section="researchers" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/collection/researchers" target="_blank" rel="noopener">Researchers <span>↗</span></a>
+        <a data-section="join" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/file/join-us" target="_blank" rel="noopener">Join Us <span>↗</span></a>
+        <a data-section="pages" href="https://app.pagescms.org/arc-lab-ying/arc-lab-ying.github.io/main/collection/pages" target="_blank" rel="noopener">Other pages <span>↗</span></a>
+      </nav>
+      <section class="review" aria-labelledby="review-heading">
+        <div class="review-head"><h2 id="review-heading">Preview</h2><span id="status" role="status">Checking for updates…</span></div>
+        <div class="tools">
+          <label for="page">Page</label>
+          <select id="page"><option value="/">Homepage</option><option value="/news/index.html">News archive</option><option value="/publications.html">Publications</option><option value="/people.html">Researchers</option><option value="/join-us.html">Join Us</option></select>
+          <button id="refresh" type="button">Refresh</button>
+          <a id="open" href="/preview/" target="_blank" rel="noopener">Full preview ↗</a>
+        </div>
+        <iframe id="frame" src="/preview/" title="Saved website preview"></iframe>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

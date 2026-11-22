@@ -1,0 +1,174 @@
+name: Build and publish ARC Lab
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Pages CMS publish request as JSON
+        required: true
+        type: string
+
+# Keep publish requests and preview rebuilds in the same queue.
+concurrency:
+  group: arc-github-pages
+  queue: max
+
+permissions: {}
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      preview_sha: ${{ steps.revision.outputs.sha }}
+      pages_url: ${{ steps.pages.outputs.base_url }}
+    steps:
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Check out editor branch
+        uses: actions/checkout@v6
+        with:
+          ref: refs/heads/main
+          path: editor
+          persist-credentials: false
+
+      - name: Identify the preview revision
+        id: revision
+        working-directory: editor
+        env:
+          PUBLISH_PAYLOAD: ${{ inputs.payload }}
+        run: |
+          sha=$(git rev-parse HEAD)
+          if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]]; then
+            requested_sha=$(jq -er --arg repository "$GITHUB_REPOSITORY" '
+              select(.source == "pages-cms" and .action.name == "publish-site")
+              | .repository
+              | select((.owner + "/" + .repo | ascii_downcase) == ($repository | ascii_downcase)
+                       and .ref == "main" and .workflowRef == "main")
+              | .sha
+              | select(type == "string" and test("^[0-9a-f]{40}$"))
+            ' <<< "$PUBLISH_PAYLOAD") || {
+              echo "::error::Invalid Pages CMS publish request."
+              exit 1
+            }
+            if [[ "$requested_sha" != "$sha" ]]; then
+              echo "::error::Main has moved. Review the latest preview and publish again."
+              exit 1
+            fi
+          fi
+          printf 'sha=%s\n' "$sha" >> "$GITHUB_OUTPUT"
+
+      - name: Check out released branch
+        if: github.event_name == 'push'
+        uses: actions/checkout@v6
+        with:
+          ref: refs/heads/published
+          path: released
+          persist-credentials: false
+
+      - name: Set up Ruby for editor revision
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: editor
+
+      - name: Build preview
+        working-directory: editor
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          PREVIEW_SHA: ${{ steps.revision.outputs.sha }}
+          JEKYLL_ENV: production
+        run: |
+          preview="$RUNNER_TEMP/arc-preview"
+          bundle exec jekyll build --baseurl "${BASE_PATH%/}/preview" --destination "$preview"
+          test -f "$preview/index.html"
+          python - "$preview" <<'PY'
+          from pathlib import Path
+          import re
+          import sys
+
+          for page in Path(sys.argv[1]).rglob("*.html"):
+              html = page.read_text(encoding="utf-8")
+              html, count = re.subn(
+                  r"<head\b[^>]*>",
+                  lambda m: m.group(0) + '\n    <meta name="robots" content="noindex, nofollow" />',
+                  html,
+                  count=1,
+                  flags=re.IGNORECASE,
+              )
+              if count:
+                  page.write_text(html, encoding="utf-8")
+          PY
+          printf '%s\n' "$PREVIEW_SHA" > "$preview/revision.txt"
+
+      - name: Set up Ruby for released revision
+        if: github.event_name == 'push'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: released
+
+      - name: Build public site and attach preview
+        working-directory: ${{ github.event_name == 'push' && 'released' || 'editor' }}
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          JEKYLL_ENV: production
+        run: |
+          site="$RUNNER_TEMP/arc-site"
+          bundle exec jekyll build --baseurl "${BASE_PATH%/}" --destination "$site"
+          test -f "$site/index.html"
+          test ! -e "$site/preview"
+          git rev-parse HEAD > "$site/revision.txt"
+          mv "$RUNNER_TEMP/arc-preview" "$site/preview"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/arc-site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Release the verified preview revision
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PREVIEW_SHA: ${{ needs.build.outputs.preview_sha }}
+          PAGES_URL: ${{ needs.build.outputs.pages_url }}
+        run: |
+          marker_url="${PAGES_URL%/}/preview/revision.txt"
+          preview_sha=$(curl --fail --silent --show-error \
+            --header 'Cache-Control: no-cache' \
+            "$marker_url?revision=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$(date +%s)")
+          if [[ "$preview_sha" != "$PREVIEW_SHA" ]]; then
+            echo "::error::The live preview does not match this request. Wait for the preview to update, then review and publish again."
+            exit 1
+          fi
+          main_sha=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq .object.sha)
+          if [[ "$main_sha" != "$PREVIEW_SHA" ]]; then
+            echo "::error::Main has moved. Review the latest preview and publish again."
+            exit 1
+          fi
+          gh api --method PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/published" \
+            -f sha="$PREVIEW_SHA" -F force=false --silent
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

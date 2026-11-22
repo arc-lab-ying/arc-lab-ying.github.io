@@ -1,3 +1,6 @@
+---
+permalink: /people.html
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -66,49 +69,29 @@
         <section aria-labelledby="researchers-title">
           <h2 class="team-section-title" id="researchers-title">Researchers</h2>
           <div class="team-researcher-list" data-researchers>
+            {% assign researchers = site.researchers | sort: 'order' %}
+            {% for researcher in researchers %}
             <article class="team-researcher">
               <figure class="team-researcher-portrait">
-                <img src="assets/profile-photos/name_2.jpeg" alt="Dr. Timson Yeung" loading="lazy" />
+                <img src="{{ researcher.photo | relative_url | escape }}" alt="{{ researcher.name | escape }}" loading="lazy" />
               </figure>
               <div>
-                <p class="team-role" id="postdoc-title">Postdoc</p>
-                <h3>Dr. Timson Yeung</h3>
-                <p class="team-research-interests"><strong>Research Interests:</strong> Digital Twin Construction; Autonomous Systems; BIM Collaboration.</p>
-                <div class="team-profile-links" aria-label="Professional profiles for Dr. Timson Yeung" role="group">
-                  <a href="https://www.linkedin.com/in/timson-yeung/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Dr. Timson Yeung">[LinkedIn]</a>
-                  <a href="https://scholar.google.com/citations?user=uA5bHgYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Dr. Timson Yeung">[Google Scholar]</a>
+                <p class="team-role"{% if researcher.role_id %} id="{{ researcher.role_id | escape }}"{% endif %}>{{ researcher.role | escape }}</p>
+                <h3>{{ researcher.name | escape }}</h3>
+                <p class="team-research-interests"><strong>Research Interests:</strong> {{ researcher.interests | escape }}</p>
+                {% if researcher.linkedin_url or researcher.scholar_url %}
+                <div class="team-profile-links" aria-label="Professional profiles for {{ researcher.name | escape }}" role="group">
+                  {% if researcher.linkedin_url %}
+                  <a href="{{ researcher.linkedin_url | escape }}" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for {{ researcher.name | escape }}">[LinkedIn]</a>
+                  {% endif %}
+                  {% if researcher.scholar_url %}
+                  <a href="{{ researcher.scholar_url | escape }}" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for {{ researcher.name | escape }}">[Google Scholar]</a>
+                  {% endif %}
                 </div>
+                {% endif %}
               </div>
             </article>
-
-            <article class="team-researcher">
-              <figure class="team-researcher-portrait">
-                <img src="assets/profile-photos/name_4.jpeg" alt="Zikang Wang" loading="lazy" />
-              </figure>
-              <div>
-                <p class="team-role" id="phd-title">PhD Student</p>
-                <h3>Zikang Wang</h3>
-                <p class="team-research-interests"><strong>Research Interests:</strong> Construction Robotics; Digital Twin Construction; Uncertainty Modeling.</p>
-                <div class="team-profile-links" aria-label="Professional profiles for Zikang Wang" role="group">
-                  <a href="https://www.linkedin.com/in/zikang-wang-8897a6403/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Zikang Wang">[LinkedIn]</a>
-                  <a href="https://scholar.google.com/citations?user=ct8rOnIAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar profile for Zikang Wang">[Google Scholar]</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="team-researcher">
-              <figure class="team-researcher-portrait">
-                <img src="assets/profile-photos/name_3.jpeg" alt="Zheng Zhao" loading="lazy" />
-              </figure>
-              <div>
-                <p class="team-role">PhD Student</p>
-                <h3>Zheng Zhao</h3>
-                <p class="team-research-interests"><strong>Research Interests:</strong> AI for the Built Environment; BIM Intelligence; Representation Learning.</p>
-                <div class="team-profile-links" aria-label="Professional profiles for Zheng Zhao" role="group">
-                  <a href="https://www.linkedin.com/in/zheng-zhao-742129340/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile for Zheng Zhao">[LinkedIn]</a>
-                </div>
-              </div>
-            </article>
+            {% endfor %}
           </div>
           <details class="team-more" data-more-researchers hidden>
             <summary>More researchers</summary>
