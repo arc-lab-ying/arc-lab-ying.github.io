@@ -50,13 +50,16 @@ permalink: /publications.html
       <section class="page-content publications-content subpage-shell publication-shell">
         <section class="publication-section" aria-label="Publication list">
           {% assign publication_years = site.publications | group_by: 'year' | sort: 'name' | reverse %}
-          <nav class="publication-years" aria-labelledby="publication-years-title">
-            <span id="publication-years-title">Browse by Year</span>
-            {% for year in publication_years %}
-            <a href="#pub-year-{{ year.name }}">{{ year.name }}</a>
-            {% endfor %}
-            <button class="publication-expand-all" type="button" hidden>Expand all</button>
-          </nav>
+          <div class="publication-years" hidden>
+            <label for="publication-year-select">Browse by Year</label>
+            <select id="publication-year-select">
+              <option value="" disabled selected>Select a year</option>
+              {% for year in publication_years %}
+              <option value="#pub-year-{{ year.name }}">{{ year.name }}</option>
+              {% endfor %}
+            </select>
+            <button class="publication-expand-all" type="button">Expand all</button>
+          </div>
           <div class="publication-list">
             {% for year in publication_years %}
             <section class="publication-year-group" aria-labelledby="pub-year-{{ year.name }}">

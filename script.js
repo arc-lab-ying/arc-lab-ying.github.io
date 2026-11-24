@@ -97,7 +97,7 @@ const yearNavigation = document.querySelector('.publication-years');
 
 if (yearNavigation) {
   const expandAll = yearNavigation.querySelector('.publication-expand-all');
-  const yearLinks = Array.from(yearNavigation.querySelectorAll('a'));
+  const yearSelect = yearNavigation.querySelector('select');
   const years = Array.from(document.querySelectorAll('.publication-year-group'), (group) => ({
     hash: `#${group.getAttribute('aria-labelledby')}`,
     button: group.querySelector('.publication-year-toggle'),
@@ -111,15 +111,7 @@ if (yearNavigation) {
 
   const updateYearNavigation = () => {
     const expandedYears = years.filter(({ items }) => !items.hidden);
-    const currentHash = expandedYears.length === 1 ? expandedYears[0].hash : '';
-
-    for (const link of yearLinks) {
-      if (link.hash === currentHash) {
-        link.setAttribute('aria-current', 'location');
-      } else {
-        link.removeAttribute('aria-current');
-      }
-    }
+    yearSelect.value = expandedYears.length === 1 ? expandedYears[0].hash : '';
   };
 
   const showYearFromHash = (hash) => {
@@ -141,24 +133,20 @@ if (yearNavigation) {
     });
   }
 
-  for (const link of yearLinks) {
-    link.addEventListener('click', (event) => {
-      if (!event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
-        showYearFromHash(link.hash);
-      }
-    });
-  }
+  yearSelect.addEventListener('change', () => {
+    const hash = yearSelect.value;
+    showYearFromHash(hash);
+    window.location.hash = hash;
+  });
 
-  if (expandAll) {
-    expandAll.hidden = false;
-    expandAll.addEventListener('click', () => {
-      if (years.some(({ hash }) => hash === window.location.hash)) {
-        window.history.pushState(null, '', window.location.pathname + window.location.search);
-      }
-      showYearFromHash('');
-    });
-  }
+  expandAll.addEventListener('click', () => {
+    if (years.some(({ hash }) => hash === window.location.hash)) {
+      window.history.pushState(null, '', window.location.pathname + window.location.search);
+    }
+    showYearFromHash('');
+  });
 
   window.addEventListener('hashchange', () => showYearFromHash(window.location.hash));
   showYearFromHash(window.location.hash);
+  yearNavigation.hidden = false;
 }

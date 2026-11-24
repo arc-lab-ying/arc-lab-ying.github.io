@@ -45,7 +45,7 @@
         </div>
       </section>
       <section class="page-content wide-page-shell subpage-shell">
-        <section class="content-section">
+        <section class="content-section{% if page.url == '/join-us.html' %} join-us-content{% endif %}">
           {% assign media_src = 'src="' | append: site.baseurl | append: '/uploads/' %}
           {{ content | replace: 'src="/uploads/', media_src }}
           {% for section in page.sections %}
