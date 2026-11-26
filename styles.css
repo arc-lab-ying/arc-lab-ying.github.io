@@ -27,7 +27,7 @@ a { color:inherit; overflow-wrap:anywhere; }
 .nav-wrap { height:100%; padding:0 20px; display:flex; align-items:center; justify-content:space-between; }
 .brand-group { display:flex; align-items:center; gap:18px; }
 .brand { display:block; flex:none; }
-.arc-brand { width:170px; }
+.arc-brand { width:154px; }
 .technion-brand { width:270px; }
 .brand img { display:block; width:100%; height:auto; }
 .brand-divider { flex:0 0 1px; height:50px; background:#cbd2d7; }
@@ -47,7 +47,7 @@ h1,h2,h3 { font-family:"Libre Franklin",Arial,sans-serif; }
 h1 { font-size:5.75rem; line-height:1; letter-spacing:0; margin:0; }
 .hero-rule { display:block; width:152px; height:4px; margin:13px auto 11px; background:var(--accent); }
 .hero-subtitle { margin:0; color:rgba(255,255,255,.92); font-size:1.55rem; letter-spacing:0; }
-.home-content { width:94%; max-width:var(--wide-max); margin:56px auto 0; display:grid; grid-template-columns:minmax(0,1fr) 304px; gap:clamp(2rem,6vw,5.25rem); align-items:start; }
+.home-content { width:94%; max-width:var(--wide-max); margin:56px auto 0; display:grid; grid-template-columns:minmax(0,1fr) 304px; column-gap:clamp(2rem,6vw,5.25rem); align-items:start; }
 .home-main-column { width:100%; max-width:768px; min-width:0; justify-self:center; }
 .section { padding:84px 24px; }
 .home-main-column .section { padding-left:0; padding-right:0; }
@@ -85,8 +85,7 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
 .news-module-more:hover { color:var(--navy); }
 .research-directions-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.7rem clamp(1.4rem,3.2vw,2.9rem); }
 .direction-number { color:var(--blue); font-weight:700; font-size:1.2rem; font-variant-numeric:tabular-nums; }
-.gallery { padding-top:52px; padding-bottom:72px; background:white; }
-.home-gallery { width:94%; max-width:864px; margin:0 auto; padding:54px 0 58px; }
+.home-gallery { grid-column:1 / -1; width:100%; max-width:864px; margin:0 auto; padding:54px 0 58px; }
 .gallery-inner { width:100%; max-width:832px; margin-inline:auto; }
 .image-carousel { width:100%; margin-top:0; display:grid; grid-template-columns:1fr; align-items:center; position:relative; }
 .carousel-stage { position:relative; width:100%; }
@@ -179,7 +178,7 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
 .publication-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:6px!important; margin-bottom:0!important; font-family:"DM Sans",Arial,sans-serif!important; font-weight:600!important; }
 .publication-links a { color:var(--blue)!important; text-decoration:none!important; }
 .publication-links a:hover { color:var(--navy)!important; text-decoration:underline!important; text-underline-offset:3px; }
-.research-content,.research-shell,.people-shell { max-width:var(--max); }
+.research-content,.research-shell,.people-shell { width:90%; max-width:var(--wide-max); }
 .research-card { display:flex; flex-direction:column; padding-top:1.125rem; border-top:1px solid var(--line); }
 .research-card .direction-number { margin-bottom:.5rem; }
 .research-card h2 { margin:0 0 .85rem; font:700 1.35rem/1.4 "DM Sans",Arial,sans-serif; overflow-wrap:break-word; }
@@ -277,10 +276,37 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
 .news-archive-list h2 { margin:0; font:700 1.45rem/1.25 "DM Sans",Arial,sans-serif; }
 .news-archive-list h2 a { color:var(--navy); text-decoration:none; }
 .news-archive-list h2 a:hover { color:var(--blue); text-decoration:underline; text-underline-offset:4px; }
+@media (min-width:1440px) {
+  :root { --wide-max:1728px; }
+  .hero { margin-top:12px; }
+  .hero-content { padding-block:12px; }
+  .hero-rule { margin-block:9px 8px; }
+  .home-content {
+    width:92%;
+    margin-top:30px;
+    padding-bottom:24px;
+    grid-template-columns:minmax(0,2.8fr) minmax(0,1.12fr) minmax(0,.98fr);
+    column-gap:clamp(1.5rem,2vw,2.25rem);
+  }
+  .home-main-column,.news-module,.home-gallery { max-width:none; }
+  .about .section-heading { margin-bottom:18px; }
+  .section-copy p { margin-block:16px; }
+  .about-points { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 24px; margin-top:16px; }
+  .news-module-header { margin-bottom:18px; }
+  .news-module .news-module-list li { padding-bottom:10px; }
+  .news-module .news-module-list li:not(:last-child) { margin-bottom:10px; }
+  .home-gallery { grid-column:auto; padding:0; }
+  .research-content,.research-shell,.people-shell { width:92%; }
+  .research-directions-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:clamp(1.5rem,2vw,2.25rem); }
+  .team-directory { grid-template-columns:minmax(0,1.08fr) minmax(0,1.65fr) minmax(0,.85fr); padding-block:2rem 2.25rem; }
+  .team-director { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1fr); align-items:start; gap:1rem; }
+  .team-director-portrait { margin-bottom:0; }
+  .team-entry { padding-block:1rem; }
+}
 @media (max-width:1152px) {
   :root { --header-height:76px; }
   .brand-group { gap:14px; }
-  .arc-brand { width:132px; }
+  .arc-brand { width:119px; }
   .technion-brand { width:190px; }
   .brand-divider { height:38px; }
   .menu-toggle { display:block; cursor:pointer; }
@@ -293,7 +319,7 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
   :root { --header-height:62px; }
   .nav-wrap { padding:0 14px; }
   .brand-group { gap:10px; }
-  .arc-brand { width:100px; }
+  .arc-brand { width:90px; }
   .technion-brand { width:118px; }
   .brand-divider { height:28px; }
   h1 { font-size:4.5rem; }
@@ -304,7 +330,7 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
   .section { padding:61px 20px; }
   .home-main-column .section { padding-left:0; padding-right:0; }
   .about { padding-top:var(--rhythm); padding-bottom:0; }
-  .gallery { padding-top:34px; }
+  .home-gallery { padding-top:0; }
   .image-carousel { grid-template-columns:1fr; }
   .section-stack { width:86%; }
   .about .section-stack { width:100%; }
@@ -334,7 +360,7 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
 @media (max-width:520px) {
   .nav-wrap { padding:0 12px; }
   .brand-group { gap:8px; }
-  .arc-brand { width:94px; }
+  .arc-brand { width:85px; }
   .technion-brand { width:100px; }
   .brand-divider { height:24px; }
   h1 { font-size:3.8rem; }
