@@ -71,8 +71,8 @@ permalink: /people.html
           <div class="team-researcher-list" data-researchers>
             {% assign researchers = site.researchers | sort: 'order' %}
             {% for researcher in researchers %}
-            <article class="team-researcher">
-              <figure class="team-researcher-portrait">
+            <article class="team-entry">
+              <figure class="team-entry-portrait">
                 <img src="{{ researcher.photo | relative_url | escape }}" alt="{{ researcher.name | escape }}" loading="lazy" />
               </figure>
               <div>
@@ -98,19 +98,17 @@ permalink: /people.html
             <div class="team-researcher-list"></div>
           </details>
         </section>
-      </div>
 
-      <section class="team-robot" aria-labelledby="robot-title">
-        <div class="people-shell subpage-shell team-robot-layout">
-          <div class="team-robot-copy">
-            <h2 id="robot-title">Robot</h2>
+        <section aria-labelledby="robot-title">
+          <h2 class="team-section-title" id="robot-title">Robot</h2>
+          <article class="team-entry">
+            <figure class="team-entry-portrait team-robot-portrait">
+              <img src="assets/robots/unitree-a2.png" alt="Unitree A2 quadruped robot" loading="lazy" />
+            </figure>
             <h3>Unitree A2</h3>
-          </div>
-          <figure class="team-robot-image">
-            <img src="assets/robots/unitree-a2.png" alt="Unitree A2 quadruped robot" loading="lazy" />
-          </figure>
-        </div>
-      </section>
+          </article>
+        </section>
+      </div>
     </main>
 
     <script src="script.js"></script>
