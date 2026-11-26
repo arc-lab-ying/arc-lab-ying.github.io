@@ -291,17 +291,17 @@ h2 { margin:0; color:var(--navy); font-size:2.35rem; letter-spacing:0; line-heig
   .home-main-column,.news-module,.home-gallery { max-width:none; }
   .about .section-heading { margin-bottom:18px; }
   .section-copy p { margin-block:16px; }
-  .about-points { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 24px; margin-top:16px; }
+  .about-points { gap:10px; margin-top:16px; }
   .news-module-header { margin-bottom:18px; }
   .news-module .news-module-list li { padding-bottom:10px; }
   .news-module .news-module-list li:not(:last-child) { margin-bottom:10px; }
   .home-gallery { grid-column:auto; padding:0; }
   .research-content,.research-shell,.people-shell { width:92%; }
   .research-directions-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:clamp(1.5rem,2vw,2.25rem); }
-  .team-directory { grid-template-columns:minmax(0,1.08fr) minmax(0,1.65fr) minmax(0,.85fr); padding-block:2rem 2.25rem; }
+  .team-directory { grid-template-columns:minmax(0,1.08fr) minmax(0,1.65fr) minmax(0,.85fr); padding-block:1.5rem 1rem; }
   .team-director { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1fr); align-items:start; gap:1rem; }
   .team-director-portrait { margin-bottom:0; }
-  .team-entry { padding-block:1rem; }
+  .team-entry { padding-block:.75rem; }
 }
 @media (max-width:1152px) {
   :root { --header-height:76px; }
